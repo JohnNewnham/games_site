@@ -1,0 +1,32 @@
+<div class="top-btns">
+    <app-button1 (buttonPressed)="readdQuestion()">Undo Last Deletion</app-button1>
+</div>
+@for (question of questions; track question; let idx = $index) {
+<div class="question-div">
+    <div class="delete-btn unselectable" (click)="removeQuestion(idx)">✕</div>
+    <label class="container unselectable">
+        <input type="checkbox" [ngModel]="question.enabled" (change)="toggleQuestion(idx)">
+        <span class="checkmark"></span>
+    </label>
+    <app-info-dropdown [title]="question.question" class="flexgrow">
+        <ul>
+            <li>
+                {{ question.answer1 }}
+            </li>
+            <li *ngIf="question.answer2">
+                {{ question.answer2 }}
+            </li>
+            <li *ngIf="question.answer3">
+                {{ question.answer3 }}
+            </li>
+            <li *ngIf="question.answer4">
+                {{ question.answer4 }}
+            </li>
+        </ul>
+    </app-info-dropdown>
+</div>
+} @empty {
+No questions found.
+}
+
+<button (click)="test()">Test</button>

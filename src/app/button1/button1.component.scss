@@ -1,0 +1,26 @@
+.button {
+    color: var(--black);
+    border-color: var(--black);
+    background-color: var(--gray-3);
+    border-radius: 10px;
+    border-style: solid;
+    padding: 8px 10px 7px 10px;
+    display: inline-block;
+    user-select: none;
+    z-index: 1000;
+
+    &:hover {
+        color: var(--blue);
+        border-color: var(--blue);
+        background-color: var(--blue-gray);
+        cursor: pointer;
+    }
+
+    &:active {
+        color: var(--turquoise-4);
+        border-color: var(--turquoise-4);
+        background-color: var(--turquoise-gray);
+        padding: 7px 8px 6px 8px;
+        margin: 1px 2px 1px 2px;
+    }
+}

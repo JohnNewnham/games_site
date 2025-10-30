@@ -1,0 +1,35 @@
+.all {
+    margin: 10px;
+}
+
+.header {
+    font-weight: bold;
+    color: var(--white);
+    padding: 10px;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--blue-light);
+    background-color: var(--blue-lighter);
+    display: flex;
+    user-select: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px var(--blue-light);
+}
+
+.header .dropdown-caret {
+    margin-left: auto;
+}
+
+.dropdown {
+    border-radius: 2px;
+    border-style: none solid solid solid;
+    border-width: 2px;
+    border-color: var(--gray-10);
+    background-color: var(--gray-1);
+}
+
+.dropdown .dropdown-contents {
+    padding: 10px;
+    display: flex;
+}

@@ -1,0 +1,145 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+	background-color: var(--gray-2);
+	height: 100%;
+	margin: 0;
+}
+
+html {
+	height: 100%;
+}
+
+.main-box {
+	margin: 30px 50px;
+	padding: 20px;
+	background-color: var(--gray-5);
+	border: var(--gray-5);
+	border-radius: 2px;
+	border-style: solid;
+	min-height: 650px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.padding-small {
+	padding: 5px;
+}
+
+.padding-medium {
+	padding: 15px;
+}
+
+.card-box {
+	border-color: var(--gray-23);
+	background-color: var(--gray-5);
+	border-radius: 20px;
+	border-style: solid;
+	padding: 20px;
+	display: inline-block;
+}
+
+.unselectable {
+	user-select: none;
+}
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* COLOURS */
+:root {
+	--blue-darkest: #000033;
+	--blue-navy: #000066;
+	--blue-darker: #000099;
+	--blue-dark: #0000CC;
+	--blue: #0000FF;
+	--blue-lightish: #2020fe;
+	--blue-light: #4848ff;
+	--blue-lighter: #6e6eff;
+	--blue-lightest: #adadff;
+	--blue-gray: #d6d6ff;
+
+	--turquoise-4: #0033FF;
+	--turquoise-3: #0066FF;
+	--turquoise-2: #0099FF;
+	--turquoise-1: #00CCFF;
+	--turquoise-gray: #d2dbfc;
+	--cyan: #00FFFF;
+
+	--light-red: #EC5F5F;
+	--lighter-red: #EF7676;
+	--lightest-red: #F08080;
+
+	--light-green: #65E765;
+	--lighter-green: #7BEA7B;
+	--lightest-green: #90EE90;
+
+	--black: #000000;
+	--gray-37: #080808;
+	--gray-36: #101010;
+	--gray-35: #181818;
+	--gray-34: #202020;
+	--gray-33: #282828;
+	--gray-32: #303030;
+	--gray-31: #383838;
+	--gray-30: #404040;
+	--gray-29: #484848;
+	--gray-28: #505050;
+	--gray-27: #585858;
+	--gray-26: #606060;
+	--gray-25: #686868;
+	--gray-24: #696969;
+	--gray-23: #707070;
+	--gray-22: #787878;
+	--gray-21: #808080;
+	--gray-20: #888888;
+	--gray-19: #909090;
+	--gray-18: #989898;
+	--gray-17: #A0A0A0;
+	--gray-16: #A8A8A8;
+	--gray-15: #A9A9A9;
+	--gray-14: #B0B0B0;
+	--gray-13: #B8B8B8;
+	--gray-12: #BEBEBE;
+	--gray-11: #C0C0C0;
+	--gray-10: #C8C8C8;
+	--gray-9: #D0D0D0;
+	--gray-8: #D3D3D3;
+	--gray-7: #D8D8D8;
+	--gray-6: #DCDCDC;
+	--gray-5: #E0E0E0;
+	--gray-4: #E8E8E8;
+	--gray-3: #F0F0F0;
+	--gray-2: #F5F5F5;
+	--gray-1: #F8F8F8;
+	--white: #FFFFFF;
+}
+
+.delete-btn {
+	font-weight: bold;
+	color: var(--gray-23);
+	border-color: var(--gray-23);
+	background-color: var(--gray-4);
+	border-radius: 5px;
+	border-style: solid;
+	padding: 2px 5px;
+	margin: 3px;
+	align-self: center;
+
+	&:hover {
+		color: red;
+		border-color: red;
+		background-color: rgba(255, 110, 110, 0.498);
+	}
+
+	&:active {
+		padding: 1px 4px;
+		margin: 4px;
+	}
+}

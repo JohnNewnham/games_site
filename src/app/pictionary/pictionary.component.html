@@ -1,0 +1,42 @@
+<div class="toggle-bar">
+    <div class="toggle-item" [class.enabled]="enabledTab === ET.Questions" (click)="setTab(ET.Questions)">
+        View Questions
+    </div>
+    <div class="toggle-item" [class.enabled]="enabledTab === ET.Pictionary" (click)="setTab(ET.Pictionary)">
+        Play Pictionary
+    </div>
+</div>
+
+<div class="question-list" *ngIf="enabledTab === ET.Questions">
+    <div class="bold">Type</div>
+    <div class="bold">Show</div>
+    <div class="bold">Character</div>
+    <div class="bold">Enabled</div>
+    <div class="bold">Guessed</div>
+
+    @for (question of questions; track question; let idx = $index) {
+    <div class="question-gridcell">{{ question.type }}</div>
+    <div class="question-gridcell">{{ question.showName }}</div>
+    <div class="question-gridcell">{{ question.characterName ?? "N/A" }}</div>
+    <div class="question-gridcell flex-container">
+        {{ question.enabled }}
+        <label class="check-container unselectable">
+            <input type="checkbox" [ngModel]="question.enabled" (change)="toggleQuestion(idx)">
+            <span class="check" [class.enabled]="question.enabled === true"></span>
+        </label>
+    </div>
+    <div class="question-gridcell flex-container">
+        {{ question.guessed }}
+        <label class="check-container unselectable">
+            <input type="checkbox" [ngModel]="question.guessed" (change)="toggleGuessed(idx)">
+            <span class="check" [class.enabled]="question.guessed === true"></span>
+        </label>
+    </div>
+    } @empty {
+    No questions found.
+    }
+</div>
+
+<div class="pictionary" *ngIf="enabledTab === ET.Pictionary">
+    Insert pictionary game here.
+</div>
