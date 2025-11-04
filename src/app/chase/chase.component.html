@@ -1,1 +1,22 @@
-<p>chase works!</p>
+<div class="box">
+	<div class="question-box">
+		<div class="instruction">
+			Please can the contestant please select their answer.
+		</div>
+		<div class="question">
+			Question:<br>
+			{{ selectedQuestion.question }}
+		</div>
+		<div class="button-board">
+			<div class="button">{{ selectedQuestion.correctAnswer }}</div>
+			<div class="button">{{ selectedQuestion.altAnswer1 }}</div>
+			<div class="button">{{ selectedQuestion.altAnswer2 }}</div>
+			<div class="button">{{ selectedQuestion.altAnswer3 }}</div>
+		</div>
+	</div>
+	<div class="board">
+		@for (boardItem of board; track $index) {
+		<img [src]="getImageRef(boardItem)" width="300px" />
+		}
+	</div>
+</div>
