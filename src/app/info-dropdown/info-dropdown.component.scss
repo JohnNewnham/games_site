@@ -15,10 +15,10 @@
     user-select: none;
     cursor: pointer;
     box-shadow: 0px 0px 5px var(--blue-light);
-}
 
-.header .dropdown-caret {
-    margin-left: auto;
+    &>.dropdown-caret {
+        margin-left: auto;
+    }
 }
 
 .dropdown {
@@ -27,9 +27,9 @@
     border-width: 2px;
     border-color: var(--gray-10);
     background-color: var(--gray-1);
-}
 
-.dropdown .dropdown-contents {
-    padding: 10px;
-    display: flex;
+    &>.dropdown-contents {
+        padding: 10px;
+        display: flex;
+    }
 }
