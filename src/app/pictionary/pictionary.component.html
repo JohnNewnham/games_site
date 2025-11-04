@@ -15,21 +15,21 @@
     <div class="bold">Guessed</div>
 
     @for (question of questions; track question; let idx = $index) {
-    <div class="question-gridcell">{{ question.type }}</div>
-    <div class="question-gridcell">{{ question.showName }}</div>
-    <div class="question-gridcell">{{ question.characterName ?? "N/A" }}</div>
-    <div class="question-gridcell flex-container">
-        {{ question.enabled }}
-        <label class="check-container unselectable">
-            <input type="checkbox" [ngModel]="question.enabled" (change)="toggleQuestion(idx)">
-            <span class="check" [class.enabled]="question.enabled === true"></span>
+    <div class="question-gridcell"><span>{{ question.type }}</span></div>
+    <div class="question-gridcell"><span>{{ question.showName }}</span></div>
+    <div class="question-gridcell"><span>{{ question.characterName ?? "N/A" }}</span></div>
+    <div class="question-gridcell">
+        <span>{{ question.enabled }}</span>
+        <label class="toggle-switch small align-right">
+            <input type="checkbox" [ngModel]="question.enabled" (change)="toggleQuestion(idx)" />
+            <span class="round"></span>
         </label>
     </div>
-    <div class="question-gridcell flex-container">
-        {{ question.guessed }}
-        <label class="check-container unselectable">
-            <input type="checkbox" [ngModel]="question.guessed" (change)="toggleGuessed(idx)">
-            <span class="check" [class.enabled]="question.guessed === true"></span>
+    <div class="question-gridcell">
+        <span>{{ question.guessed }}</span>
+        <label class="toggle-switch small align-right">
+            <input type="checkbox" [ngModel]="question.guessed" (change)="toggleGuessed(idx)" />
+            <span class="round"></span>
         </label>
     </div>
     } @empty {
@@ -38,5 +38,29 @@
 </div>
 
 <div class="pictionary" *ngIf="enabledTab === ET.Pictionary">
-    Insert pictionary game here.
+    <div class="centre-horizontally">
+        <div class="text-toggle">
+            <span (click)="setWhatEnabled(WE.Characters)" [class.selected]="whatEnabled == WE.Characters">
+                Characters Only
+            </span>
+            <span (click)="setWhatEnabled(WE.Shows)" [class.selected]="whatEnabled == WE.Shows">
+                Shows Only
+            </span>
+            <span (click)="setWhatEnabled(WE.All)" [class.selected]="whatEnabled == WE.All">
+                Enable All
+            </span>
+        </div>
+        <div class="text-toggle">
+            <span (click)="setAllowGuessed(true)" [class.selected]="allowGuessed == true">
+                Show Correctly Guessed
+            </span>
+            <span (click)="setAllowGuessed(false)" [class.selected]="allowGuessed == false">
+                Skip Correctly Guessed
+            </span>
+        </div>
+    </div>
+    <div class="centre-horizontally">
+        <span>Total Questions: {{questions.length}}</span>
+        <span>Questions Remaining: {{questionsUnguessed.length}}/{{questionsEnabled.length}}</span>
+    </div>
 </div>

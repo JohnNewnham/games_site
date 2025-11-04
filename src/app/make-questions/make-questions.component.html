@@ -3,7 +3,7 @@
 </div>
 @for (question of questions; track question; let idx = $index) {
 <div class="question-div">
-    <div class="delete-btn unselectable" (click)="removeQuestion(idx)">✕</div>
+    <div class="delete-btn" (click)="removeQuestion(idx)"></div>
     <label class="container unselectable">
         <input type="checkbox" [ngModel]="question.enabled" (change)="toggleQuestion(idx)">
         <span class="checkmark"></span>
