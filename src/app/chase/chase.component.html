@@ -1,17 +1,40 @@
 <div class="box">
 	<div class="question-box">
-		<div class="instruction">
-			Please can the contestant please select their answer.
+		<div class="instruction bold">
+			{{ instruction }}
 		</div>
-		<div class="question">
+		<div class="question bold">
 			Question:<br>
-			{{ selectedQuestion.question }}
+			{{ selectedQuestion.origin.question }}
 		</div>
 		<div class="button-board">
-			<div class="button">{{ selectedQuestion.correctAnswer }}</div>
-			<div class="button">{{ selectedQuestion.altAnswer1 }}</div>
-			<div class="button">{{ selectedQuestion.altAnswer2 }}</div>
-			<div class="button">{{ selectedQuestion.altAnswer3 }}</div>
+			<div class="button" [class.chaser]="chaserAnswer===0" [class.player]="playerAnswer===0"
+				[class.correct]="correctAnswer===0" (click)="submitAnswer(0)">
+				{{ selectedQuestion.answers[0] }}
+			</div>
+			<div class="button" [class.chaser]="chaserAnswer===1" [class.player]="playerAnswer===1"
+				[class.correct]="correctAnswer===1" (click)="submitAnswer(1)">
+				{{ selectedQuestion.answers[1] }}
+			</div>
+			<div class="button" [class.chaser]="chaserAnswer===2" [class.player]="playerAnswer===2"
+				[class.correct]="correctAnswer===2" (click)="submitAnswer(2)">
+				{{ selectedQuestion.answers[2] }}
+			</div>
+			<div class="button" [class.chaser]="chaserAnswer===3" [class.player]="playerAnswer===3"
+				[class.correct]="correctAnswer===3" (click)="submitAnswer(3)">
+				{{ selectedQuestion.answers[3] }}
+			</div>
+		</div>
+		<div class="center-horizontally">
+			@if (turn === T.Reveal) {
+			<div class="text-toggle"><span (click)="revealAnswer()">Reveal Answer</span></div>
+			}
+			@if (turn === T.NextQ) {
+			<div class="text-toggle"><span (click)="nextQuestion()">Next Question</span></div>
+			}
+			@if (turn === T.GameOver) {
+			<div class="text-toggle"><span (click)="resetBoard()">Reset Game</span></div>
+			}
 		</div>
 	</div>
 	<div class="board">
@@ -20,3 +43,9 @@
 		}
 	</div>
 </div>
+
+Debug buttons:
+<button (click)="test()">test</button>
+<button (click)="advancePlayer()">Advance player</button>
+<button (click)="advanceChaser()">Advance chaser</button>
+<button (click)="resetBoard()">Reset</button>

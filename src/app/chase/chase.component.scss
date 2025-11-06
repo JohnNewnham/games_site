@@ -11,6 +11,7 @@
 	width: auto;
 	flex: 1;
 	text-align: center;
+	padding-top: 40px;
 }
 
 .instruction {
@@ -46,9 +47,21 @@
 			margin: 28px 47px 22px 53px;
 			box-shadow: none;
 		}
+
+		&.chaser {
+			box-shadow: 0px 0px 20px red;
+		}
+
+		&.player {
+			background-color: lime;
+		}
+
+		&.correct {
+			font-weight: bold;
+			text-decoration: underline;
+		}
 	}
 }
-
 
 .board {
 	align-self: right;

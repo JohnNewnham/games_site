@@ -1,0 +1,266 @@
+{
+    "questions": [
+        {
+            "createdAt": "11/14/2023 20:21:44",
+            "author": "Harvey",
+            "question": "Who is the author of Dragon Ball?",
+            "correctAnswer": "Akira Toriyama",
+            "altAnswer1": "Gege Akutami",
+            "altAnswer2": "Kohei Horikoshi",
+            "altAnswer3": "Masashi Kishimoto"
+        },
+        {
+            "createdAt": "11/14/2023 20:22:30",
+            "author": "Harvey",
+            "question": "What is the japanese title of the anime Erased?",
+            "correctAnswer": "Boku Dake ga Inai Machi",
+            "altAnswer1": "Yuusha ni Narenakatta Ore wa Shibushibu Shuushoku wo Ketsui Shimashita.",
+            "altAnswer2": "Onegai Sensei",
+            "altAnswer3": "Higurashi no Naku Koro ni"
+        },
+        {
+            "createdAt": "11/16/2023 16:19:00",
+            "author": "Goodnews Nwosu",
+            "question": "What season of Pokemon was mega evolution introduced?",
+            "correctAnswer": "Pokemon XY",
+            "altAnswer1": "Pokemon Sun and Moon",
+            "altAnswer2": "Pokemon Black and White",
+            "altAnswer3": "Pokemon XYZ"
+        },
+        {
+            "createdAt": "11/16/2023 16:57:33",
+            "author": "Goodnews Nwosu",
+            "question": "Out of these 4 series, which one had the largest impact on the series, Jujutsu Kaisen",
+            "correctAnswer": "Hunter x Hunter",
+            "altAnswer1": "YuYu Hakusho",
+            "altAnswer2": "Dragon Ball",
+            "altAnswer3": "Astro Boy"
+        },
+        {
+            "createdAt": "11/16/2023 17:05:13",
+            "author": "Goodnews Nwosu",
+            "question": "Which of these 4 series have more manga chapters than the series \"One Piece\"",
+            "correctAnswer": "Case Closed (Detective Konan)",
+            "altAnswer1": "Naruto",
+            "altAnswer2": "Gintama",
+            "altAnswer3": "One Piece"
+        },
+        {
+            "createdAt": "11/16/2023 17:10:56",
+            "author": "Goodnews nwosu",
+            "question": "In the relatively new series \"Kagurabachi\" what was the main character's father profession?",
+            "correctAnswer": "Swordsmith",
+            "altAnswer1": "Swordsman",
+            "altAnswer2": "Detective",
+            "altAnswer3": "Criminal"
+        },
+        {
+            "createdAt": "11/16/2023 17:16:16",
+            "author": "Goodnews Nwosu",
+            "question": "What time period is the manga/anime \"Chainsaw Man\" set in?",
+            "correctAnswer": "1997",
+            "altAnswer1": "2000",
+            "altAnswer2": "2015",
+            "altAnswer3": "1985"
+        },
+        {
+            "createdAt": "11/16/2023 17:35:36",
+            "author": "Goodnews",
+            "question": "In the series Tomo-chan is a girl, What is the name of Tomo's mother?",
+            "correctAnswer": "Akemi Aizawa",
+            "altAnswer1": "Ferris Olston",
+            "altAnswer2": "Misaki Gundou",
+            "altAnswer3": "Naoko Mifune"
+        },
+        {
+            "createdAt": "11/18/2023 16:03:26",
+            "author": "Elika",
+            "question": "What is the date inscribed on Edward Elric's pocket watch?",
+            "correctAnswer": "3.Oct.11",
+            "altAnswer1": "13.Oct.12",
+            "altAnswer2": "3.Oct.12",
+            "altAnswer3": "13.Oct.11"
+        },
+        {
+            "createdAt": "11/18/2023 16:04:42",
+            "author": "Elika",
+            "question": "Which day is 'Shirou Day'?",
+            "correctAnswer": "October 20th",
+            "altAnswer1": "October 15th",
+            "altAnswer2": "October 23rd",
+            "altAnswer3": "October 18th"
+        },
+        {
+            "createdAt": "11/18/2023 16:06:09",
+            "author": "Elika",
+            "question": "Which Fate series was written by Gen Urobuchi?",
+            "correctAnswer": "Fate/Zero",
+            "altAnswer1": "Fate/Unlimited Bladeworks",
+            "altAnswer2": "Fate/Heaven's Feel",
+            "altAnswer3": "Fate/Stay Night"
+        },
+        {
+            "createdAt": "11/18/2023 16:10:47",
+            "author": "Goodnews",
+            "question": "In the series \"Saki\", what is the name of the sport that the characters play?",
+            "correctAnswer": "Mahjong",
+            "altAnswer1": "Basketball",
+            "altAnswer2": "Chess",
+            "altAnswer3": "Volleyball"
+        },
+        {
+            "createdAt": "11/18/2023 16:24:36",
+            "author": "Elika",
+            "question": "What Japanese time period is Demon Slayer set in?",
+            "correctAnswer": "Taish? Period (1912-1926)",
+            "altAnswer1": "Edo Period (1600–1868)",
+            "altAnswer2": "Meiji Period (1868–1912)",
+            "altAnswer3": "Sh?wa Period (1926–1989)"
+        },
+        {
+            "createdAt": "11/18/2023 16:25:16",
+            "author": "Goodnews",
+            "question": "In the series \"Kaguya-sama :Love is War\" what is the aim of the main characters (Kaguya and Miyuki)",
+            "correctAnswer": "To make the other person confess their love first",
+            "altAnswer1": "To make the high school they are living in the best it has ever been",
+            "altAnswer2": "To get a better grade than the other person",
+            "altAnswer3": "To get more famous than the other person"
+        },
+        {
+            "createdAt": "11/18/2023 16:30:36",
+            "author": "Goodnews",
+            "question": "Yuji Kaku (an assistant to Tatsuki Fujimoto when writing Fire Punch) was the mangaka of which manga?",
+            "correctAnswer": "Hell's Paradise",
+            "altAnswer1": "Look Back",
+            "altAnswer2": "Goodbye Eri",
+            "altAnswer3": "Fabricant 100"
+        },
+        {
+            "createdAt": "11/18/2023 16:33:46",
+            "author": "Elika",
+            "question": "What are the 3 types of Devil Fruits in One Piece",
+            "correctAnswer": "Zoan, Paramecia, Logia",
+            "altAnswer1": "Zone, Paremacia, Logian",
+            "altAnswer2": "Zone, Paramedica, Logias",
+            "altAnswer3": "Zoan, Pharamecia, Logion"
+        },
+        {
+            "createdAt": "11/18/2023 16:44:50",
+            "author": "Elika",
+            "question": "Which country is Asuka (from Evangelion) from?",
+            "correctAnswer": "Germany",
+            "altAnswer1": "Switzerland",
+            "altAnswer2": "Austria",
+            "altAnswer3": "Spain"
+        },
+        {
+            "createdAt": "11/18/2023 16:49:55",
+            "author": "Elika",
+            "question": "Which one of these anime weren't referred to as being part of the 'Big 3' Shonen anime in the 2000s-early 2010s?",
+            "correctAnswer": "Dragonball",
+            "altAnswer1": "Naruto",
+            "altAnswer2": "One Piece",
+            "altAnswer3": "Bleach"
+        },
+        {
+            "createdAt": "11/18/2023 16:53:37",
+            "author": "Alex",
+            "question": "What do a high school wrestling show in Toradora and a cliffside encounter in Your Name have in common?",
+            "correctAnswer": "Red String of Fate",
+            "altAnswer1": "High school boy/girl meet cute ",
+            "altAnswer2": "Golden hour ",
+            "altAnswer3": "Time travel"
+        },
+        {
+            "createdAt": "11/18/2023 16:54:28",
+            "author": "Elika",
+            "question": "Which one of these isn't the title of a manga one-shot by Tatsuki Fujimoto (author of Chainsawman)?",
+            "correctAnswer": "Firepunch",
+            "altAnswer1": "Look Back",
+            "altAnswer2": "Goodbye Eri",
+            "altAnswer3": "Niwa Niwa Niwa Niwatori ga ita"
+        },
+        {
+            "createdAt": "11/18/2023 16:56:09",
+            "author": "Alex ",
+            "question": "Which district does Spearhead Squadron belong to?",
+            "correctAnswer": "86",
+            "altAnswer1": "87",
+            "altAnswer2": "85",
+            "altAnswer3": "88"
+        },
+        {
+            "createdAt": "11/18/2023 16:58:14",
+            "author": "Alex",
+            "question": "Which car brand is the main heroine of Fruits Basket named after?",
+            "correctAnswer": "Honda",
+            "altAnswer1": "Toyota",
+            "altAnswer2": "Mazda",
+            "altAnswer3": "Subaru"
+        },
+        {
+            "createdAt": "11/18/2023 17:00:15",
+            "author": "Alex",
+            "question": "What animal (in the subs) does Barou from Blue Lock always refer to his lessers as?",
+            "correctAnswer": "Donkey",
+            "altAnswer1": "Mule",
+            "altAnswer2": "Dog",
+            "altAnswer3": "Nibs"
+        },
+        {
+            "createdAt": "11/18/2023 17:09:17",
+            "author": "Elika",
+            "question": "Which of these isn't a real domain expansion in Jujutsu Kaisen?",
+            "correctAnswer": "Self-Embodiment of Imperfection ",
+            "altAnswer1": "Malevolent Shrine",
+            "altAnswer2": "Unlimited Void",
+            "altAnswer3": "Horizon of the Captivating Skandha "
+        },
+        {
+            "createdAt": "11/18/2023 17:14:04",
+            "author": "Elika",
+            "question": "How old is Gintoki (from Gintama) at the start of the series?",
+            "correctAnswer": "27",
+            "altAnswer1": "23",
+            "altAnswer2": "31",
+            "altAnswer3": "35"
+        },
+        {
+            "createdAt": "11/18/2023 17:18:04",
+            "author": "Elika",
+            "question": "What's the name of the online gang that has no thematic colour in the series Durarara?",
+            "correctAnswer": "Dollars",
+            "altAnswer1": "Cents",
+            "altAnswer2": "Pennies",
+            "altAnswer3": "Coins"
+        },
+        {
+            "createdAt": "11/18/2023 17:24:40",
+            "author": "Elika",
+            "question": "Which one of these supernatural things don't actually appear in Durarara?",
+            "correctAnswer": "Werewolf",
+            "altAnswer1": "Vampire",
+            "altAnswer2": "Dullahan",
+            "altAnswer3": "Demonic Sword"
+        },
+        {
+            "createdAt": "11/18/2023 17:37:22",
+            "author": "Elika",
+            "question": "What was the last film Satoshi Kon made?",
+            "correctAnswer": "Paprika",
+            "altAnswer1": "Millenium Actress",
+            "altAnswer2": "Perfect Blue",
+            "altAnswer3": "Tokyo Godfathers"
+        },
+        {
+            "createdAt": "11/18/2023 17:58:38",
+            "author": "Elika",
+            "question": "How many rookies pass the Hunter exam on average according to Kurapika?",
+            "correctAnswer": "1 rookie every 3 years",
+            "altAnswer1": "1 rookie every 2 years",
+            "altAnswer2": "1 rookie every 4 years",
+            "altAnswer3": "1 rookie every 5 years"
+        }
+    ],
+    "version": 1
+}
