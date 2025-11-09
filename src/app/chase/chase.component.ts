@@ -40,11 +40,18 @@ enum Instruction {
 	ChaserTurn = "Please can the chaser select their answer.",
 }
 
-enum Turn {
+enum ChaseTurn {
 	Player = "Player",
 	Chaser = "Chaser",
 	Reveal = "Reveal",
 	NextQ = "NextQ",
+	GameOver = "GameOver",
+}
+
+enum FinalChaseTurn {
+	Setup = "Setup",
+	Player = "Player",
+	Chaser = "Chaser",
 	GameOver = "GameOver",
 }
 
@@ -81,7 +88,7 @@ function shuffleArray<T>(array: T[]): T[] {
 	styleUrl: './chase.component.scss'
 })
 export class ChaseComponent implements OnInit {
-	T = Turn;
+	T = ChaseTurn;
 	ET = EnabledTab;
 
 	instruction: string = "Please can the contestant select their answer.";
@@ -95,8 +102,8 @@ export class ChaseComponent implements OnInit {
 	]
 	chaserSelected: string = this.chasers[randInt(this.chasers.length)];
 
-	turn: Turn = Turn.Player;
-	enabledTab: EnabledTab = EnabledTab.TheChase;
+	turn: ChaseTurn = ChaseTurn.Player;
+	enabledTab: EnabledTab = EnabledTab.FinalChase;
 
 	board: BoardTile[] = [];
 
@@ -175,17 +182,17 @@ export class ChaseComponent implements OnInit {
 
 	// To be called when a player selects an answer.
 	submitAnswer(index: number): void {
-		if (this.turn === Turn.Player) {
+		if (this.turn === ChaseTurn.Player) {
 			this.playerAnswer = index;
 			this.instruction = "Please can the chaser select their answer.";
-			this.turn = Turn.Chaser;
+			this.turn = ChaseTurn.Chaser;
 			return;
 		}
 
-		if (this.turn === Turn.Chaser) {
+		if (this.turn === ChaseTurn.Chaser) {
 			this.chaserAnswer = index;
 			this.instruction = "Select the button below to reveal the correct answer.";
-			this.turn = Turn.Reveal;
+			this.turn = ChaseTurn.Reveal;
 		}
 	}
 
@@ -194,7 +201,7 @@ export class ChaseComponent implements OnInit {
 		(this.selectedQuestion.origin.correctAnswer === this.selectedQuestion.answers[this.chaserAnswer]) && this.advanceChaser();
 		this.correctAnswer = this.selectedQuestion.answers.indexOf(this.selectedQuestion.origin.correctAnswer);
 		this.instruction = "Select the button below to go to the next question.";
-		this.turn = Turn.NextQ;
+		this.turn = ChaseTurn.NextQ;
 
 		this.runWinDetection();
 	}
@@ -204,7 +211,7 @@ export class ChaseComponent implements OnInit {
 		this.playerAnswer = 4;
 		this.correctAnswer = 4;
 		this.instruction = "Please can the contestant select their answer.";
-		this.turn = Turn.Player;
+		this.turn = ChaseTurn.Player;
 		this.questions.pop();
 
 		if (this.questions.length === 0) {
@@ -217,11 +224,36 @@ export class ChaseComponent implements OnInit {
 	runWinDetection(): void {
 		if (this.chaserPosition >= this.playerPosition) {
 			this.instruction = "You have been caught and, for you, the chase is over!";
-			this.turn = Turn.GameOver;
+			this.turn = ChaseTurn.GameOver;
 		} else if (this.playerPosition >= 8) {
 			this.instruction = "You have successfully beaten the chaser!";
-			this.turn = Turn.GameOver;
+			this.turn = ChaseTurn.GameOver;
 		}
+	}
+
+	// From here on is for the final chase.
+
+	contestantHeadstart: number = 1;
+	contestantTimer: number = 120;
+	chaserTimer: number = 120;
+
+	FCT = FinalChaseTurn;
+	fcTurn = FinalChaseTurn.Setup;
+
+	setContestantHeadstart(headstart: number): void {
+		this.contestantHeadstart = headstart;
+	}
+
+	setContestantTimer(time: number): void {
+		this.contestantTimer = time;
+	}
+
+	setChaserTimer(time: number): void {
+		this.chaserTimer = time;
+	}
+
+	fcPlayerTurn(): void {
+		this.fcTurn = FinalChaseTurn.Player;
 	}
 
 	test(): void {

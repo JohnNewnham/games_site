@@ -69,3 +69,17 @@
 	align-content: center;
 	width: 300px;
 }
+
+.final-chase-setup {
+	display: grid;
+	grid-template-columns: 100%;
+	justify-content: center;
+
+	width: 100%;
+
+	&>div {
+		width: auto;
+		text-align: center;
+		align-content: center;
+	}
+}

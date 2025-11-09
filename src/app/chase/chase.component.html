@@ -13,7 +13,7 @@
 			{{ instruction }}
 		</div>
 		<div class="question bold">
-			Question:<br>
+			Question:<br />
 			{{ selectedQuestion.origin.question }}
 		</div>
 		<div class="button-board">
@@ -36,13 +36,13 @@
 		</div>
 		<div class="center-horizontally">
 			@if (turn === T.Reveal) {
-			<div class="text-toggle"><span (click)="revealAnswer()">Reveal Answer</span></div>
+			<div class="text-toggle button"><span (click)="revealAnswer()">Reveal Answer</span></div>
 			}
 			@if (turn === T.NextQ) {
-			<div class="text-toggle"><span (click)="nextQuestion()">Next Question</span></div>
+			<div class="text-toggle button"><span (click)="nextQuestion()">Next Question</span></div>
 			}
 			@if (turn === T.GameOver) {
-			<div class="text-toggle"><span (click)="resetBoard()">Reset Game</span></div>
+			<div class="text-toggle button"><span (click)="resetBoard()">Reset Game</span></div>
 			}
 		</div>
 	</div>
@@ -53,12 +53,73 @@
 	</div>
 </div>
 
+<div class="box" *ngIf="enabledTab === ET.FinalChase">
+	<div class="final-chase-setup bold" *ngIf="fcTurn === FCT.Setup">
+		<div class="centre-horizontally">
+			Contestant headstart:<br />
+			<div class="text-toggle">
+				<span (click)="setContestantHeadstart(1)" [class.selected]="contestantHeadstart == 1">
+					One
+				</span>
+				<span (click)="setContestantHeadstart(2)" [class.selected]="contestantHeadstart == 2">
+					Two
+				</span>
+				<span (click)="setContestantHeadstart(3)" [class.selected]="contestantHeadstart == 3">
+					Three
+				</span>
+				<span (click)="setContestantHeadstart(4)" [class.selected]="contestantHeadstart == 4">
+					Four
+				</span>
+			</div>
+		</div>
+		<div class="centre-horizontally">
+			<br />Contestant time:<br />
+			<div class="text-toggle">
+				<span (click)="setContestantTimer(60)" [class.selected]="contestantTimer == 60">
+					1:00
+				</span>
+				<span (click)="setContestantTimer(90)" [class.selected]="contestantTimer == 90">
+					1:30
+				</span>
+				<span (click)="setContestantTimer(120)" [class.selected]="contestantTimer == 120">
+					2:00
+				</span>
+				<span (click)="setContestantTimer(150)" [class.selected]="contestantTimer == 150">
+					2:30
+				</span>
+			</div>
+		</div>
+		<div class="centre-horizontally">
+			<br />Chaser time:<br />
+			<div class="text-toggle">
+				<span (click)="setChaserTimer(60)" [class.selected]="chaserTimer == 60">
+					1:00
+				</span>
+				<span (click)="setChaserTimer(90)" [class.selected]="chaserTimer == 90">
+					1:30
+				</span>
+				<span (click)="setChaserTimer(120)" [class.selected]="chaserTimer == 120">
+					2:00
+				</span>
+				<span (click)="setChaserTimer(150)" [class.selected]="chaserTimer == 150">
+					2:30
+				</span>
+			</div>
+		</div>
+		<br />
+		<div class="center-horizontally">
+			<div class="text-toggle button"><span (click)="fcPlayerTurn()">Start</span></div>
+		</div>
+	</div>
+
+</div>
+
 The Chase debug buttons:
 <button (click)="test()">test</button>
 <button (click)="advancePlayer()">Advance player</button>
 <button (click)="advanceChaser()">Advance chaser</button>
 <button (click)="resetBoard()">Reset</button>
 
-<br>
+<br />
 Final Chase debug buttons:
 <button (click)="test()">test</button>

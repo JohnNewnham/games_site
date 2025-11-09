@@ -54,6 +54,10 @@ html {
 	width: fit-content;
 }
 
+.full-width {
+	align-items: stretch;
+}
+
 * {
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -128,9 +132,12 @@ html {
 }
 
 .toggle-bar {
-	display: flex;
 	user-select: none;
 	cursor: pointer;
+
+	display: grid;
+	grid-template-columns: 50% 50%;
+	justify-content: center;
 
 	&>.toggle-item {
 		flex-grow: 1;
@@ -263,9 +270,19 @@ div.text-toggle {
 	user-select: none;
 	display: inline-block;
 
+	&.button:hover {
+		background-color: var(--turquoise-3);
+	}
+
 	&>span {
 		padding: 5px 10px;
+		margin: 0 2px;
 		cursor: pointer;
+
+		&:hover {
+			background-color: var(--turquoise-3);
+			border-radius: 13px;
+		}
 
 		&.selected {
 			color: black;
