@@ -1,24 +1,3 @@
-.toggle-bar {
-	display: flex;
-	user-select: none;
-	cursor: pointer;
-
-	&>.toggle-item {
-		flex-grow: 1;
-		text-align: center;
-		font-weight: bold;
-		font-size: 35px;
-		padding: 15px;
-		background-color: var(--gray-2);
-		color: black;
-
-		&.enabled {
-			background-color: var(--turquoise-3);
-			color: white;
-		}
-	}
-}
-
 .question-list {
 	display: grid;
 	grid-template-columns: auto auto auto auto auto;

@@ -1,4 +1,13 @@
-<div class="box">
+<div class="toggle-bar">
+	<div class="toggle-item" [class.enabled]="enabledTab === ET.TheChase" (click)="setTab(ET.TheChase)">
+		The Chase
+	</div>
+	<div class="toggle-item" [class.enabled]="enabledTab === ET.FinalChase" (click)="setTab(ET.FinalChase)">
+		Final Chase
+	</div>
+</div>
+
+<div class="box" *ngIf="enabledTab === ET.TheChase">
 	<div class="question-box">
 		<div class="instruction bold">
 			{{ instruction }}
@@ -44,8 +53,12 @@
 	</div>
 </div>
 
-Debug buttons:
+The Chase debug buttons:
 <button (click)="test()">test</button>
 <button (click)="advancePlayer()">Advance player</button>
 <button (click)="advanceChaser()">Advance chaser</button>
 <button (click)="resetBoard()">Reset</button>
+
+<br>
+Final Chase debug buttons:
+<button (click)="test()">test</button>

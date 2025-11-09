@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { CommonModule } from '@angular/common';
 import questionsJSON from "../../../public/questions.json";
 
 interface ChaseQuestion {
@@ -47,6 +48,11 @@ enum Turn {
 	GameOver = "GameOver",
 }
 
+enum EnabledTab {
+	TheChase = "TheChase",
+	FinalChase = "FinalChase",
+}
+
 function randInt(max: number): number {
 	return Math.floor(Math.random() * max);
 }
@@ -70,12 +76,13 @@ function shuffleArray<T>(array: T[]): T[] {
 @Component({
 	selector: 'app-chase',
 	standalone: true,
-	imports: [],
+	imports: [CommonModule],
 	templateUrl: './chase.component.html',
 	styleUrl: './chase.component.scss'
 })
 export class ChaseComponent implements OnInit {
 	T = Turn;
+	ET = EnabledTab;
 
 	instruction: string = "Please can the contestant select their answer.";
 
@@ -89,6 +96,7 @@ export class ChaseComponent implements OnInit {
 	chaserSelected: string = this.chasers[randInt(this.chasers.length)];
 
 	turn: Turn = Turn.Player;
+	enabledTab: EnabledTab = EnabledTab.TheChase;
 
 	board: BoardTile[] = [];
 
@@ -101,6 +109,10 @@ export class ChaseComponent implements OnInit {
 
 	ngOnInit(): void {
 		this.redrawBoard()
+	}
+
+	setTab(tab: EnabledTab): void {
+		this.enabledTab = tab;
 	}
 
 	// Map the BoardTile enum values to the image file paths.
