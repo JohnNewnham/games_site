@@ -1,6 +1,6 @@
 This page is a work in progress, please check back later.<br><br>
 <div class="top-btns">
-    <app-button1 (buttonPressed)="readdQuestion()">Undo Last Deletion</app-button1>
+    <div class="text-toggle button"><span (click)="readdQuestion()">Undo Last Deletion</span></div>
 </div>
 @for (question of questions; track question; let idx = $index) {
 <div class="question-div">

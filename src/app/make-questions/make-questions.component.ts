@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { InfoDropdownComponent } from '../info-dropdown/info-dropdown.component';
-import { Button1Component } from '../button1/button1.component';
 
 interface Question {
 	question: string;
@@ -23,7 +22,7 @@ interface DeletedQuestion {
 @Component({
 	selector: 'app-make-questions',
 	standalone: true,
-	imports: [CommonModule, FormsModule, InfoDropdownComponent, Button1Component],
+	imports: [CommonModule, FormsModule, InfoDropdownComponent],
 	templateUrl: './make-questions.component.html',
 	styleUrl: './make-questions.component.scss'
 })
