@@ -106,9 +106,34 @@
 				</span>
 			</div>
 		</div>
-		<br />
 		<div class="center-horizontally">
+			<br />The player turn will start <span class="underline">immediately</span> after selecting the button
+			below.<br />
 			<div class="text-toggle button"><span (click)="fcPlayerTurn()">Start</span></div>
+		</div>
+	</div>
+
+	<div class="final-chase-setup" *ngIf="fcTurn === FCT.Player">
+		<div class="timer-score">
+			<div>
+				Player score:<br />
+				<span class="number">
+					{{ contestantScore }}
+				</span>
+			</div>
+			<div>
+				Time remaining: <br />
+				<span class="number">
+					{{ M.floor(contestantTimer / 60) }}:{{ ("0"+(contestantTimer - 60*M.floor(contestantTimer /
+					60))).slice(-2) }}
+				</span>
+			</div>
+			<div>
+				Chaser score:<br />
+				<span class="number">
+					{{ chaserScore }}
+				</span>
+			</div>
 		</div>
 	</div>
 

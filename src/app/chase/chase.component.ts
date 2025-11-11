@@ -1,6 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import { CommonModule } from '@angular/common';
 import questionsJSON from "../../../public/questions.json";
+import { Observable, takeWhile, timer } from "rxjs";
 
 interface ChaseQuestion {
 	question: string;
@@ -236,7 +237,12 @@ export class ChaseComponent implements OnInit {
 	contestantHeadstart: number = 1;
 	contestantTimer: number = 120;
 	chaserTimer: number = 120;
+	expected: number = 0;
 
+	contestantScore: number = 0;
+	chaserScore: number = 0;
+
+	M = Math;
 	FCT = FinalChaseTurn;
 	fcTurn = FinalChaseTurn.Setup;
 
@@ -254,10 +260,40 @@ export class ChaseComponent implements OnInit {
 
 	fcPlayerTurn(): void {
 		this.fcTurn = FinalChaseTurn.Player;
+		this.contestantScore = this.contestantHeadstart;
+
+		const second: number = 1000; // Lower to speed up clock for testing purposes.
+		const source: Observable<number> = timer(second, second);
+
+		const _ = source.pipe(
+			takeWhile(_ => this.contestantTimer > 0)
+		).subscribe(_ => {
+			this.contestantTimer -= 1
+			if (this.contestantTimer === 0) {
+				console.log("PLAYER TURN COMPLETE");
+			}
+		});
 	}
 
+	fcChaserTurn(): void {
+		this.fcTurn = FinalChaseTurn.Chaser;
+
+		const second: number = 1000; // Lower to speed up clock for testing purposes.
+		const source: Observable<number> = timer(second, second);
+
+		const _ = source.pipe(
+			takeWhile(_ => this.chaserTimer > 0)
+		).subscribe(_ => {
+			this.chaserTimer -= 1
+			if (this.chaserTimer === 0) {
+				console.log("CHASER TURN COMPLETE");
+			}
+		});
+	}
+
+
 	test(): void {
-		console.log("TEST", this.board);
+		console.log("TEST", this.contestantTimer);
 		// console.log("TEST", randInt(3));
 		// this.redrawBoard()
 	}
