@@ -239,6 +239,11 @@ export class ChaseComponent implements OnInit {
 	chaserTimer: number = 120;
 	expected: number = 0;
 
+	second: number = 1000; // Lower to speed up clock for testing purposes.
+	source: Observable<number> = timer(this.second, this.second);
+
+	// contestantTimerObs
+
 	contestantScore: number = 0;
 	chaserScore: number = 0;
 
@@ -262,10 +267,7 @@ export class ChaseComponent implements OnInit {
 		this.fcTurn = FinalChaseTurn.Player;
 		this.contestantScore = this.contestantHeadstart;
 
-		const second: number = 1000; // Lower to speed up clock for testing purposes.
-		const source: Observable<number> = timer(second, second);
-
-		const _ = source.pipe(
+		const _ = this.source.pipe(
 			takeWhile(_ => this.contestantTimer > 0)
 		).subscribe(_ => {
 			this.contestantTimer -= 1
@@ -278,10 +280,7 @@ export class ChaseComponent implements OnInit {
 	fcChaserTurn(): void {
 		this.fcTurn = FinalChaseTurn.Chaser;
 
-		const second: number = 1000; // Lower to speed up clock for testing purposes.
-		const source: Observable<number> = timer(second, second);
-
-		const _ = source.pipe(
+		const _ = this.source.pipe(
 			takeWhile(_ => this.chaserTimer > 0)
 		).subscribe(_ => {
 			this.chaserTimer -= 1
@@ -289,6 +288,10 @@ export class ChaseComponent implements OnInit {
 				console.log("CHASER TURN COMPLETE");
 			}
 		});
+	}
+
+	pauseTimer(): void {
+		// this.source.unsubscribe()
 	}
 
 
