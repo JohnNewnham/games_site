@@ -1,7 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import { CommonModule } from '@angular/common';
 import questionsJSON from "../../../public/questions.json";
-import { Observable, takeWhile, timer } from "rxjs";
+import { Observable, Subscription, takeWhile, timer } from "rxjs";
 
 interface ChaseQuestion {
 	question: string;
@@ -36,11 +36,6 @@ enum BoardTile {
 	DBlue = "DBlue",
 }
 
-enum Instruction {
-	PlayerTurn = "Please can the contestant select their answer.",
-	ChaserTurn = "Please can the chaser select their answer.",
-}
-
 enum ChaseTurn {
 	Player = "Player",
 	Chaser = "Chaser",
@@ -52,6 +47,7 @@ enum ChaseTurn {
 enum FinalChaseTurn {
 	Setup = "Setup",
 	Player = "Player",
+	Intermediate = "Intermediate",
 	Chaser = "Chaser",
 	GameOver = "GameOver",
 }
@@ -175,6 +171,7 @@ export class ChaseComponent implements OnInit {
 
 	// Reset player/chaserPosition to default and redraw board.
 	resetBoard(): void {
+		this.chaserSelected = this.chasers[randInt(this.chasers.length)];
 		this.chaserPosition = 0;
 		this.playerPosition = 3;
 		this.nextQuestion();
@@ -242,10 +239,13 @@ export class ChaseComponent implements OnInit {
 	second: number = 1000; // Lower to speed up clock for testing purposes.
 	source: Observable<number> = timer(this.second, this.second);
 
-	// contestantTimerObs
+	contestantTimerSub: Subscription | null = null;
+	chaserTimerSub: Subscription | null = null;
 
 	contestantScore: number = 0;
 	chaserScore: number = 0;
+
+	pushbackActive: boolean = false;
 
 	M = Math;
 	FCT = FinalChaseTurn;
@@ -263,39 +263,130 @@ export class ChaseComponent implements OnInit {
 		this.chaserTimer = time;
 	}
 
-	fcPlayerTurn(): void {
+	fcContestantTurn(): void {
+		this.fcNextQuestion();
 		this.fcTurn = FinalChaseTurn.Player;
 		this.contestantScore = this.contestantHeadstart;
+		this.startContestantTimer();
+	}
 
-		const _ = this.source.pipe(
+	startContestantTimer(): void {
+		this.contestantTimerSub = this.source.pipe(
 			takeWhile(_ => this.contestantTimer > 0)
 		).subscribe(_ => {
 			this.contestantTimer -= 1
 			if (this.contestantTimer === 0) {
-				console.log("PLAYER TURN COMPLETE");
+				this.fcTurn = FinalChaseTurn.Intermediate;
 			}
 		});
 	}
 
 	fcChaserTurn(): void {
+		this.fcNextQuestion();
 		this.fcTurn = FinalChaseTurn.Chaser;
+		this.startChaserTimer();
+	}
 
-		const _ = this.source.pipe(
+	startChaserTimer(): void {
+		this.chaserTimerSub = this.source.pipe(
 			takeWhile(_ => this.chaserTimer > 0)
 		).subscribe(_ => {
 			this.chaserTimer -= 1
 			if (this.chaserTimer === 0) {
-				console.log("CHASER TURN COMPLETE");
+				this.fcTurn = FinalChaseTurn.GameOver;
 			}
 		});
 	}
 
-	pauseTimer(): void {
-		// this.source.unsubscribe()
+	pauseTimers(): void {
+		this.contestantTimerSub && this.contestantTimerSub.unsubscribe();
+		this.chaserTimerSub && this.chaserTimerSub.unsubscribe();
+	}
+
+	fcCorrectButton(): void {
+		switch (this.fcTurn) {
+			case FinalChaseTurn.Player:
+				this.contestantScore += 1;
+				this.fcNextQuestion();
+				return;
+			case FinalChaseTurn.Chaser:
+				this.chaserScore += 1;
+				this.fcWinDetection();
+				this.fcNextQuestion();
+				return;
+			default:
+				return;
+		}
+	}
+
+	fcIncorrectButton(): void {
+		switch (this.fcTurn) {
+			case FinalChaseTurn.Player:
+				this.fcNextQuestion();
+				return;
+			case FinalChaseTurn.Chaser:
+				if (this.chaserScore >= 1) {
+					this.pauseTimers();
+					this.pushbackActive = true;
+				} else {
+					this.fcNextQuestion();
+				}
+				return;
+			default:
+				return;
+		}
+	}
+
+	fcNextQuestion(): void {
+		this.questions.pop();
+
+		if (this.questions.length === 0) {
+			this.questions = shuffleArray(questionsJSON.questions);
+		}
+
+		this.selectedQuestion = new SelectedQuestion(this.questions.at(-1)!);
+	}
+
+	fcWinDetection(): void {
+		if (this.chaserScore >= this.contestantScore) {
+			this.fcTurn = FinalChaseTurn.GameOver;
+		}
+	}
+
+	fcPushback(): void {
+		this.chaserScore -= 1;
+		this.fcContinue();
+	}
+
+	fcContinue(): void {
+		this.fcNextQuestion();
+		this.pushbackActive = false;
+		this.startChaserTimer();
+	}
+
+	fcReset(): void {
+		this.contestantHeadstart = 1;
+		this.contestantTimer = 120;
+		this.chaserTimer = 120;
+		this.expected = 0;
+
+		this.contestantTimerSub?.unsubscribe();
+		this.chaserTimerSub?.unsubscribe();
+
+		this.contestantTimerSub = null;
+		this.chaserTimerSub = null;
+
+		this.contestantScore = 0;
+		this.chaserScore = 0;
+
+		this.pushbackActive = false;
+
+		this.fcTurn = FinalChaseTurn.Setup;
 	}
 
 
 	test(): void {
+		this.fcTurn = FinalChaseTurn.Chaser;
 		console.log("TEST", this.contestantTimer);
 		// console.log("TEST", randInt(3));
 		// this.redrawBoard()

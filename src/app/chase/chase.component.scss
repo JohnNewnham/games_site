@@ -24,10 +24,14 @@
 }
 
 .button-board {
-	height: 300px;
+	height: 312px;
 	display: grid;
 	grid-template-columns: 50% 50%;
 	justify-content: center;
+
+	&.half-height {
+		height: 156px;
+	}
 
 	&>.button {
 		width: auto;
@@ -85,7 +89,6 @@
 }
 
 .timer-score {
-	// height: 300px;
 	display: grid;
 	grid-template-columns: 33% 34% 33%;
 	justify-content: center;
@@ -102,4 +105,8 @@
 			font-size: 50pt;
 		}
 	}
+}
+
+.medium-font {
+	font-size: 20pt;
 }

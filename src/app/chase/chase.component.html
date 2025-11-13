@@ -109,11 +109,17 @@
 		<div class="center-horizontally">
 			<br />The player turn will start <span class="underline">immediately</span> after selecting the button
 			below.<br />
-			<div class="text-toggle button"><span (click)="fcPlayerTurn()">Start</span></div>
+			<div class="text-toggle button"><span (click)="fcContestantTurn()">Start</span></div>
 		</div>
 	</div>
 
-	<div class="final-chase-setup" *ngIf="fcTurn === FCT.Player">
+	<div class="final-chase-setup" *ngIf="fcTurn !== FCT.Setup">
+		<div class="medium-font">
+			<span class="underline">
+				{{ (fcTurn === FCT.Player) ? "Contestant turn" : (fcTurn === FCT.Chaser) ? "Chaser turn" : "" }}
+			</span><br />
+		</div>
+
 		<div class="timer-score">
 			<div>
 				Player score:<br />
@@ -123,10 +129,16 @@
 			</div>
 			<div>
 				Time remaining: <br />
-				<span class="number">
+				<span class="number" *ngIf="fcTurn === FCT.Player;else chaserTimerDisplay">
 					{{ M.floor(contestantTimer / 60) }}:{{ ("0"+(contestantTimer - 60*M.floor(contestantTimer /
 					60))).slice(-2) }}
 				</span>
+				<ng-template #chaserTimerDisplay>
+					<span class="number">
+						{{ M.floor(chaserTimer / 60) }}:{{ ("0"+(chaserTimer - 60*M.floor(chaserTimer /
+						60))).slice(-2) }}
+					</span>
+				</ng-template>
 			</div>
 			<div>
 				Chaser score:<br />
@@ -136,27 +148,51 @@
 			</div>
 		</div>
 
-		<div>
-			Question:<br />
+		<div class="medium-font" *ngIf="fcTurn === FCT.Player || fcTurn === FCT.Chaser">
+			<span class="underline">Question:</span><br />
 			{{ selectedQuestion.origin.question }}
 			<br /><br />
-			Answer:<br />
+			<span class="underline">Answer:</span><br />
 			{{ selectedQuestion.origin.correctAnswer }}
+			<br /><br />
+			<span class="underline">Multiple choice:</span><br />
+			{{ selectedQuestion.answers[0] }},
+			{{ selectedQuestion.answers[1] }},
+			{{ selectedQuestion.answers[2] }},
+			{{ selectedQuestion.answers[3] }}
 		</div>
 
-		<div class="button-board">
-			<div class="button">
+		<div class="button-board half-height" *ngIf="fcTurn === FCT.Player || fcTurn === FCT.Chaser">
+			<div class="button medium-font" (click)="fcCorrectButton()" *ngIf="!pushbackActive">
 				Correct Answer
 			</div>
-			<div class="button">
+			<div class="button medium-font" (click)="fcIncorrectButton()" *ngIf="!pushbackActive">
 				Incorrect Answer
 			</div>
+			<div class="button medium-font chaser" (click)="fcPushback()" *ngIf="pushbackActive">
+				Push back chaser and continue
+			</div>
+			<div class="button medium-font chaser" (click)="fcContinue()" *ngIf="pushbackActive">
+				Continue
+			</div>
+		</div>
+
+		<div class="center-horizontally bold" *ngIf="fcTurn === FCT.Intermediate">
+			<br />The chaser turn will start <span class="underline">immediately</span> after selecting the button
+			below.<br />
+			<div class="text-toggle button"><span (click)="fcChaserTurn()">Start</span></div>
+		</div>
+
+		<div class="center-horizontally bold" *ngIf="fcTurn === FCT.GameOver">
+			Game over!<br /><br />
+			Press the button below to reset.<br />
+			<div class="text-toggle button"><span (click)="fcReset()">Reset</span></div>
 		</div>
 	</div>
 
 </div>
 
-The Chase debug buttons:
+<!-- The Chase debug buttons:
 <button (click)="test()">test</button>
 <button (click)="advancePlayer()">Advance player</button>
 <button (click)="advanceChaser()">Advance chaser</button>
@@ -165,3 +201,6 @@ The Chase debug buttons:
 <br />
 Final Chase debug buttons:
 <button (click)="test()">test</button>
+<button (click)="pauseTimers()">pause</button>
+<button (click)="startContestantTimer()">play player</button>
+<button (click)="startChaserTimer()">play chaser</button> -->
