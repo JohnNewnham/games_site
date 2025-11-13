@@ -100,7 +100,7 @@ export class ChaseComponent implements OnInit {
 	chaserSelected: string = this.chasers[randInt(this.chasers.length)];
 
 	turn: ChaseTurn = ChaseTurn.Player;
-	enabledTab: EnabledTab = EnabledTab.FinalChase;
+	enabledTab: EnabledTab = EnabledTab.TheChase;
 
 	board: BoardTile[] = [];
 
