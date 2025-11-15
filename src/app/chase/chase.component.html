@@ -34,6 +34,9 @@
 				{{ selectedQuestion.answers[3] }}
 			</div>
 		</div>
+		<div class="center-horizontally" *ngIf="playerAnswer === 4">
+			<div class="text-toggle button"><span (click)="fcNextQuestion()">Skip Question</span></div>
+		</div>
 		<div class="center-horizontally">
 			@if (turn === T.Reveal) {
 			<div class="text-toggle button"><span (click)="revealAnswer()">Reveal Answer</span></div>
@@ -161,21 +164,30 @@
 			{{ selectedQuestion.answers[2] }},
 			{{ selectedQuestion.answers[3] }}
 		</div>
-
-		<div class="button-board half-height" *ngIf="fcTurn === FCT.Player || fcTurn === FCT.Chaser">
-			<div class="button medium-font" (click)="fcCorrectButton()" *ngIf="!pushbackActive">
+		<br />
+		@if (fcTurn === FCT.Player || fcTurn === FCT.Chaser) {
+		<div class="button-board half-height">
+			@if (!pushbackActive) {
+			<div class="button medium-font" (click)="fcCorrectButton()">
 				Correct Answer
 			</div>
-			<div class="button medium-font" (click)="fcIncorrectButton()" *ngIf="!pushbackActive">
+			<div class="button medium-font" (click)="fcIncorrectButton()">
 				Incorrect Answer
 			</div>
-			<div class="button medium-font chaser" (click)="fcPushback()" *ngIf="pushbackActive">
+			}
+			@else {
+			<div class="button medium-font chaser" (click)="fcPushback()">
 				Push back chaser and continue
 			</div>
-			<div class="button medium-font chaser" (click)="fcContinue()" *ngIf="pushbackActive">
+			<div class="button medium-font chaser" (click)="fcContinue()">
 				Continue
 			</div>
+			}
 		</div>
+		<div class="center-horizontally" *ngIf="!pushbackActive">
+			<div class="text-toggle button"><span (click)="fcNextQuestion()">Skip Question</span></div>
+		</div>
+		}
 
 		<div class="center-horizontally bold" *ngIf="fcTurn === FCT.Intermediate">
 			<br />The chaser turn will start <span class="underline">immediately</span> after selecting the button

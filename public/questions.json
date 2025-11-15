@@ -1,266 +1,3054 @@
 {
     "questions": [
         {
-            "createdAt": "11/14/2023 20:21:44",
-            "author": "Harvey",
-            "question": "Who is the author of Dragon Ball?",
-            "correctAnswer": "Akira Toriyama",
-            "altAnswer1": "Gege Akutami",
-            "altAnswer2": "Kohei Horikoshi",
-            "altAnswer3": "Masashi Kishimoto"
+            "question": "Which of these vocaloid songs *was* performed at Magical Mirai London 2024",
+            "correctAnswer": "Shinjinrui",
+            "altAnswer1": "Meltdown",
+            "altAnswer2": "Liar Dancer",
+            "altAnswer3": "Boruto"
         },
         {
-            "createdAt": "11/14/2023 20:22:30",
-            "author": "Harvey",
-            "question": "What is the japanese title of the anime Erased?",
-            "correctAnswer": "Boku Dake ga Inai Machi",
-            "altAnswer1": "Yuusha ni Narenakatta Ore wa Shibushibu Shuushoku wo Ketsui Shimashita.",
-            "altAnswer2": "Onegai Sensei",
-            "altAnswer3": "Higurashi no Naku Koro ni"
+            "question": "What is the newest season of RE:ZERO",
+            "correctAnswer": "Season 3",
+            "altAnswer1": "Season 4",
+            "altAnswer2": "Season 2",
+            "altAnswer3": "Season 1"
         },
         {
-            "createdAt": "11/16/2023 16:19:00",
-            "author": "Goodnews Nwosu",
-            "question": "What season of Pokemon was mega evolution introduced?",
-            "correctAnswer": "Pokemon XY",
-            "altAnswer1": "Pokemon Sun and Moon",
-            "altAnswer2": "Pokemon Black and White",
-            "altAnswer3": "Pokemon XYZ"
+            "question": "What colour are Boruto's eyes in Boruto: Naruto Next generations",
+            "correctAnswer": "Blue",
+            "altAnswer1": "White",
+            "altAnswer2": "Brown",
+            "altAnswer3": "green"
         },
         {
-            "createdAt": "11/16/2023 16:57:33",
-            "author": "Goodnews Nwosu",
-            "question": "Out of these 4 series, which one had the largest impact on the series, Jujutsu Kaisen",
-            "correctAnswer": "Hunter x Hunter",
-            "altAnswer1": "YuYu Hakusho",
-            "altAnswer2": "Dragon Ball",
-            "altAnswer3": "Astro Boy"
+            "question": "In Hunter x Hunter greed island arc, what is the number of developers also known as Game masters are there?",
+            "correctAnswer": "11",
+            "altAnswer1": "6",
+            "altAnswer2": "100",
+            "altAnswer3": "49"
         },
         {
-            "createdAt": "11/16/2023 17:05:13",
-            "author": "Goodnews Nwosu",
-            "question": "Which of these 4 series have more manga chapters than the series \"One Piece\"",
-            "correctAnswer": "Case Closed (Detective Konan)",
-            "altAnswer1": "Naruto",
-            "altAnswer2": "Gintama",
-            "altAnswer3": "One Piece"
+            "question": "In Bleach, how many siblings does Ichigo have?",
+            "correctAnswer": "2",
+            "altAnswer1": "1",
+            "altAnswer2": "4",
+            "altAnswer3": "3"
         },
         {
-            "createdAt": "11/16/2023 17:10:56",
-            "author": "Goodnews nwosu",
-            "question": "In the relatively new series \"Kagurabachi\" what was the main character's father profession?",
-            "correctAnswer": "Swordsmith",
-            "altAnswer1": "Swordsman",
-            "altAnswer2": "Detective",
-            "altAnswer3": "Criminal"
+            "question": "In the isekai, 'No longer allowed in Another World', How is Osamu Dazai (a famous Japanese novelist from the 1940s) isekai'd",
+            "correctAnswer": "Truck",
+            "altAnswer1": "suicide",
+            "altAnswer2": "arson",
+            "altAnswer3": "overwork"
         },
         {
-            "createdAt": "11/16/2023 17:16:16",
-            "author": "Goodnews Nwosu",
-            "question": "What time period is the manga/anime \"Chainsaw Man\" set in?",
-            "correctAnswer": "1997",
-            "altAnswer1": "2000",
-            "altAnswer2": "2015",
-            "altAnswer3": "1985"
+            "question": "In Witch Watch, which type of spells do young witches need to",
+            "correctAnswer": "Kanshi Kazamatsuri",
+            "altAnswer1": "Keigo Magami",
+            "altAnswer2": "Morihito Otogi",
+            "altAnswer3": "Nemu Miyao"
         },
         {
-            "createdAt": "11/16/2023 17:35:36",
-            "author": "Goodnews",
-            "question": "In the series Tomo-chan is a girl, What is the name of Tomo's mother?",
-            "correctAnswer": "Akemi Aizawa",
-            "altAnswer1": "Ferris Olston",
-            "altAnswer2": "Misaki Gundou",
-            "altAnswer3": "Naoko Mifune"
+            "question": "How many Misaka Sisters are there in Toaru Majutsu no Index",
+            "correctAnswer": "20000",
+            "altAnswer1": "200000",
+            "altAnswer2": "200",
+            "altAnswer3": "2"
         },
         {
-            "createdAt": "11/18/2023 16:03:26",
-            "author": "Elika",
-            "question": "What is the date inscribed on Edward Elric's pocket watch?",
-            "correctAnswer": "3.Oct.11",
-            "altAnswer1": "13.Oct.12",
-            "altAnswer2": "3.Oct.12",
-            "altAnswer3": "13.Oct.11"
+            "question": "Which Homonculus identity is different between Full Metal Alchemist and Full Metal Alchemist Brotherhood",
+            "correctAnswer": "Wrath",
+            "altAnswer1": "Envy",
+            "altAnswer2": "Lust",
+            "altAnswer3": "Gluttony"
         },
         {
-            "createdAt": "11/18/2023 16:04:42",
-            "author": "Elika",
-            "question": "Which day is 'Shirou Day'?",
-            "correctAnswer": "October 20th",
-            "altAnswer1": "October 15th",
-            "altAnswer2": "October 23rd",
-            "altAnswer3": "October 18th"
+            "question": "What was the computer used to hack into the SERN database in Steins;Gate",
+            "correctAnswer": "IBM 5100",
+            "altAnswer1": "IBM 4800",
+            "altAnswer2": "IBM 7300",
+            "altAnswer3": "IBM 6500"
         },
         {
-            "createdAt": "11/18/2023 16:06:09",
-            "author": "Elika",
-            "question": "Which Fate series was written by Gen Urobuchi?",
-            "correctAnswer": "Fate/Zero",
-            "altAnswer1": "Fate/Unlimited Bladeworks",
-            "altAnswer2": "Fate/Heaven's Feel",
-            "altAnswer3": "Fate/Stay Night"
+            "question": "Which one of these are not Gojo's quote from Jujutsu Kaisen",
+            "correctAnswer": "Stand proud you are strong",
+            "altAnswer1": "Nah I'd win",
+            "altAnswer2": "Throughout heaven and earth",
+            "altAnswer3": "I am the honoured one"
         },
         {
-            "createdAt": "11/18/2023 16:10:47",
-            "author": "Goodnews",
-            "question": "In the series \"Saki\", what is the name of the sport that the characters play?",
-            "correctAnswer": "Mahjong",
-            "altAnswer1": "Basketball",
-            "altAnswer2": "Chess",
-            "altAnswer3": "Volleyball"
+            "question": "Who was the creator of the world in Magi: The Labyrinth of Magic",
+            "correctAnswer": "Solomon",
+            "altAnswer1": "David",
+            "altAnswer2": "Sinbad",
+            "altAnswer3": "Aladin"
         },
         {
-            "createdAt": "11/18/2023 16:24:36",
-            "author": "Elika",
-            "question": "What Japanese time period is Demon Slayer set in?",
-            "correctAnswer": "Taish? Period (1912-1926)",
-            "altAnswer1": "Edo Period (1600–1868)",
-            "altAnswer2": "Meiji Period (1868–1912)",
-            "altAnswer3": "Sh?wa Period (1926–1989)"
+            "question": "How old is Shinobu from the Monogatari Series",
+            "correctAnswer": "500",
+            "altAnswer1": "8",
+            "altAnswer2": "1000",
+            "altAnswer3": "200"
         },
         {
-            "createdAt": "11/18/2023 16:25:16",
-            "author": "Goodnews",
-            "question": "In the series \"Kaguya-sama :Love is War\" what is the aim of the main characters (Kaguya and Miyuki)",
-            "correctAnswer": "To make the other person confess their love first",
-            "altAnswer1": "To make the high school they are living in the best it has ever been",
-            "altAnswer2": "To get a better grade than the other person",
-            "altAnswer3": "To get more famous than the other person"
+            "question": "What was the first Apostle that the Band of Hawks Encounter in Berserk",
+            "correctAnswer": "Zodd",
+            "altAnswer1": "Wyald",
+            "altAnswer2": "Grunbeld",
+            "altAnswer3": "Rakshas"
         },
         {
-            "createdAt": "11/18/2023 16:30:36",
-            "author": "Goodnews",
-            "question": "Yuji Kaku (an assistant to Tatsuki Fujimoto when writing Fire Punch) was the mangaka of which manga?",
-            "correctAnswer": "Hell's Paradise",
-            "altAnswer1": "Look Back",
-            "altAnswer2": "Goodbye Eri",
-            "altAnswer3": "Fabricant 100"
-        },
-        {
-            "createdAt": "11/18/2023 16:33:46",
-            "author": "Elika",
-            "question": "What are the 3 types of Devil Fruits in One Piece",
-            "correctAnswer": "Zoan, Paramecia, Logia",
-            "altAnswer1": "Zone, Paremacia, Logian",
-            "altAnswer2": "Zone, Paramedica, Logias",
-            "altAnswer3": "Zoan, Pharamecia, Logion"
-        },
-        {
-            "createdAt": "11/18/2023 16:44:50",
-            "author": "Elika",
-            "question": "Which country is Asuka (from Evangelion) from?",
-            "correctAnswer": "Germany",
-            "altAnswer1": "Switzerland",
-            "altAnswer2": "Austria",
-            "altAnswer3": "Spain"
-        },
-        {
-            "createdAt": "11/18/2023 16:49:55",
-            "author": "Elika",
-            "question": "Which one of these anime weren't referred to as being part of the 'Big 3' Shonen anime in the 2000s-early 2010s?",
-            "correctAnswer": "Dragonball",
+            "question": "Which of these anime has inspiration from Journey to the West",
+            "correctAnswer": "Dragon Ball",
             "altAnswer1": "Naruto",
             "altAnswer2": "One Piece",
             "altAnswer3": "Bleach"
         },
         {
-            "createdAt": "11/18/2023 16:53:37",
-            "author": "Alex",
-            "question": "What do a high school wrestling show in Toradora and a cliffside encounter in Your Name have in common?",
-            "correctAnswer": "Red String of Fate",
-            "altAnswer1": "High school boy/girl meet cute ",
-            "altAnswer2": "Golden hour ",
-            "altAnswer3": "Time travel"
+            "question": "Which manga series below has the most chapters",
+            "correctAnswer": "Baki",
+            "altAnswer1": "One Piece",
+            "altAnswer2": "Jojo's Bizarre Adventure",
+            "altAnswer3": "Detective Conan"
         },
         {
-            "createdAt": "11/18/2023 16:54:28",
-            "author": "Elika",
-            "question": "Which one of these isn't the title of a manga one-shot by Tatsuki Fujimoto (author of Chainsawman)?",
-            "correctAnswer": "Firepunch",
-            "altAnswer1": "Look Back",
-            "altAnswer2": "Goodbye Eri",
-            "altAnswer3": "Niwa Niwa Niwa Niwatori ga ita"
+            "question": "Which Umamusume is not part of the Heisei Big 3",
+            "correctAnswer": "Tamamo Cross",
+            "altAnswer1": "Oguri Cap",
+            "altAnswer2": "Inari One",
+            "altAnswer3": "Super Creek"
         },
         {
-            "createdAt": "11/18/2023 16:56:09",
-            "author": "Alex ",
-            "question": "Which district does Spearhead Squadron belong to?",
-            "correctAnswer": "86",
-            "altAnswer1": "87",
-            "altAnswer2": "85",
-            "altAnswer3": "88"
+            "question": "What is Saber's true identity in Fate/EXTRA",
+            "correctAnswer": "Emperor Nero",
+            "altAnswer1": "King Arthur",
+            "altAnswer2": "Mordred",
+            "altAnswer3": "Okita Souji"
         },
         {
-            "createdAt": "11/18/2023 16:58:14",
-            "author": "Alex",
-            "question": "Which car brand is the main heroine of Fruits Basket named after?",
-            "correctAnswer": "Honda",
-            "altAnswer1": "Toyota",
-            "altAnswer2": "Mazda",
-            "altAnswer3": "Subaru"
+            "question": "Who finished off Akaza in Demon Slayer",
+            "correctAnswer": "Akaza",
+            "altAnswer1": "Tanjiro",
+            "altAnswer2": "Giyu",
+            "altAnswer3": "Zenitsu"
         },
         {
-            "createdAt": "11/18/2023 17:00:15",
-            "author": "Alex",
-            "question": "What animal (in the subs) does Barou from Blue Lock always refer to his lessers as?",
-            "correctAnswer": "Donkey",
-            "altAnswer1": "Mule",
-            "altAnswer2": "Dog",
-            "altAnswer3": "Nibs"
+            "question": "What is the Mega-level form of Mimi Tachikawa\u2019s partner Digimon (Digimon Adventure)?",
+            "correctAnswer": "1. Rosemon",
+            "altAnswer1": "2. Lotusmon",
+            "altAnswer2": "3. Lilimon",
+            "altAnswer3": "4. Lilamon"
         },
         {
-            "createdAt": "11/18/2023 17:09:17",
-            "author": "Elika",
-            "question": "Which of these isn't a real domain expansion in Jujutsu Kaisen?",
-            "correctAnswer": "Self-Embodiment of Imperfection ",
-            "altAnswer1": "Malevolent Shrine",
-            "altAnswer2": "Unlimited Void",
-            "altAnswer3": "Horizon of the Captivating Skandha "
+            "question": "Which Warrior Spirit did Koji Minamoto obtain (Digimon Frontier)?",
+            "correctAnswer": "1. Light",
+            "altAnswer1": "2. Fire",
+            "altAnswer2": "3. Darkness",
+            "altAnswer3": "4.  Wind"
         },
         {
-            "createdAt": "11/18/2023 17:14:04",
-            "author": "Elika",
-            "question": "How old is Gintoki (from Gintama) at the start of the series?",
-            "correctAnswer": "27",
-            "altAnswer1": "23",
-            "altAnswer2": "31",
+            "question": "What is Ken Ichijouji\u2019s Crest (Digimon Advanture 02)?",
+            "correctAnswer": "1. Kindness",
+            "altAnswer1": "2. Miracle",
+            "altAnswer2": "3. Hope",
+            "altAnswer3": "4. Sincerity"
+        },
+        {
+            "question": "Which member of the Digimon Royal Knights is a Virus-type?",
+            "correctAnswer": "1. Gallantmon",
+            "altAnswer1": "2. Omnimon",
+            "altAnswer2": "3. Examon",
+            "altAnswer3": "4. Magnamon"
+        },
+        {
+            "question": "n No Game No Life, which Ixseed rank is occupied by the Ex-Machina?",
+            "correctAnswer": "1. 10th",
+            "altAnswer1": "2. 11th",
+            "altAnswer2": "3. 9th",
+            "altAnswer3": "4. 13th"
+        },
+        {
+            "question": "In Cardcaptor Sakura, how many Clow Card did Clow Read create?",
+            "correctAnswer": "1. 53",
+            "altAnswer1": "2. 52",
+            "altAnswer2": "3. 54",
+            "altAnswer3": "4. 51"
+        },
+        {
+            "question": "What is Ponyo's birth name?",
+            "correctAnswer": "Brunhilde",
+            "altAnswer1": "Brynhildur",
+            "altAnswer2": "Brunehilde",
+            "altAnswer3": "Brynhilda"
+        },
+        {
+            "question": "Which historical period is Gintama set in?",
+            "correctAnswer": "Edo",
+            "altAnswer1": "Meiji",
+            "altAnswer2": "Taisho",
+            "altAnswer3": "Azuchi\u2013Momoyama"
+        },
+        {
+            "question": "What year is season 1 of Black Butler set in?",
+            "correctAnswer": "1888",
+            "altAnswer1": "1881",
+            "altAnswer2": "1887",
+            "altAnswer3": "1891"
+        },
+        {
+            "question": "In Sailor Moon, what kind of animal gives Usagi the brooch she uses to transform?",
+            "correctAnswer": "cat",
+            "altAnswer1": "rabbit",
+            "altAnswer2": "fox",
+            "altAnswer3": "dove"
+        },
+        {
+            "question": "In Fruits Basket, what is the zodiac sign of the main character, Honda Tohru?",
+            "correctAnswer": "dog",
+            "altAnswer1": "dragon",
+            "altAnswer2": "rat",
+            "altAnswer3": "sheep"
+        },
+        {
+            "question": "In Gachiakuta, what is Riyo's vital instrument?",
+            "correctAnswer": "Pair of scissors",
+            "altAnswer1": "box cutter",
+            "altAnswer2": "chainsaw",
+            "altAnswer3": "crowbar"
+        },
+        {
+            "question": "Of the following Bungo Stray Dogs characters, which has a different gender than the author upon whom they are based?",
+            "correctAnswer": "Ky\u014dka Izumi",
+            "altAnswer1": "Michiz\u014d Tachihara",
+            "altAnswer2": "S\u014dseki Natsume",
+            "altAnswer3": "Sakunosuke Oda"
+        },
+        {
+            "question": "In Kamisama Hajimemashita, there are major character yokai based on all of the following animals EXCEPT:",
+            "correctAnswer": "cat",
+            "altAnswer1": "snake",
+            "altAnswer2": "fox",
+            "altAnswer3": "crow"
+        },
+        {
+            "question": "In the original censored English dub of Sailor Moon, how was Haruka and Michiru's relationship characterized?",
+            "correctAnswer": "cousins",
+            "altAnswer1": "roommates",
+            "altAnswer2": "best friends",
+            "altAnswer3": "stepsisters"
+        },
+        {
+            "question": "Which of the following anime has Lisa NOT sung either an opening or an ending for?",
+            "correctAnswer": "Tokyo Ghoul",
+            "altAnswer1": "Fate/Apocrypha",
+            "altAnswer2": "Qualidea Code",
+            "altAnswer3": "Solo Leveling"
+        },
+        {
+            "question": "Which of the following anime based on a classical text is NOT real?",
+            "correctAnswer": "The Wolf King (Beowulf)",
+            "altAnswer1": "Vinland Saga (Saga of the Greenlanders)",
+            "altAnswer2": "The Heike Story (Heike Monogatari)",
+            "altAnswer3": "Ulysses 31 (The Odyssey)"
+        },
+        {
+            "question": "In Noragami, how much does Yato \"charge\" Hiyori for granting her wish?",
+            "correctAnswer": "5 yen",
+            "altAnswer1": "500 yen",
+            "altAnswer2": "5000 yen",
+            "altAnswer3": "50000 yen"
+        },
+        {
+            "question": "In Toilet-Bound Hanako-kun, what physical trait is Nene self-conscious about (and often teased about)?",
+            "correctAnswer": "fat ankles",
+            "altAnswer1": "chubby cheeks",
+            "altAnswer2": "narrow eyes",
+            "altAnswer3": "short height"
+        },
+        {
+            "question": "The main character of Windbreaker, Haruka Sakura, has heterochromia. What colors are his eyes?",
+            "correctAnswer": "black and gold",
+            "altAnswer1": "black and blue",
+            "altAnswer2": "black and green",
+            "altAnswer3": "black and purple"
+        },
+        {
+            "question": "In Otherside Picnic, Sorawo develops heterochromia from exposure to paranormal forces. What color does one of her eyes turn?",
+            "correctAnswer": "blue",
+            "altAnswer1": "red",
+            "altAnswer2": "green",
+            "altAnswer3": "white"
+        },
+        {
+            "question": "In Dororo, Hyakkimaru's father sacrifices his limbs and organs in exchange for what?",
+            "correctAnswer": "prosperity for his people",
+            "altAnswer1": "political power",
+            "altAnswer2": "a younger and more beautiful wife",
+            "altAnswer3": "the power of the gods"
+        },
+        {
+            "question": "In Solo Leveling, what is Cha Hae-in's nickname?",
+            "correctAnswer": "The Dancer",
+            "altAnswer1": "The Acrobat",
+            "altAnswer2": "The Ballerina",
+            "altAnswer3": "The Ice Queen"
+        },
+        {
+            "question": "In The Apothecary Diaries, Maomao is motivated to investigate a series of thefts and an explosion at a warehouse because Jinshi offers her what?",
+            "correctAnswer": "an ox bezoar",
+            "altAnswer1": "cacao seeds",
+            "altAnswer2": "resurrection medicine",
+            "altAnswer3": "golden ginseng"
+        },
+        {
+            "question": "In Frieren: Beyond Journey's End, what is the name of the flower that Frieren and Fern plant around a statue of Himmel the Hero?",
+            "correctAnswer": "blue-moon weed",
+            "altAnswer1": "crescent moon daisy",
+            "altAnswer2": "blue morning glory",
+            "altAnswer3": "blue-sky dandelion"
+        },
+        {
+            "question": "In Kill la Kill, which character wields the other half of Ryuko's famous scissor blade?",
+            "correctAnswer": "Nui Harime",
+            "altAnswer1": "Rei H\u014d\u014dmaru",
+            "altAnswer2": "Nonon Jakuzure",
+            "altAnswer3": "Omiko Hakodate"
+        },
+        {
+            "question": "In Fairy Tail, which of Lucy's Celestial Spirit Gate Keys was the first she obtained?",
+            "correctAnswer": "Aquarius",
+            "altAnswer1": "Horologium",
+            "altAnswer2": "Scorpio",
+            "altAnswer3": "Ophiuchus"
+        },
+        {
+            "question": "What is the name of Shinobu Kocho's combat style in Demon Slayer?",
+            "correctAnswer": "insect breathing",
+            "altAnswer1": "poison breathing",
+            "altAnswer2": "butterfly breathing",
+            "altAnswer3": "plague breathing"
+        },
+        {
+            "question": "In Yakuza Fianc\u00e9, what does Yoshino sell that prompts Kirishima to start taking her seriously?",
+            "correctAnswer": "her kidney",
+            "altAnswer1": "her house",
+            "altAnswer2": "his motorcycle",
+            "altAnswer3": "her grandfather's company shares"
+        },
+        {
+            "question": "In Dan Da Dan, what makes Jiji transform into Evil Eye?",
+            "correctAnswer": "cold liquid",
+            "altAnswer1": "hot liquid",
+            "altAnswer2": "saying the word \"fight\"",
+            "altAnswer3": "slouching"
+        },
+        {
+            "question": "In Yona of the Dawn, what is the source of the Green Dragon's power?",
+            "correctAnswer": "leg",
+            "altAnswer1": "arm",
+            "altAnswer2": "eyes",
+            "altAnswer3": "hair"
+        },
+        {
+            "question": "In Shangri-La Frontier, what mask does Sunraku's avatar wear?",
+            "correctAnswer": "blue bird",
+            "altAnswer1": "lion",
+            "altAnswer2": "gorilla",
+            "altAnswer3": "horse"
+        },
+        {
+            "question": "Who attempted to execute Luffy in Log Town?",
+            "correctAnswer": "Buggy",
+            "altAnswer1": "Smoker",
+            "altAnswer2": "Blackbeard",
+            "altAnswer3": "Zoro"
+        },
+        {
+            "question": "What was the quirk of the 4th user of One for All?",
+            "correctAnswer": "Danger Sense",
+            "altAnswer1": "Black Whip",
+            "altAnswer2": "Fa Jin",
+            "altAnswer3": "Float"
+        },
+        {
+            "question": "What is the name of Reiner\u2019s partner in AOT?",
+            "correctAnswer": "Bertholdt",
+            "altAnswer1": "Breadstick",
+            "altAnswer2": "Benadryl",
+            "altAnswer3": "Beethoven"
+        },
+        {
+            "question": "In death note, what power do the shinigami eyes grant?",
+            "correctAnswer": "See people\u2019s remaining lifespan",
+            "altAnswer1": "Halve someone\u2019s lifespan",
+            "altAnswer2": "Choose how people die",
+            "altAnswer3": "Manipulate people\u2019s memory"
+        },
+        {
+            "question": "According to Trunks from dragon ball, \u2018N***as call me the _____\u2019. What do they call him?",
+            "correctAnswer": "The drink",
+            "altAnswer1": "The cup",
+            "altAnswer2": "The container",
+            "altAnswer3": "The glass"
+        },
+        {
+            "question": "In Dandadan, Ayase Momo is obsessed with what fictional beings?",
+            "correctAnswer": "Spirits",
+            "altAnswer1": "Aliens",
+            "altAnswer2": "Kaiju",
+            "altAnswer3": "Trains"
+        },
+        {
+            "question": "Which item defeated the Water Demon Bai Tza in Jackie Chan advanture",
+            "correctAnswer": "1. Gourd",
+            "altAnswer1": "2. Miroor",
+            "altAnswer2": "3. Sword",
+            "altAnswer3": "4. Flower"
+        },
+        {
+            "question": "Which of these following characters is not played by Sugita Tomokazu\uff1f",
+            "correctAnswer": "1. Okabe Rintarou (Steins;Gate)",
+            "altAnswer1": "2. Karasuma Tadaomi (Assasination Classroom)",
+            "altAnswer2": "3. Kyon (Suzumiya Haruhi)",
+            "altAnswer3": "4. Akutsu Akuru (Aho-G\u0101ru)"
+        },
+        {
+            "question": "Which of the following anime is not associated with Gen Urobuchi?",
+            "correctAnswer": "1. Clannad",
+            "altAnswer1": "2. Fate zero",
+            "altAnswer2": "3. Aldnoah.Zero",
+            "altAnswer3": "4. Puella Magi Madoka Magica"
+        },
+        {
+            "question": "When did Neon Genesis Evangelion (EVA) first air on television?",
+            "correctAnswer": "1. 1995",
+            "altAnswer1": "2. 1996",
+            "altAnswer2": "3. 1997",
+            "altAnswer3": "4. 1998"
+        },
+        {
+            "question": "Which of the following anime was not produced by Kyoto Animation?",
+            "correctAnswer": "1. Fruits Basket",
+            "altAnswer1": "2. K-ON!",
+            "altAnswer2": "3. Nichijou",
+            "altAnswer3": "4. Free!"
+        },
+        {
+            "question": "Which of the following has no original source material (i.e., it is an original anime not based on a manga, light novel, or game)?",
+            "correctAnswer": "1. Angel Beats",
+            "altAnswer1": "2. Konosuba",
+            "altAnswer2": "3. Grimgar of Fantasy and Ash",
+            "altAnswer3": "4. No game no life"
+        },
+        {
+            "question": "Which of these is not a real Dojutsu (Eye power) from Naruto?",
+            "correctAnswer": "Kurogan",
+            "altAnswer1": "Byakugan",
+            "altAnswer2": "Rinnegan",
+            "altAnswer3": "Boruto"
+        },
+        {
+            "question": "On which year was Akira Toriyama born?",
+            "correctAnswer": "1955",
+            "altAnswer1": "1957",
+            "altAnswer2": "1954",
+            "altAnswer3": "Boruto"
+        },
+        {
+            "question": "Which of these mangaka do not have an unofficial title of the form \"_______ of Manga\"?",
+            "correctAnswer": "Akira Toriyama",
+            "altAnswer1": "Shotaro Ishinomori",
+            "altAnswer2": "Osamu Tezuka",
+            "altAnswer3": "Boruto"
+        },
+        {
+            "question": "During a fateful Kahoot quiz last year, which anime did Emma inadvertently condemn us all to watch due to her victory?",
+            "correctAnswer": "Oreimo",
+            "altAnswer1": "School Days",
+            "altAnswer2": "Eromanga Sensei",
+            "altAnswer3": "Boruto"
+        },
+        {
+            "question": "Which notorious anime had to have their final episode cancelled and replaced with footage of a boat?1",
+            "correctAnswer": "School Days",
+            "altAnswer1": "Future Diary",
+            "altAnswer2": "Erased",
+            "altAnswer3": "Boruto"
+        },
+        {
+            "question": "Which of the following is not a Vocaloid?",
+            "correctAnswer": "Kasane Teto",
+            "altAnswer1": "Megurine Luka",
+            "altAnswer2": "MEIKO",
+            "altAnswer3": "Boruto"
+        },
+        {
+            "question": "In which Italian city do the Pillar Men rest?",
+            "correctAnswer": "Rome",
+            "altAnswer1": "Venice",
+            "altAnswer2": "Naples",
+            "altAnswer3": "Florence"
+        },
+        {
+            "question": "What's the hometown of Giorno Giovanna?",
+            "correctAnswer": "Naples",
+            "altAnswer1": "Rome",
+            "altAnswer2": "Venice",
+            "altAnswer3": "Florence"
+        },
+        {
+            "question": "What's the name of the Team Bucciarati hideout?",
+            "correctAnswer": "Libeccio",
+            "altAnswer1": "Da Raffaele",
+            "altAnswer2": "Mario's",
+            "altAnswer3": "La Smorfia"
+        },
+        {
+            "question": "How old is Jotaro in Stardust Crusaders?",
+            "correctAnswer": "17",
+            "altAnswer1": "16",
+            "altAnswer2": "19",
+            "altAnswer3": "57"
+        },
+        {
+            "question": "How old is Leorio in Hunter X Hunter (Heavens Arena arc)?",
+            "correctAnswer": "19",
+            "altAnswer1": "24",
+            "altAnswer2": "20",
             "altAnswer3": "35"
         },
         {
-            "createdAt": "11/18/2023 17:18:04",
-            "author": "Elika",
-            "question": "What's the name of the online gang that has no thematic colour in the series Durarara?",
-            "correctAnswer": "Dollars",
-            "altAnswer1": "Cents",
-            "altAnswer2": "Pennies",
-            "altAnswer3": "Coins"
+            "question": "How old is Genta Kojima in Detective Conan?",
+            "correctAnswer": "7",
+            "altAnswer1": "10",
+            "altAnswer2": "14",
+            "altAnswer3": "16"
         },
         {
-            "createdAt": "11/18/2023 17:24:40",
-            "author": "Elika",
-            "question": "Which one of these supernatural things don't actually appear in Durarara?",
-            "correctAnswer": "Werewolf",
-            "altAnswer1": "Vampire",
-            "altAnswer2": "Dullahan",
-            "altAnswer3": "Demonic Sword"
+            "question": "In Sailor Moon, what instrument does Michiru (Sailor Neptune) play?",
+            "correctAnswer": "violin",
+            "altAnswer1": "cello",
+            "altAnswer2": "viola",
+            "altAnswer3": "guitar"
         },
         {
-            "createdAt": "11/18/2023 17:37:22",
-            "author": "Elika",
-            "question": "What was the last film Satoshi Kon made?",
-            "correctAnswer": "Paprika",
-            "altAnswer1": "Millenium Actress",
-            "altAnswer2": "Perfect Blue",
-            "altAnswer3": "Tokyo Godfathers"
+            "question": "In Pr\u00e9tear, what is the title of Hayate, the main love interest?",
+            "correctAnswer": "Knight of Wind",
+            "altAnswer1": "Knight of Sound",
+            "altAnswer2": "Knight of Fire",
+            "altAnswer3": "Knight of Light"
         },
         {
-            "createdAt": "11/18/2023 17:58:38",
-            "author": "Elika",
-            "question": "How many rookies pass the Hunter exam on average according to Kurapika?",
-            "correctAnswer": "1 rookie every 3 years",
-            "altAnswer1": "1 rookie every 2 years",
-            "altAnswer2": "1 rookie every 4 years",
-            "altAnswer3": "1 rookie every 5 years"
+            "question": "As mentioned in season 2 of the anime, what is Frieren's favorite spell?",
+            "correctAnswer": "a spell to create flowers",
+            "altAnswer1": "a spell to clean clothes",
+            "altAnswer2": "a spell to subdue mimics",
+            "altAnswer3": "a spell to create multicolored fire"
+        },
+        {
+            "question": "In Frieren: Beyond Journey's End, what does \u00dcbel visualize to help her cut through an impenetrable defensive cloak?",
+            "correctAnswer": "scissors cutting through fabric",
+            "altAnswer1": "a knife cutting through butter",
+            "altAnswer2": "scissors cutting through parchment",
+            "altAnswer3": "wind blowing through tree leaves"
+        },
+        {
+            "question": "In Frieren: Beyond Journey's End, what is the name of the spell known as \"ordinary offensive magic\"?",
+            "correctAnswer": "Zoltraak",
+            "altAnswer1": "Doragate",
+            "altAnswer2": "Catastravia",
+            "altAnswer3": "Vialathor"
+        },
+        {
+            "question": "In Frieren: Beyond Journey's End, what does Frieren give Fern for her birthday?",
+            "correctAnswer": "a hair brooch",
+            "altAnswer1": "a bracelet",
+            "altAnswer2": "a new staff",
+            "altAnswer3": "a locket"
+        },
+        {
+            "question": "Which of the following Voice Actors has never played a main Jojo in the anime?",
+            "correctAnswer": "Miyuki Sawashiro",
+            "altAnswer1": "Yuki Ono",
+            "altAnswer2": "Ai Fairouz",
+            "altAnswer3": "Tomokazu Sugita"
+        },
+        {
+            "question": "What is the name of the Western song now associated with \"THE ONE PIEEEEEEEEEEEEECE! THE ONE PIECE IS REEEEEEEEEEEEEEEEEEEEAL\"?",
+            "correctAnswer": "Dark Fantasy",
+            "altAnswer1": "Can We Get Much Higher",
+            "altAnswer2": "Stronger",
+            "altAnswer3": "Yeezus"
+        },
+        {
+            "question": "Which branch of Mathematics does Gojo's Infinity draw its power from?",
+            "correctAnswer": "Calculus",
+            "altAnswer1": "Statistics",
+            "altAnswer2": "Mechanics",
+            "altAnswer3": "Linear Algebra"
+        },
+        {
+            "question": "What is the name of the song often credited for starting the Vocaloid Renaissance?",
+            "correctAnswer": "Goodbye Sengen",
+            "altAnswer1": "Heat Abnormal",
+            "altAnswer2": "Vampire",
+            "altAnswer3": "Mesmerizer"
+        },
+        {
+            "question": "Which day of the week is considered special to Japanese Jojo fans?",
+            "correctAnswer": "Friday",
+            "altAnswer1": "Monday",
+            "altAnswer2": "Saturday",
+            "altAnswer3": "Wednesday"
+        },
+        {
+            "question": "In Lesbian Bear Storm, what is the name of the storm that attacks excluded schoolgirls?",
+            "correctAnswer": "The Invisible Storm",
+            "altAnswer1": "The Lesbian Bear Storm",
+            "altAnswer2": "The Yaoi Storm",
+            "altAnswer3": "The Deadly Storm"
+        },
+        {
+            "question": "In Lesbian Bear Storm, what physical divide separates the humans from the bears?",
+            "correctAnswer": "The Wall of Severance",
+            "altAnswer1": "The Barrier of Sanctity",
+            "altAnswer2": "The Big Gay",
+            "altAnswer3": "The Fence of Sadness"
+        },
+        {
+            "question": "In Lesbian Bear Storm, what is Kureha's initial weapon of choice to attack bears?",
+            "correctAnswer": "Gun",
+            "altAnswer1": "Lesbianism",
+            "altAnswer2": "Magic",
+            "altAnswer3": "Nuke"
+        },
+        {
+            "question": "In Lesbian Bear Storm, what happens if a girl successfully passes her trial at the hands of the Life Judgement Guys of Severance Court?",
+            "correctAnswer": "She gets yuri approved",
+            "altAnswer1": "She is sent into space",
+            "altAnswer2": "She transforms into a boy",
+            "altAnswer3": "She obtains a lesbian harem"
+        },
+        {
+            "question": "The director of Lesbian Bear Storm also directed which acclaimed magical girl anime?",
+            "correctAnswer": "Revolutionary Girl Utena",
+            "altAnswer1": "Magical Girl Lyrical Nanoha",
+            "altAnswer2": "Puella Magi Madoka Magica",
+            "altAnswer3": "Kaleid Liner Prisma Illya"
+        },
+        {
+            "question": "In 86, what physical trait do the Alba have in common?",
+            "correctAnswer": "Silver hair",
+            "altAnswer1": "Four arms",
+            "altAnswer2": "Red eyes",
+            "altAnswer3": "Weirdly long toenails"
+        },
+        {
+            "question": "What is Queen's power in To Be Hero X?",
+            "correctAnswer": "Making rules",
+            "altAnswer1": "Passing laws",
+            "altAnswer2": "Brainwashing men into becoming her servants",
+            "altAnswer3": "Making any chair a throne"
+        },
+        {
+            "question": "In Your Lie in April, what instrument is Kaori playing when Kousei first meets her in the park?",
+            "correctAnswer": "Melodica",
+            "altAnswer1": "Violin",
+            "altAnswer2": "Flute",
+            "altAnswer3": "Jaw Harp"
+        },
+        {
+            "question": "The creator of the mobile game Heaven Burns Red also conceived which anime?",
+            "correctAnswer": "Angel Beats",
+            "altAnswer1": "Hell's Paradise",
+            "altAnswer2": "Heaven's Lost Property",
+            "altAnswer3": "Heavenly Delusion"
+        },
+        {
+            "question": "What do Eli Ayase from Love Live and Alya Kujou from Roshidere have in common?",
+            "correctAnswer": "They're both part Russian",
+            "altAnswer1": "They're both 15",
+            "altAnswer2": "They both have silver hair",
+            "altAnswer3": "They're both lesbian"
+        },
+        {
+            "question": "In Majo no Tabitabi, what is the name of Elaina's mom?",
+            "correctAnswer": "Victorica",
+            "altAnswer1": "Victoria",
+            "altAnswer2": "Victorique",
+            "altAnswer3": "Victor"
+        },
+        {
+            "question": "Which one of these characters does NOT try to stop Mob on his rampage during the confession arc?",
+            "correctAnswer": "Shou",
+            "altAnswer1": "Reigan",
+            "altAnswer2": "Ritsu",
+            "altAnswer3": "Teru"
+        },
+        {
+            "question": "Who does 'Hikaru' almost kill before Yoshiki stops him?",
+            "correctAnswer": "Asako",
+            "altAnswer1": "Maki",
+            "altAnswer2": "Tanaka",
+            "altAnswer3": "Yuuki"
+        },
+        {
+            "question": "The first shikigami Fushiguro was able to summon was",
+            "correctAnswer": "Devine dog",
+            "altAnswer1": "Rabbit escape",
+            "altAnswer2": "Nue",
+            "altAnswer3": "Toad"
+        },
+        {
+            "question": "In the No Game No Life anime, what game did Sora and Shiro not play?",
+            "correctAnswer": "Texas Hold 'em",
+            "altAnswer1": "Othello",
+            "altAnswer2": "Rock Paper Scissors",
+            "altAnswer3": "Chess"
+        },
+        {
+            "question": "Which of the following is an anime that does not have a form of regression/travel travel?",
+            "correctAnswer": "Omniscient Reader's Viewpoint",
+            "altAnswer1": "Peulla Magi Madoka Magica",
+            "altAnswer2": "Re: Zero",
+            "altAnswer3": "Tokyo Revengers"
+        },
+        {
+            "question": "Which of the following anime have never been rated No.1 anime on MAL?",
+            "correctAnswer": "Hunter x Hunter",
+            "altAnswer1": "Oshi No Ko",
+            "altAnswer2": "Tengen Toppa Gurren Lagann",
+            "altAnswer3": "Kaguya-Sama: Love is War"
+        },
+        {
+            "question": "Which of the following anime has not won Anime of the Year from the Crunchyroll Awards?",
+            "correctAnswer": "Re: Zero",
+            "altAnswer1": "Yuri!!! on Ice",
+            "altAnswer2": "Made in Abyss",
+            "altAnswer3": "Devilman Crybaby"
+        },
+        {
+            "question": "Which of the following does not have a live action counterpart?",
+            "correctAnswer": "Naruto",
+            "altAnswer1": "Omniscient Reader's Viewpoint",
+            "altAnswer2": "Death Note",
+            "altAnswer3": "Zom 100: Bucket List of the Dead"
+        },
+        {
+            "question": "Which of the following is not produced by A-1 Pictures?",
+            "correctAnswer": "Horimiya",
+            "altAnswer1": "Sword Art Online",
+            "altAnswer2": "86 Eighty-Six",
+            "altAnswer3": "Gate"
+        },
+        {
+            "question": "In Kakegurui, what is the name of the game Yumeko loses that causes her to become a House Pet?",
+            "correctAnswer": "Life or Death",
+            "altAnswer1": "Double Concentration",
+            "altAnswer2": "Russian Roulette",
+            "altAnswer3": "Rock Paper Scissors"
+        },
+        {
+            "question": "In Sailor Moon, what element is Ami (Sailor Mercury) associated with?",
+            "correctAnswer": "water",
+            "altAnswer1": "fire",
+            "altAnswer2": "earth",
+            "altAnswer3": "air"
+        },
+        {
+            "question": "In Sailor Moon, what element is Rei (Sailor Mars) associated with?",
+            "correctAnswer": "fire",
+            "altAnswer1": "water",
+            "altAnswer2": "earth",
+            "altAnswer3": "air"
+        },
+        {
+            "question": "What is the name of the anime/manga genre that targets the adult woman demographic?",
+            "correctAnswer": "josei",
+            "altAnswer1": "shoujo",
+            "altAnswer2": "yuri",
+            "altAnswer3": "onna"
+        },
+        {
+            "question": "In Sailor Moon, what is the name of Minako\u2019s (Sailor Venus\u2019s) cat?",
+            "correctAnswer": "Artemis",
+            "altAnswer1": "Luna",
+            "altAnswer2": "Diana",
+            "altAnswer3": "Selene"
+        },
+        {
+            "question": "In Sailor Moon, what flower does Tuxedo Mask use to announce his arrival?",
+            "correctAnswer": "rose",
+            "altAnswer1": "carnation",
+            "altAnswer2": "lily",
+            "altAnswer3": "camellia"
+        },
+        {
+            "question": "In Made in Abyss, who was the second white whistle encountered by Riko's group?",
+            "correctAnswer": "Bondrewd",
+            "altAnswer1": "Ozen",
+            "altAnswer2": "Lyza",
+            "altAnswer3": "Hablog"
+        },
+        {
+            "question": "In Made in Abyss, what is the curse effect of ascending from the 4th layer (\"Goblets of Giants\")?",
+            "correctAnswer": "Intense pain throughout the whole body",
+            "altAnswer1": "loss of vision",
+            "altAnswer2": "uncontrollable bleeding",
+            "altAnswer3": "sudden paralysis"
+        },
+        {
+            "question": "In Made in Abyss, what artifact underlies Bondrewd's mysterious power?",
+            "correctAnswer": "Zoaholic",
+            "altAnswer1": "Mindpiercer",
+            "altAnswer2": "Ether Relay",
+            "altAnswer3": "Soulstep Prism"
+        },
+        {
+            "question": "In Made in Abyss, what item does Bondrewd use to temporarily negate the Abyssal curse locally?",
+            "correctAnswer": "Sparagmos",
+            "altAnswer1": "Barrier of Iruburu",
+            "altAnswer2": "Dawn Halo",
+            "altAnswer3": "Curseplate Relay"
+        },
+        {
+            "question": "In Made in Abyss, what is the primary currency within the 6th layer's village?",
+            "correctAnswer": "Value",
+            "altAnswer1": "Echo Stones",
+            "altAnswer2": "Relic Shards",
+            "altAnswer3": "Hollow Marrow"
+        },
+        {
+            "question": "In Made in Abyss, what is the name of the final layer?",
+            "correctAnswer": "The Final Maelstrom",
+            "altAnswer1": "The Last Descent",
+            "altAnswer2": "The Shore of Souls",
+            "altAnswer3": "The Quiet Abyss"
+        },
+        {
+            "question": "In Ponyo, what is the titular character\u2019s favorite human food?",
+            "correctAnswer": "ham",
+            "altAnswer1": "ramen",
+            "altAnswer2": "bread",
+            "altAnswer3": "karaage"
+        },
+        {
+            "question": "In Howl\u2019s Moving Castle, what color does Howl accidentally dye his hair after Sophie cleans his bathroom?",
+            "correctAnswer": "orange",
+            "altAnswer1": "pink",
+            "altAnswer2": "green",
+            "altAnswer3": "black"
+        },
+        {
+            "question": "What is the name of the titular character in Princess Mononoke?",
+            "correctAnswer": "San",
+            "altAnswer1": "Sen",
+            "altAnswer2": "Moro",
+            "altAnswer3": "Eboshi"
+        },
+        {
+            "question": "In Kiki\u2019s Delivery Service, what is the name of Kiki\u2019s cat?",
+            "correctAnswer": "Jiji",
+            "altAnswer1": "Tombo",
+            "altAnswer2": "Sh\u014d",
+            "altAnswer3": "Toro"
+        },
+        {
+            "question": "In Spirited Away, what do Chihiro\u2019s parents get turned into at the beginning of the film?",
+            "correctAnswer": "Pigs",
+            "altAnswer1": "furniture",
+            "altAnswer2": "ducks",
+            "altAnswer3": "swamp spirits"
+        },
+        {
+            "question": "In Porco Rosso, what is the name of the titular character\u2019s hotel-owning friend who is in love with him?",
+            "correctAnswer": "Gina",
+            "altAnswer1": "Fio",
+            "altAnswer2": "Clara",
+            "altAnswer3": "Nella"
+        },
+        {
+            "question": "Who performed the opening theme 'Gurenge' for the anime Demon Slayer: Kimetsu no Yaiba?",
+            "correctAnswer": "LiSA",
+            "altAnswer1": "Aimer",
+            "altAnswer2": "Eir Aoi",
+            "altAnswer3": "Yuki Kajiura"
+        },
+        {
+            "question": "Which studio animated the original 1998 TV series 'Cowboy Bebop'?",
+            "correctAnswer": "Sunrise",
+            "altAnswer1": "Bones",
+            "altAnswer2": "Madhouse",
+            "altAnswer3": "Production I.G."
+        },
+        {
+            "question": "What is the name of the organization responsible for operating the Evangelion units in Neon Genesis Evangelion?",
+            "correctAnswer": "NERV",
+            "altAnswer1": "SEELE",
+            "altAnswer2": "Gehirn",
+            "altAnswer3": "United Nations"
+        },
+        {
+            "question": "What song is used as the opening theme for Neon Genesis Evangelion (1995)?",
+            "correctAnswer": "A Cruel Angel's Thesis",
+            "altAnswer1": "Fly Me to the Moon",
+            "altAnswer2": "Thanatos -If I Can't Be Yours-",
+            "altAnswer3": "Tank!"
+        },
+        {
+            "question": "Who directed the Studio Ghibli film 'Spirited Away'?",
+            "correctAnswer": "Hayao Miyazaki",
+            "altAnswer1": "Mamoru Hosoda",
+            "altAnswer2": "Makoto Shinkai",
+            "altAnswer3": "Satoshi Kon"
+        },
+        {
+            "question": "What is the name of the J-pop group that performed the opening theme 'Tank!' for the anime Cowboy Bebop?",
+            "correctAnswer": "The Seatbelts",
+            "altAnswer1": "Jam Project",
+            "altAnswer2": "FLOW",
+            "altAnswer3": "Asian Kung\u2011Fu Generation"
+        },
+        {
+            "question": "In the anime Neon Genesis Evangelion who pilots Evangelion Unit-01 at the beginning of the series?",
+            "correctAnswer": "Shinji Ikari",
+            "altAnswer1": "Rei Ayanami",
+            "altAnswer2": "Asuka Langley Soryu",
+            "altAnswer3": "Kaworu Nagisa"
+        },
+        {
+            "question": "Which studio was responsible for the anime FLCL (2000-2001)?",
+            "correctAnswer": "Gainax",
+            "altAnswer1": "Madhouse",
+            "altAnswer2": "Sunrise",
+            "altAnswer3": "Bones"
+        },
+        {
+            "question": "In the anime Naruto, what is the name of the power that allows characters to use supernatural ninja techniques?",
+            "correctAnswer": "Chakra",
+            "altAnswer1": "Nen",
+            "altAnswer2": "Quirk",
+            "altAnswer3": "Re-birth"
+        },
+        {
+            "question": "Who is the vocalist of the song 'A Cruel Angel\u2019s Thesis,' the opening theme for Neon Genesis Evangelion?",
+            "correctAnswer": "Yoko Takahashi",
+            "altAnswer1": "Megumi Hayashibara",
+            "altAnswer2": "LiSA",
+            "altAnswer3": "Eir Aoi"
+        },
+        {
+            "question": "Which anime series features the J-pop group FLOW\u2019s opening theme 'Go!!!'?",
+            "correctAnswer": "Naruto",
+            "altAnswer1": "Bleach",
+            "altAnswer2": "One Piece",
+            "altAnswer3": "Fairy Tail"
+        },
+        {
+            "question": "Which studio animated the film Akira (1988)?",
+            "correctAnswer": "Tokyo Movie Shinsha",
+            "altAnswer1": "Madhouse",
+            "altAnswer2": "Studio Ghibli",
+            "altAnswer3": "Sunrise"
+        },
+        {
+            "question": "In Cowboy Bebop what is the name of Spike Spiegel\u2019s ship?",
+            "correctAnswer": "Swordfish II",
+            "altAnswer1": "Red Tail",
+            "altAnswer2": "Black Lotus",
+            "altAnswer3": "Thunderbolt"
+        },
+        {
+            "question": "Which singer performed the ending theme 'Sparkle' for the anime film Your Name?",
+            "correctAnswer": "RADWIMPS",
+            "altAnswer1": "Kana Hanazawa",
+            "altAnswer2": "Aimer",
+            "altAnswer3": "YunMori"
+        },
+        {
+            "question": "In Fullmetal Alchemist: Brotherhood what is the name of the country where the Elric brothers originate?",
+            "correctAnswer": "Amestris",
+            "altAnswer1": "Xing",
+            "altAnswer2": "Agartha",
+            "altAnswer3": "Algeria"
+        },
+        {
+            "question": "Which studio produced the anime series Death Note?",
+            "correctAnswer": "Madhouse",
+            "altAnswer1": "Bones",
+            "altAnswer2": "Sunrise",
+            "altAnswer3": "Studio Deen"
+        },
+        {
+            "question": "What is the title of the opening theme for the anime Attack on Titan Season 1?",
+            "correctAnswer": "Guren no Yumiya",
+            "altAnswer1": "Red Swan",
+            "altAnswer2": "My War",
+            "altAnswer3": "Shinzo wo Sasageyo"
+        },
+        {
+            "question": "Which J-pop artist sings the opening 'Unravel' for the anime Tokyo Ghoul?",
+            "correctAnswer": "TK from Ling Tosite Sigure",
+            "altAnswer1": "LiSA",
+            "altAnswer2": "Kenshi Yonezu",
+            "altAnswer3": "Eir Aoi"
+        },
+        {
+            "question": "In Dragon Ball Z what is the name of the energy attack central to many battles?",
+            "correctAnswer": "Kamehameha",
+            "altAnswer1": "Spirit Bomb",
+            "altAnswer2": "Final Flash",
+            "altAnswer3": "Destructo Disk"
+        },
+        {
+            "question": "Which studio animated the series Ghost in the Shell: Stand Alone Complex?",
+            "correctAnswer": "Production I.G.",
+            "altAnswer1": "Madhouse",
+            "altAnswer2": "Bones",
+            "altAnswer3": "Sunrise"
+        },
+        {
+            "question": "In One Punch Man, what is the hero\u2019s name who defeats foes with a single punch?",
+            "correctAnswer": "Saitama",
+            "altAnswer1": "Genos",
+            "altAnswer2": "Tatsumaki",
+            "altAnswer3": "King"
+        },
+        {
+            "question": "Which studio created the anime series Neon Genesis Evangelion?",
+            "correctAnswer": "Gainax",
+            "altAnswer1": "Madhouse",
+            "altAnswer2": "Sunrise",
+            "altAnswer3": "Bones"
+        },
+        {
+            "question": "What is the opening theme song of the anime Re:Zero \u2212 Starting Life in Another World?",
+            "correctAnswer": "Redo",
+            "altAnswer1": "Overfly",
+            "altAnswer2": "Again",
+            "altAnswer3": "Perfect Area Complete!"
+        },
+        {
+            "question": "Which J-pop artist performed the anime opening 'Crossing Field' for Sword Art Online?",
+            "correctAnswer": "LiSA",
+            "altAnswer1": "Aimer",
+            "altAnswer2": "Crossing Field",
+            "altAnswer3": "Eir Aoi"
+        },
+        {
+            "question": "In My Hero Academia under what hero name does Izuku Midoriya operate?",
+            "correctAnswer": "Deku",
+            "altAnswer1": "Smash",
+            "altAnswer2": "All-Might Jr.",
+            "altAnswer3": "Green Ranger"
+        },
+        {
+            "question": "Which studio produced the anime film Your Name?",
+            "correctAnswer": "CoMix Wave Films",
+            "altAnswer1": "Studio Ghibli",
+            "altAnswer2": "Madhouse",
+            "altAnswer3": "Pierrot"
+        },
+        {
+            "question": "What is the name of the Black Organization\u2019s codename in Detective Conan?",
+            "correctAnswer": "Bourbon",
+            "altAnswer1": "Vermouth",
+            "altAnswer2": "Sherry",
+            "altAnswer3": "Haibara"
+        },
+        {
+            "question": "Which J-pop artist sang the opening theme 'Glamorous Sky' for the Nana movie?",
+            "correctAnswer": "Anna Tsuchiya",
+            "altAnswer1": "Ayumi Hamasaki",
+            "altAnswer2": "Utada Hikaru",
+            "altAnswer3": "Yui"
+        },
+        {
+            "question": "In Bleach what is the Quincy protagonist\u2019s name?",
+            "correctAnswer": "Uryu Ishida",
+            "altAnswer1": "Ichigo Kurosaki",
+            "altAnswer2": "Rukia Kuchiki",
+            "altAnswer3": "Sado Yasutora"
+        },
+        {
+            "question": "Which studio animated the series Code Geass?",
+            "correctAnswer": "Sunrise",
+            "altAnswer1": "Madhouse",
+            "altAnswer2": "Bones",
+            "altAnswer3": "Studio Pierrot"
+        },
+        {
+            "question": "What is the opening theme song of Fairy Tail Season 1?",
+            "correctAnswer": "Snow Fairy",
+            "altAnswer1": "We Are",
+            "altAnswer2": "Crossing Field",
+            "altAnswer3": "Overdrive"
+        },
+        {
+            "question": "Which J-pop band performed the opening theme 'Cha-la Head-Cha-la' for Dragon Ball Z?",
+            "correctAnswer": "Hironobu Kageyama",
+            "altAnswer1": "Kosuke Minekusha",
+            "altAnswer2": "Hajime",
+            "altAnswer3": "Hikaru Genji"
+        },
+        {
+            "question": "In One Piece what is the name of the first ship of the Straw Hat Pirates?",
+            "correctAnswer": "Going Merry",
+            "altAnswer1": "Thousand Sunny",
+            "altAnswer2": "Red Force",
+            "altAnswer3": "Black Beard\u2019s Ship"
+        },
+        {
+            "question": "Which studio animated the 2015 anime Death Parade?",
+            "correctAnswer": "Madhouse",
+            "altAnswer1": "Bone Art Works",
+            "altAnswer2": "Studio Ghibli",
+            "altAnswer3": "Pierrot"
+        },
+        {
+            "question": "What is the opening theme of Steins;Gate?",
+            "correctAnswer": "Hacking to the Gate",
+            "altAnswer1": "Redo",
+            "altAnswer2": "My Dearest",
+            "altAnswer3": "Again"
+        },
+        {
+            "question": "Which J-pop singer performed the opening 'My Dearest' for Guilty Crown?",
+            "correctAnswer": "supercell",
+            "altAnswer1": "LiSA",
+            "altAnswer2": "Eir Aoi",
+            "altAnswer3": "Aimer"
+        },
+        {
+            "question": "In Mushishi what is the job title of the protagonist Ginko?",
+            "correctAnswer": "Mushi-shi",
+            "altAnswer1": "Onmyoji",
+            "altAnswer2": "Exorcist",
+            "altAnswer3": "Spirit Master"
+        },
+        {
+            "question": "Which studio produced the anime film A Silent Voice?",
+            "correctAnswer": "Kyoto Animation",
+            "altAnswer1": "Madhouse",
+            "altAnswer2": "Sunrise",
+            "altAnswer3": "Gainax"
+        },
+        {
+            "question": "What is the J-pop composer/group behind many anime theme songs, including sequence works on Attack on Titan and Kill la Kill?",
+            "correctAnswer": "Hiroyuki Sawano",
+            "altAnswer1": "Yoko Kanno",
+            "altAnswer2": "Joe Hisaishi",
+            "altAnswer3": "Kenji Kawai"
+        },
+        {
+            "question": "In Black Clover what is the name of the protagonist\u2019s magic?",
+            "correctAnswer": "Anti-Magic",
+            "altAnswer1": "Wind Magic",
+            "altAnswer2": "Flame Magic",
+            "altAnswer3": "Water Magic"
+        },
+        {
+            "question": "Which studio animated Weathering with You?",
+            "correctAnswer": "CoMix Wave Films",
+            "altAnswer1": "Madhouse",
+            "altAnswer2": "Studio Ghibli",
+            "altAnswer3": "Sunrise"
+        },
+        {
+            "question": "What is the opening theme of K-ON!?",
+            "correctAnswer": "Cagayake! Girls",
+            "altAnswer1": "Brave Shine",
+            "altAnswer2": "99",
+            "altAnswer3": "Believe in Myself"
+        },
+        {
+            "question": "Which J-pop singer performed the opening 'Overfly' for Sword Art Online II?",
+            "correctAnswer": "LiSA",
+            "altAnswer1": "Aimer",
+            "altAnswer2": "Eir Aoi",
+            "altAnswer3": "Yui"
+        },
+        {
+            "question": "In Tokyo Revengers what is the name of the main character?",
+            "correctAnswer": "Takemichi Hanagaki",
+            "altAnswer1": "Ken Ryuguji",
+            "altAnswer2": "Kazutora Hanemiya",
+            "altAnswer3": "Emma Sano"
+        },
+        {
+            "question": "Which studio animated Akira (1988)?",
+            "correctAnswer": "Tokyo Movie Shinsha",
+            "altAnswer1": "Madhouse",
+            "altAnswer2": "Sunrise",
+            "altAnswer3": "Studio Ghibli"
+        },
+        {
+            "question": "What is the opening theme of ReLIFE?",
+            "correctAnswer": "Button up",
+            "altAnswer1": "Again",
+            "altAnswer2": "Crossing Field",
+            "altAnswer3": "My Dearest"
+        },
+        {
+            "question": "Which J-pop artist performed the opening 'Butter-Fly' for Digimon Adventure?",
+            "correctAnswer": "K\u014dji Wada",
+            "altAnswer1": "UVERworld",
+            "altAnswer2": "FLOW",
+            "altAnswer3": "Asian Kung-Fu Generation"
+        },
+        {
+            "question": "In Naruto Shippuden what is the name of the Nine-Tails fox?",
+            "correctAnswer": "Kurama",
+            "altAnswer1": "Gy\u016bki",
+            "altAnswer2": "Matatabi",
+            "altAnswer3": "Isobu"
+        },
+        {
+            "question": "Which studio produced Hunter \u00d7 Hunter (2011)?",
+            "correctAnswer": "Madhouse",
+            "altAnswer1": "Sunrise",
+            "altAnswer2": "Bones",
+            "altAnswer3": "Pierrot"
+        },
+        {
+            "question": "What is the opening theme of Haikyuu!! Season 1?",
+            "correctAnswer": "Imagination",
+            "altAnswer1": "Sign",
+            "altAnswer2": "Blue Bird",
+            "altAnswer3": "Perfect Area Complete!"
+        },
+        {
+            "question": "Which J-pop artist performed the opening 'Connect' for Puella Magi Madoka Magica?",
+            "correctAnswer": "ClariS",
+            "altAnswer1": "LiSA",
+            "altAnswer2": "Aimer",
+            "altAnswer3": "Eir Aoi"
+        },
+        {
+            "question": "In Made in Abyss what is the name of the white whistle explorer?",
+            "correctAnswer": "Lyza",
+            "altAnswer1": "Nanachi",
+            "altAnswer2": "Riko",
+            "altAnswer3": "Reg"
+        },
+        {
+            "question": "Which studio created Mob Psycho 100?",
+            "correctAnswer": "Bones",
+            "altAnswer1": "Madhouse",
+            "altAnswer2": "Sunrise",
+            "altAnswer3": "Production I.G."
+        },
+        {
+            "question": "Which J-pop artist performed the opening 'Sign' for Naruto?",
+            "correctAnswer": "FLOW",
+            "altAnswer1": "LiSA",
+            "altAnswer2": "Aimer",
+            "altAnswer3": "Eir Aoi"
+        },
+        {
+            "question": "In The Promised Neverland what is the name of the farm the children live on?",
+            "correctAnswer": "Grace Field House",
+            "altAnswer1": "Diamond Farm",
+            "altAnswer2": "Hope Shelter",
+            "altAnswer3": "Green Meadow Manor"
+        },
+        {
+            "question": "Which studio produced the 1997 TV anime Berserk (TV)?",
+            "correctAnswer": "OLM (original team)",
+            "altAnswer1": "Madhouse",
+            "altAnswer2": "Sunrise",
+            "altAnswer3": "Bones"
+        },
+        {
+            "question": "What is the opening theme of Hellsing?",
+            "correctAnswer": "Logos Naki World",
+            "altAnswer1": "Colors",
+            "altAnswer2": "Lilium",
+            "altAnswer3": "Crossing Field"
+        },
+        {
+            "question": "Which J-pop singer performed the opening 'Rise' for Mob Psycho 100?",
+            "correctAnswer": "Rocking Stars",
+            "altAnswer1": "LiSA",
+            "altAnswer2": "Eir Aoi",
+            "altAnswer3": "Aimer"
+        },
+        {
+            "question": "In Erased (2016) what ability does the protagonist have?",
+            "correctAnswer": "Time-leap",
+            "altAnswer1": "Quirk",
+            "altAnswer2": "Ninjutsu",
+            "altAnswer3": "Devil Fruit"
+        },
+        {
+            "question": "Which studio animated Perfect Blue?",
+            "correctAnswer": "Madhouse",
+            "altAnswer1": "Sunrise",
+            "altAnswer2": "Studio Ghibli",
+            "altAnswer3": "Bones"
+        },
+        {
+            "question": "What is the opening theme for Black Butler Season 1?",
+            "correctAnswer": "Monochrome Kiss",
+            "altAnswer1": "Again",
+            "altAnswer2": "Crossing Field",
+            "altAnswer3": "Redo"
+        },
+        {
+            "question": "Which J-pop artist performed the ending 'Fly Me to the Moon' variant for Neon Genesis Evangelion endings?",
+            "correctAnswer": "Various artists (cover versions exist)",
+            "altAnswer1": "LiSA",
+            "altAnswer2": "Aimer",
+            "altAnswer3": "Eir Aoi"
+        },
+        {
+            "question": "In Ping Pong: The Animation who is the director?",
+            "correctAnswer": "Masaaki Yuasa",
+            "altAnswer1": "Hayao Miyazaki",
+            "altAnswer2": "Makoto Shinkai",
+            "altAnswer3": "Mamoru Hosoda"
+        },
+        {
+            "question": "What is the opening theme of The Rising of the Shield Hero?",
+            "correctAnswer": "Glass no Hitsugi",
+            "altAnswer1": "Again",
+            "altAnswer2": "Duvet",
+            "altAnswer3": "Butterfly"
+        },
+        {
+            "question": "Which studio produced Psycho-Pass?",
+            "correctAnswer": "Production I.G.",
+            "altAnswer1": "Madhouse",
+            "altAnswer2": "Bones",
+            "altAnswer3": "Sunrise"
+        },
+        {
+            "question": "What is the opening theme for Space Dandy?",
+            "correctAnswer": "Viva Namida",
+            "altAnswer1": "Snow Fairy",
+            "altAnswer2": "The Day",
+            "altAnswer3": "Karma"
+        },
+        {
+            "question": "Which J-pop artist performed the opening 'Tank!' for Cowboy Bebop?",
+            "correctAnswer": "The Seatbelts",
+            "altAnswer1": "FLOW",
+            "altAnswer2": "LiSA",
+            "altAnswer3": "Asian Kung-Fu Generation"
+        },
+        {
+            "question": "In Samurai Champloo what music style heavily influences the soundtrack?",
+            "correctAnswer": "Hip-hop",
+            "altAnswer1": "Classical",
+            "altAnswer2": "Opera",
+            "altAnswer3": "Jazz"
+        },
+        {
+            "question": "Which studio created Durarara!!?",
+            "correctAnswer": "Brains Base",
+            "altAnswer1": "Madhouse",
+            "altAnswer2": "Bones",
+            "altAnswer3": "Sunrise"
+        },
+        {
+            "question": "What is the opening theme for Gurren Lagann?",
+            "correctAnswer": "Sorairo Days",
+            "altAnswer1": "Kimi No Sei",
+            "altAnswer2": "Kaikai Kitan",
+            "altAnswer3": "Redo"
+        },
+        {
+            "question": "Which J-pop artist sang the opening 'Haruka Mirai' for Saint Seiya \u03a9?",
+            "correctAnswer": "Clover",
+            "altAnswer1": "LiSA",
+            "altAnswer2": "Aimer",
+            "altAnswer3": "Eir Aoi"
+        },
+        {
+            "question": "In Yuri!!! on Ice what is the protagonist\u2019s sport?",
+            "correctAnswer": "Figure skating",
+            "altAnswer1": "Snowboarding",
+            "altAnswer2": "Ice hockey",
+            "altAnswer3": "Speed skating"
+        },
+        {
+            "question": "Which studio produced Dragon Ball Z?",
+            "correctAnswer": "Toei Animation",
+            "altAnswer1": "Madhouse",
+            "altAnswer2": "Bones",
+            "altAnswer3": "Sunrise"
+        },
+        {
+            "question": "What is the opening theme of Kill la Kill?",
+            "correctAnswer": "Sirius",
+            "altAnswer1": "Rise",
+            "altAnswer2": "Redo",
+            "altAnswer3": "Platinum"
+        },
+        {
+            "question": "Which J-pop band performed the opening 'The Hero!! ~Ikuze! Ky\u016bkyoku Zenith Form~' for One Punch Man?",
+            "correctAnswer": "Jam Project",
+            "altAnswer1": "LiSA",
+            "altAnswer2": "FLOW",
+            "altAnswer3": "Asian Kung-Fu Generation"
+        },
+        {
+            "question": "In Kaguya-sama: Love is War what student council position does Kaguya Shinomiya hold?",
+            "correctAnswer": "Vice President",
+            "altAnswer1": "President",
+            "altAnswer2": "Secretary",
+            "altAnswer3": "Treasurer"
+        },
+        {
+            "question": "Which studio produced Wolf Children?",
+            "correctAnswer": "Studio Chizu",
+            "altAnswer1": "Madhouse",
+            "altAnswer2": "Bones",
+            "altAnswer3": "Sunrise"
+        },
+        {
+            "question": "What is the opening theme for Assassination Classroom?",
+            "correctAnswer": "Seishun Scream",
+            "altAnswer1": "Tabibito",
+            "altAnswer2": "Orange",
+            "altAnswer3": "Crossing Field"
+        },
+        {
+            "question": "Which J-pop singer performed the opening 'Brave Name' for Sword Art Online Alicization?",
+            "correctAnswer": "ReoNa",
+            "altAnswer1": "LiSA",
+            "altAnswer2": "Aimer",
+            "altAnswer3": "Eir Aoi"
+        },
+        {
+            "question": "In Vinland Saga what historical group serves as the antagonists in season 1?",
+            "correctAnswer": "Danes",
+            "altAnswer1": "Vikings",
+            "altAnswer2": "Saxons",
+            "altAnswer3": "Romans"
+        },
+        {
+            "question": "Which studio animated Fate/Zero?",
+            "correctAnswer": "Ufotable",
+            "altAnswer1": "Madhouse",
+            "altAnswer2": "Bones",
+            "altAnswer3": "Sunrise"
+        },
+        {
+            "question": "What is the opening theme of Made in Abyss?",
+            "correctAnswer": "Deep in Crevasse",
+            "altAnswer1": "Snow Fairy",
+            "altAnswer2": "Again",
+            "altAnswer3": "Yoru wa Nemureru kai?"
+        },
+        {
+            "question": "Which J-pop band performed the opening 'Ready Steady Go' for Fullmetal Alchemist (2003)?",
+            "correctAnswer": "L'Arc~en~Ciel",
+            "altAnswer1": "LiSA",
+            "altAnswer2": "FLOW",
+            "altAnswer3": "Aimer"
+        },
+        {
+            "question": "In Cowboy Bebop what is the name of the jazz club played at the end of the final episode?",
+            "correctAnswer": "Blue",
+            "altAnswer1": "Red Bar",
+            "altAnswer2": "Green Lounge",
+            "altAnswer3": "Black Hole"
+        },
+        {
+            "question": "Which studio produced The Melancholy of Haruhi Suzumiya?",
+            "correctAnswer": "Kyoto Animation",
+            "altAnswer1": "Madhouse",
+            "altAnswer2": "Bones",
+            "altAnswer3": "Sunrise"
+        },
+        {
+            "question": "What is the opening theme of Toradora!?",
+            "correctAnswer": "Pre-Parade",
+            "altAnswer1": "Again",
+            "altAnswer2": "Koi wo Shitai",
+            "altAnswer3": "Crossing Field"
+        },
+        {
+            "question": "Which J-pop singer performed the opening 'Cerulean Blue' for YU-YU Hakusho?",
+            "correctAnswer": "Hiro Takami",
+            "altAnswer1": "LiSA",
+            "altAnswer2": "Aimer",
+            "altAnswer3": "FLOW"
+        },
+        {
+            "question": "Which studio produced Black Lagoon?",
+            "correctAnswer": "Madhouse",
+            "altAnswer1": "Bones",
+            "altAnswer2": "Sunrise",
+            "altAnswer3": "Production I.G."
+        },
+        {
+            "question": "What is the opening theme of No Game No Life?",
+            "correctAnswer": "This Game",
+            "altAnswer1": "Again",
+            "altAnswer2": "Redo",
+            "altAnswer3": "Crossing Field"
+        },
+        {
+            "question": "Which J-pop artist performed the opening 'Realize' for Re:Zero?",
+            "correctAnswer": "Konomi Suzuki",
+            "altAnswer1": "LiSA",
+            "altAnswer2": "Aimer",
+            "altAnswer3": "Eir Aoi"
+        },
+        {
+            "question": "In Samurai Champloo what historical era is depicted in an anachronistic style?",
+            "correctAnswer": "Edo",
+            "altAnswer1": "Meiji",
+            "altAnswer2": "Heian",
+            "altAnswer3": "Tokugawa"
+        },
+        {
+            "question": "Which studio produced The Girl Who Leapt Through Time (2006)?",
+            "correctAnswer": "Madhouse",
+            "altAnswer1": "Sunrise",
+            "altAnswer2": "Bones",
+            "altAnswer3": "Studio Ghibli"
+        },
+        {
+            "question": "What is the opening theme of Wonder Egg Priority?",
+            "correctAnswer": "Fukashigi no Carte",
+            "altAnswer1": "Again",
+            "altAnswer2": "Redo",
+            "altAnswer3": "Crossing Field"
+        },
+        {
+            "question": "Which J-pop band performed 'Sorairo Days' for Gurren Lagann?",
+            "correctAnswer": "Shoko Nakagawa",
+            "altAnswer1": "LiSA",
+            "altAnswer2": "FLOW",
+            "altAnswer3": "Eir Aoi"
+        },
+        {
+            "question": "In Granblue Fantasy what element is the protagonist\u2019s sky-ship associated with?",
+            "correctAnswer": "Sky",
+            "altAnswer1": "Water",
+            "altAnswer2": "Earth",
+            "altAnswer3": "Fire"
+        },
+        {
+            "question": "Which studio produced Kill la Kill?",
+            "correctAnswer": "Trigger",
+            "altAnswer1": "Sunrise",
+            "altAnswer2": "Madhouse",
+            "altAnswer3": "Bones"
+        },
+        {
+            "question": "What is the opening theme of Blue Exorcist?",
+            "correctAnswer": "Core Pride",
+            "altAnswer1": "Again",
+            "altAnswer2": "Redo",
+            "altAnswer3": "Crossing Field"
+        },
+        {
+            "question": "Which J-pop singer performed the opening 'Inferno' for Fire Force?",
+            "correctAnswer": "Mrs. Green Apple",
+            "altAnswer1": "LiSA",
+            "altAnswer2": "Aimer",
+            "altAnswer3": "Eir Aoi"
+        },
+        {
+            "question": "In When They Cry - Higurashi what is the name of the village with mysterious murders?",
+            "correctAnswer": "Hinamizawa",
+            "altAnswer1": "Hinata Town",
+            "altAnswer2": "Hikari Village",
+            "altAnswer3": "Matsuri Town"
+        },
+        {
+            "question": "Which studio created Yuri!!! on Ice?",
+            "correctAnswer": "MAPPA",
+            "altAnswer1": "Madhouse",
+            "altAnswer2": "Bones",
+            "altAnswer3": "Production I.G."
+        },
+        {
+            "question": "What is the opening theme of Cells at Work!?",
+            "correctAnswer": "Mission! Health!",
+            "altAnswer1": "Again",
+            "altAnswer2": "Redo",
+            "altAnswer3": "Crossing Field"
+        },
+        {
+            "question": "What is the ability called that allows characters in My Hero Academia to manifest superpowers?",
+            "correctAnswer": "Quirk",
+            "altAnswer1": "Chakra",
+            "altAnswer2": "Stigma",
+            "altAnswer3": "Devil Fruit"
+        },
+        {
+            "question": "In Naruto, what is the name of the nine\u2011tailed fox enclosed in the Hidden Leaf Village?",
+            "correctAnswer": "Kurama",
+            "altAnswer1": "Gy\u016bki",
+            "altAnswer2": "Isobu",
+            "altAnswer3": "Matatabi"
+        },
+        {
+            "question": "In Attack on Titan, what is the name of the wall closest to the outside (outermost) protecting humanity?",
+            "correctAnswer": "Wall Maria",
+            "altAnswer1": "Wall Rose",
+            "altAnswer2": "Wall Sina",
+            "altAnswer3": "Wall Eden"
+        },
+        {
+            "question": "In One Piece, what is Luffy\u2019s ultimate goal?",
+            "correctAnswer": "To become the Pirate King",
+            "altAnswer1": "To find the One True Treasure",
+            "altAnswer2": "To conquer the Grand Line",
+            "altAnswer3": "To become the strongest swordsman"
+        },
+        {
+            "question": "In Dragon Ball Z, what is the name of the energy-blast technique primarily used by Goku?",
+            "correctAnswer": "Kamehameha",
+            "altAnswer1": "Spirit Bomb",
+            "altAnswer2": "Final Flash",
+            "altAnswer3": "Destructo Disk"
+        },
+        {
+            "question": "In Fullmetal Alchemist: Brotherhood, what principle states that to gain something one must lose something of equal value?",
+            "correctAnswer": "Law of Equivalent Exchange",
+            "altAnswer1": "Law of Reciprocity",
+            "altAnswer2": "Principle of Balanced Power",
+            "altAnswer3": "Rule of Equal Trade"
+        },
+        {
+            "question": "In Bleach, what is the name of the type of sword used by Soul Reapers?",
+            "correctAnswer": "Zanpakut\u014d",
+            "altAnswer1": "Bankai",
+            "altAnswer2": "Shikai",
+            "altAnswer3": "Reiryoku"
+        },
+        {
+            "question": "In Hunter \u00d7 Hunter, what is the name of the deadly test one must pass to officially become a Hunter?",
+            "correctAnswer": "Hunter Exam",
+            "altAnswer1": "Chimera Test",
+            "altAnswer2": "Nen Trial",
+            "altAnswer3": "Hunter Initiation"
+        },
+        {
+            "question": "In Tokyo Ghoul, what is the name of the caf\u00e9 where many ghouls gather and that serves as a safe haven?",
+            "correctAnswer": "Anteiku",
+            "altAnswer1": "Caf\u00e9 Reaper",
+            "altAnswer2": "Ghoul Lounge",
+            "altAnswer3": "Midnight Brew"
+        },
+        {
+            "question": "In Your Name, what are the names of the two teenagers who swap bodies?",
+            "correctAnswer": "Taki Tachibana and Mitsuha Miyamizu",
+            "altAnswer1": "Hiro and Saki",
+            "altAnswer2": "Takumi and Yui",
+            "altAnswer3": "Ren and Aoi"
+        },
+        {
+            "question": "In Demon Slayer, what is the title given to the elite demon-slaying swordsmen?",
+            "correctAnswer": "Hashira",
+            "altAnswer1": "Pillars",
+            "altAnswer2": "Knights of Slayers",
+            "altAnswer3": "Blade Legion"
+        },
+        {
+            "question": "In Black Clover, what is the magic type that protagonist Asta uniquely possesses?",
+            "correctAnswer": "Anti-Magic",
+            "altAnswer1": "Null Magic",
+            "altAnswer2": "Void Magic",
+            "altAnswer3": "Dark Magic"
+        },
+        {
+            "question": "In Mob Psycho 100, what is the name of the psychic middle-schooler protagonist?",
+            "correctAnswer": "Shigeo Kageyama",
+            "altAnswer1": "Ritsu Kageyama",
+            "altAnswer2": "Dimple",
+            "altAnswer3": "Teruki Hanazawa"
+        },
+        {
+            "question": "In Erased, what is the special ability the protagonist uses to go back in time?",
+            "correctAnswer": "Time-leap",
+            "altAnswer1": "Chrono-shift",
+            "altAnswer2": "Temporal Jump",
+            "altAnswer3": "Memory Rewind"
+        },
+        {
+            "question": "In The Promised Neverland, what is the name of the orphanage farm where the children live?",
+            "correctAnswer": "Grace Field House",
+            "altAnswer1": "Hope Valley Orphanage",
+            "altAnswer2": "Diamond Farm",
+            "altAnswer3": "Green Meadow Manor"
+        },
+        {
+            "question": "In Yuri!!! on Ice, what sport does the protagonist practice?",
+            "correctAnswer": "Figure skating",
+            "altAnswer1": "Snowboarding",
+            "altAnswer2": "Ice hockey",
+            "altAnswer3": "Speed skating"
+        },
+        {
+            "question": "In Haikyuu!!, what is the position of Sh\u014dy\u014d Hinata on his volleyball team?",
+            "correctAnswer": "Middle blocker (nominally)",
+            "altAnswer1": "Setter",
+            "altAnswer2": "Opposite hitter",
+            "altAnswer3": "Libero"
+        },
+        {
+            "question": "In One Punch Man, what is the hero name of the protagonist who can defeat any foe with one punch?",
+            "correctAnswer": "Saitama",
+            "altAnswer1": "Genos",
+            "altAnswer2": "Tatsumaki",
+            "altAnswer3": "King"
+        },
+        {
+            "question": "In Sword Art Online, what is the name of the first virtual reality game Kirito plays?",
+            "correctAnswer": "Sword Art Online (SAO)",
+            "altAnswer1": "ALfheim Online",
+            "altAnswer2": "Gun Gale Online",
+            "altAnswer3": "Underworld Online"
+        },
+        {
+            "question": "In Made in Abyss, what is the mysterious huge hole called where explorers descend?",
+            "correctAnswer": "The Abyss",
+            "altAnswer1": "The Pit",
+            "altAnswer2": "The Chasm",
+            "altAnswer3": "The Void"
+        },
+        {
+            "question": "In Assassination Classroom, what is the creature the students are tasked with killing?",
+            "correctAnswer": "Koro-sensei",
+            "altAnswer1": "Octo-master",
+            "altAnswer2": "Tentacle Teacher",
+            "altAnswer3": "Alien Mentor"
+        },
+        {
+            "question": "In Y\u016b Y\u016b Hakusho, what is the title given to Yusuke Urameshi after his death and return?",
+            "correctAnswer": "Spirit Detective",
+            "altAnswer1": "Soul Guardian",
+            "altAnswer2": "Spectre Investigator",
+            "altAnswer3": "Ethereal Agent"
+        },
+        {
+            "question": "In Toradora!, what is the nickname given to Taiga Aisaka?",
+            "correctAnswer": "Palm-top Tiger",
+            "altAnswer1": "Pocket Panther",
+            "altAnswer2": "Tiny Lioness",
+            "altAnswer3": "Mini Tigress"
+        },
+        {
+            "question": "In Clannad, what is the name of the high school the characters attend?",
+            "correctAnswer": "Hikarizaka High",
+            "altAnswer1": "Yokohama High",
+            "altAnswer2": "Sakura High",
+            "altAnswer3": "Kamura High"
+        },
+        {
+            "question": "In Death Note, what is the Shinigami who drops the Death Note into the human world?",
+            "correctAnswer": "Ryuk",
+            "altAnswer1": "Rem",
+            "altAnswer2": "Sidoh",
+            "altAnswer3": "Gelus"
+        },
+        {
+            "question": "In Cowboy Bebop, what is the name of the main bounty-hunting spaceship the protagonists travel on?",
+            "correctAnswer": "Bebop",
+            "altAnswer1": "Swordfish I",
+            "altAnswer2": "Red Dragon",
+            "altAnswer3": "Blue Thunder"
+        },
+        {
+            "question": "In Steins;Gate, what is the serious name for the time machine they build?",
+            "correctAnswer": "Phone Microwave (name subject to change)",
+            "altAnswer1": "Future Gadget No.8",
+            "altAnswer2": "Time Diver",
+            "altAnswer3": "Chrono Engine"
+        },
+        {
+            "question": "In My Hero Academia, what is the name of the prestigious hero school attended by Izuku Midoriya?",
+            "correctAnswer": "U.A. High School",
+            "altAnswer1": "Hero Institute",
+            "altAnswer2": "Metro Hero Academy",
+            "altAnswer3": "Plus Ultra High"
+        },
+        {
+            "question": "In Naruto, what is the village hidden in the leaves called?",
+            "correctAnswer": "Konohagakure (Hidden Leaf Village)",
+            "altAnswer1": "Sunagakure (Hidden Sand Village)",
+            "altAnswer2": "Kirigakure (Hidden Mist Village)",
+            "altAnswer3": "Kumogakure (Hidden Cloud Village)"
+        },
+        {
+            "question": "In Dragon Ball Z, what is Goku\u2019s Saiyan birth name?",
+            "correctAnswer": "Kakarot",
+            "altAnswer1": "Vegeta",
+            "altAnswer2": "Raditz",
+            "altAnswer3": "Nappa"
+        },
+        {
+            "question": "In One Piece, what is the name of the swordsman of the Straw Hat Pirates?",
+            "correctAnswer": "Roronoa Zoro",
+            "altAnswer1": "Sanji",
+            "altAnswer2": "Usopp",
+            "altAnswer3": "Brook"
+        },
+        {
+            "question": "In Bleach, what is the name of Ichigo Kurosaki\u2019s Shinigami alter-ego sword form?",
+            "correctAnswer": "Bankai",
+            "altAnswer1": "Hollow Form",
+            "altAnswer2": "Resurrection",
+            "altAnswer3": "Fullbring"
+        },
+        {
+            "question": "In Tokyo Ghoul, what is Kaneki\u2019s half-human, half-ghoul codename?",
+            "correctAnswer": "One-Eyed Ghoul",
+            "altAnswer1": "Eyepatch",
+            "altAnswer2": "Red Mask",
+            "altAnswer3": "Ghoul Hunter"
+        },
+        {
+            "question": "In Fairy Tail, what guild does Lucy Heartfilia join at the start?",
+            "correctAnswer": "Fairy Tail Guild",
+            "altAnswer1": "Lamplight Guild",
+            "altAnswer2": "Blue Pegasus Guild",
+            "altAnswer3": "Sabertooth Guild"
+        },
+        {
+            "question": "In Sword Art Online, what is the name of the virtual reality helmet device that traps players?",
+            "correctAnswer": "NerveGear",
+            "altAnswer1": "AmuSphere",
+            "altAnswer2": "DiveGear",
+            "altAnswer3": "G-Gear"
+        },
+        {
+            "question": "In Black Clover, which Grimoire color is typically held by someone destined for royalty (in series lore a rarity)?",
+            "correctAnswer": "Five-leaf/rare grimoire (unique)",
+            "altAnswer1": "Two-leaf",
+            "altAnswer2": "Three-leaf",
+            "altAnswer3": "Four-leaf"
+        },
+        {
+            "question": "In Haikyuu!!, what is the nickname given to the Karasuno High volleyball team?",
+            "correctAnswer": "The Flight of the Crows",
+            "altAnswer1": "The Eagle Spikers",
+            "altAnswer2": "The Blue Titans",
+            "altAnswer3": "The Red Raptors"
+        },
+        {
+            "question": "In One Punch Man, what is the name of Saitama\u2019s disciple?",
+            "correctAnswer": "Genos",
+            "altAnswer1": "Tatsumaki",
+            "altAnswer2": "King",
+            "altAnswer3": "Mumen Rider"
+        },
+        {
+            "question": "In The Promised Neverland, what are the children trying to escape from when they learn the truth about the farm?",
+            "correctAnswer": "Being sold as demons\u2019 food",
+            "altAnswer1": "Being adopted by aliens",
+            "altAnswer2": "Being sent to war",
+            "altAnswer3": "Being used for experiments"
+        },
+        {
+            "question": "In Made in Abyss, what is given to White Whistles to assist them in the Abyss?",
+            "correctAnswer": "Relics",
+            "altAnswer1": "God-tools",
+            "altAnswer2": "Divine Artifacts",
+            "altAnswer3": "Elder Scrolls"
+        },
+        {
+            "question": "In Erased, how many minutes back in time does the protagonist first jump when he is sent back to his childhood?",
+            "correctAnswer": "18 minutes",
+            "altAnswer1": "10 minutes",
+            "altAnswer2": "24 minutes",
+            "altAnswer3": "36 minutes"
+        },
+        {
+            "question": "In Yuri!!! on Ice, who is Victor Nikiforov encouraging in his program to achieve gold at the Grand Prix Final?",
+            "correctAnswer": "Yuuri Katsuki",
+            "altAnswer1": "Christophe Giacometti",
+            "altAnswer2": "Phichit Chulanont",
+            "altAnswer3": "Yakov Feltsman"
+        },
+        {
+            "question": "In Toradora!, what is the name of the shy, polite boy who is Taiga\u2019s classmate and fellow main character?",
+            "correctAnswer": "Ry\u016bji Takasu",
+            "altAnswer1": "Y\u016bsaku Kitamura",
+            "altAnswer2": "K\u014dsei Arima",
+            "altAnswer3": "Haru Yoshida"
+        },
+        {
+            "question": "In Clannad, what supernatural phenomenon appears behind the school as the After Story arc progresses?",
+            "correctAnswer": "Light orbs (Dango motif)",
+            "altAnswer1": "Falling blossoms",
+            "altAnswer2": "Moon tears",
+            "altAnswer3": "Star blossoms"
+        },
+        {
+            "question": "In Assassination Classroom, what super-speed move does Koro-sensei famously use to travel around the world in seconds?",
+            "correctAnswer": "Mach 20",
+            "altAnswer1": "Hypersonic 15",
+            "altAnswer2": "Lightning 10",
+            "altAnswer3": "Turbo 8"
+        },
+        {
+            "question": "In Death Note, what alias does Light Yagami use when operating as a god of a new world?",
+            "correctAnswer": "Kira",
+            "altAnswer1": "Ryuzaki",
+            "altAnswer2": "Thomas L",
+            "altAnswer3": "Shinigami X"
+        },
+        {
+            "question": "In Cowboy Bebop, which planet is Spike Spiegel originally from?",
+            "correctAnswer": "Mars",
+            "altAnswer1": "Jupiter",
+            "altAnswer2": "Mercury",
+            "altAnswer3": "Neptune"
+        },
+        {
+            "question": "In My Hero Academia, what is the name of the villain-organization seeking to destroy hero society?",
+            "correctAnswer": "League of Villains",
+            "altAnswer1": "Shadow Society",
+            "altAnswer2": "Anti-Hero Crew",
+            "altAnswer3": "Dark Alliance"
+        },
+        {
+            "question": "In Tokyo Ghoul, what is the special cell type associated with ghouls?",
+            "correctAnswer": "RC cells",
+            "altAnswer1": "Ghoul Cells",
+            "altAnswer2": "Kakugan Cells",
+            "altAnswer3": "RC Apparatus"
+        },
+        {
+            "question": "In Dragon Ball Z, what event awakens Goku\u2019s Super Saiyan form originally?",
+            "correctAnswer": "Seeing Krillin killed by Frieza",
+            "altAnswer1": "Witnessing Vegeta's defeat",
+            "altAnswer2": "Master Roshi's death",
+            "altAnswer3": "A blast of energy"
+        },
+        {
+            "question": "In Bleach, what is the name of the realm where Soul Reapers and Hollows reside?",
+            "correctAnswer": "Soul Society",
+            "altAnswer1": "Hueco Mundo",
+            "altAnswer2": "Spirit World",
+            "altAnswer3": "Nether Realm"
+        },
+        {
+            "question": "In Naruto, what technique do ninjas use to summon animals like toads?",
+            "correctAnswer": "Summoning Jutsu",
+            "altAnswer1": "Henge",
+            "altAnswer2": "Shadow Clone",
+            "altAnswer3": "Summon Seal"
+        },
+        {
+            "question": "In One Piece, what is the name of the shipwright Franky\u2019s notable ship?",
+            "correctAnswer": "Thousand Sunny",
+            "altAnswer1": "Going Merry",
+            "altAnswer2": "Red Force",
+            "altAnswer3": "Oro Jackson"
+        },
+        {
+            "question": "In Fullmetal Alchemist: Brotherhood, what name is given to the homunculi\u2019s creator?",
+            "correctAnswer": "Father",
+            "altAnswer1": "Father Van Hohenheim",
+            "altAnswer2": "Hohenheim",
+            "altAnswer3": "Father of Alchemy"
+        },
+        {
+            "question": "In Haikyuu!!, what exercise does Hinata practice to increase his vertical leap?",
+            "correctAnswer": "Jump training and repeated spiking",
+            "altAnswer1": "Running long distances",
+            "altAnswer2": "Weightlifting",
+            "altAnswer3": "Swimming"
+        },
+        {
+            "question": "In Black Clover, what job do protagonists often perform when not on missions?",
+            "correctAnswer": "Cleaning and support tasks",
+            "altAnswer1": "Elite patrols",
+            "altAnswer2": "Dragon slaying",
+            "altAnswer3": "Royal guard duty"
+        },
+        {
+            "question": "In Yuri!!! on Ice, what country is Yuuri Katsuki from?",
+            "correctAnswer": "Japan",
+            "altAnswer1": "Russia",
+            "altAnswer2": "Ukraine",
+            "altAnswer3": "Canada"
+        },
+        {
+            "question": "In Erased, what is Satoru Fujinuma\u2019s job before his ability becomes central to the plot?",
+            "correctAnswer": "Delivery man",
+            "altAnswer1": "Teacher",
+            "altAnswer2": "Detective",
+            "altAnswer3": "Doctor"
+        },
+        {
+            "question": "In Made in Abyss, what adverse condition affects those ascending too quickly?",
+            "correctAnswer": "Curse of the Abyss (reverse ascent syndrome)",
+            "altAnswer1": "Depth Sickness",
+            "altAnswer2": "Pressure Collapse",
+            "altAnswer3": "Abyss Fever"
+        },
+        {
+            "question": "In Toradora!, what is Taiga Aisaka\u2019s notable personality trait?",
+            "correctAnswer": "Short temper and fierce independence",
+            "altAnswer1": "Timid and shy",
+            "altAnswer2": "Clingy and loud",
+            "altAnswer3": "Forgetful and dreamy"
+        },
+        {
+            "question": "In Clannad, what family treat recurs frequently as a motif?",
+            "correctAnswer": "Dango",
+            "altAnswer1": "Mochi",
+            "altAnswer2": "Dorayaki",
+            "altAnswer3": "Taiyaki"
+        },
+        {
+            "question": "In Assassination Classroom, what number is associated with Koro-sensei?",
+            "correctAnswer": "373",
+            "altAnswer1": "707",
+            "altAnswer2": "525",
+            "altAnswer3": "999"
+        },
+        {
+            "question": "In Tokyo Ghoul, what is the organization of ghoul investigators called?",
+            "correctAnswer": "CCG",
+            "altAnswer1": "GHO",
+            "altAnswer2": "NISA",
+            "altAnswer3": "AGH"
+        },
+        {
+            "question": "In My Hero Academia, what phrase is used as U.A. High\u2019s motto?",
+            "correctAnswer": "Plus Ultra!",
+            "altAnswer1": "Go Beyond!",
+            "altAnswer2": "Hero Rise!",
+            "altAnswer3": "Never Back Down!"
+        },
+        {
+            "question": "In Death Note, what object is used by Light to write names that cause death?",
+            "correctAnswer": "Death Note",
+            "altAnswer1": "Reaper's Diary",
+            "altAnswer2": "Grim Notebook",
+            "altAnswer3": "Shinigami Journal"
+        },
+        {
+            "question": "In One Punch Man, what is the classification system used by the Hero Association?",
+            "correctAnswer": "S-Class, A-Class, B-Class, C-Class",
+            "altAnswer1": "Rank 1\u2013100",
+            "altAnswer2": "Tier System",
+            "altAnswer3": "Battle Levels"
+        },
+        {
+            "question": "In Fairy Tail, what celestial spirit is summoned by Lucy using the Leo key?",
+            "correctAnswer": "Leo the Lion",
+            "altAnswer1": "Virgo the Maiden",
+            "altAnswer2": "Scorpio the Scorpion",
+            "altAnswer3": "Gemini the Twins"
+        },
+        {
+            "question": "In Hunter \u00d7 Hunter, what ability system allows users to manipulate life energy?",
+            "correctAnswer": "Nen",
+            "altAnswer1": "Chakra",
+            "altAnswer2": "Quirk",
+            "altAnswer3": "Alchemy"
+        },
+        {
+            "question": "In Steins;Gate, what concept describes different timelines?",
+            "correctAnswer": "Worldlines",
+            "altAnswer1": "Time Loops",
+            "altAnswer2": "Quantum Splits",
+            "altAnswer3": "Chrono Branches"
+        },
+        {
+            "question": "In Naruto, what tool do ninjas use to teleport between summoning locations?",
+            "correctAnswer": "Summoning Jutsu",
+            "altAnswer1": "Flying Scrolls",
+            "altAnswer2": "Kuchiyose No Jutsu",
+            "altAnswer3": "Teleport Seal"
+        },
+        {
+            "question": "In Dragon Ball Z, what race is Vegeta from?",
+            "correctAnswer": "Saiyan",
+            "altAnswer1": "Namekian",
+            "altAnswer2": "Android",
+            "altAnswer3": "Human"
+        },
+        {
+            "question": "In Bleach, what is the name given to the release form of a Zanpakut\u014d?",
+            "correctAnswer": "Shikai/Bankai",
+            "altAnswer1": "Hollowfication",
+            "altAnswer2": "Fullbring",
+            "altAnswer3": "Resurrection"
+        },
+        {
+            "question": "In Yuri!!! on Ice, who is Yuuri\u2019s close friend from Thailand who often supports him?",
+            "correctAnswer": "Phichit Chulanont",
+            "altAnswer1": "Christophe Giacometti",
+            "altAnswer2": "Magnus",
+            "altAnswer3": "Yakov"
+        },
+        {
+            "question": "In Tokyo Ghoul, what physical weapon-like organ do ghouls use?",
+            "correctAnswer": "Kagune",
+            "altAnswer1": "Gourmet Jaw",
+            "altAnswer2": "Ghoulish Claw",
+            "altAnswer3": "RC Blade"
+        },
+        {
+            "question": "In Black Clover, who is Asta\u2019s rival and friend who uses wind magic?",
+            "correctAnswer": "Yuno",
+            "altAnswer1": "Noel",
+            "altAnswer2": "Mars",
+            "altAnswer3": "Nozel"
+        },
+        {
+            "question": "In Erased, which classmate\u2019s murder does Satoru try to prevent?",
+            "correctAnswer": "Kayo Hinazuki",
+            "altAnswer1": "Airi Okazaki",
+            "altAnswer2": "Sachiko Fujinuma",
+            "altAnswer3": "Uemura"
+        },
+        {
+            "question": "In Made in Abyss, what is the common term for explorers?",
+            "correctAnswer": "Cave Raiders",
+            "altAnswer1": "Deep Divers",
+            "altAnswer2": "Pit Walkers",
+            "altAnswer3": "Abyssalists"
+        },
+        {
+            "question": "In Toradora!, what does Ry\u016bji Takasu\u2019s face commonly get mistaken for?",
+            "correctAnswer": "Scary/mean despite kind personality",
+            "altAnswer1": "Friendly",
+            "altAnswer2": "Infantile",
+            "altAnswer3": "Noble"
+        },
+        {
+            "question": "In Clannad, what is the town where Tomoya lives?",
+            "correctAnswer": "Hikarizaka",
+            "altAnswer1": "Sakura Town",
+            "altAnswer2": "Yokohama",
+            "altAnswer3": "Kita City"
+        },
+        {
+            "question": "In Assassination Classroom, what is Koro-sensei\u2019s top speed?",
+            "correctAnswer": "Mach 20",
+            "altAnswer1": "Hypersonic 10",
+            "altAnswer2": "Speed of Sound",
+            "altAnswer3": "Mach 2"
+        },
+        {
+            "question": "In My Hero Academia, who passes on the One For All Quirk to Izuku?",
+            "correctAnswer": "All Might",
+            "altAnswer1": "Endeavor",
+            "altAnswer2": "Hawks",
+            "altAnswer3": "All For One"
+        },
+        {
+            "question": "In One Piece, what is Luffy\u2019s Devil Fruit type?",
+            "correctAnswer": "Gum-Gum Fruit (Paramecia)",
+            "altAnswer1": "Flame-Flame Fruit",
+            "altAnswer2": "Fish-Fish Fruit",
+            "altAnswer3": "Dark-Dark Fruit"
+        },
+        {
+            "question": "In Dragon Ball Z, what transformation multiplies a Saiyan\u2019s power with a tail?",
+            "correctAnswer": "Great Ape (Oozaru)",
+            "altAnswer1": "Super Saiyan",
+            "altAnswer2": "Kaioken",
+            "altAnswer3": "Ultra Instinct"
+        },
+        {
+            "question": "In Bleach, who is the captain of the 13th Division and mentor to Ichigo?",
+            "correctAnswer": "J\u016bshir\u014d Ukitake/ or by plot specifics various captains",
+            "altAnswer1": "Byakuya Kuchiki",
+            "altAnswer2": "S\u014dsuke Aizen",
+            "altAnswer3": "Genry\u016bsai Shigekuni Yamamoto"
+        },
+        {
+            "question": "In which shojo classic does a girl disguise herself as a boy to attend an all-boys school?",
+            "correctAnswer": "Hana-Kimi (Hanazakari no Kimitachi e)",
+            "altAnswer1": "Ouran High School Host Club",
+            "altAnswer2": "Fruits Basket",
+            "altAnswer3": "Skip-Beat!"
+        },
+        {
+            "question": "What shoujo series features a girl who becomes an idol trainee after a life-changing event?",
+            "correctAnswer": "Perfect Blue (related themes)",
+            "altAnswer1": "K-On!",
+            "altAnswer2": "Love Live!",
+            "altAnswer3": "Aikatsu!"
+        },
+        {
+            "question": "In shojo manga terms, what does 'bishonen' refer to?",
+            "correctAnswer": "Beautiful young men",
+            "altAnswer1": "Young heroines",
+            "altAnswer2": "Villains",
+            "altAnswer3": "Sidekicks"
+        },
+        {
+            "question": "What term describes a romantic 'will they/won't they' pacing common in shojo?",
+            "correctAnswer": "Slow-burn romance",
+            "altAnswer1": "Action-romance",
+            "altAnswer2": "Slice-of-life",
+            "altAnswer3": "Battle-romance"
+        },
+        {
+            "question": "Which shojo often explores themes of finding oneself through music?",
+            "correctAnswer": "Nodame Cantabile / Given / Nana",
+            "altAnswer1": "Attack on Titan",
+            "altAnswer2": "One Piece",
+            "altAnswer3": "Naruto"
+        },
+        {
+            "question": "What is a common shojo setting for character development and romance?",
+            "correctAnswer": "High school",
+            "altAnswer1": "Space station",
+            "altAnswer2": "Underwater city",
+            "altAnswer3": "Desert planet"
+        },
+        {
+            "question": "Which shojo anime focuses on pastry school and competitions?",
+            "correctAnswer": "Yumeiro Patissiere",
+            "altAnswer1": "Shokugeki no Soma",
+            "altAnswer2": "Bakuman",
+            "altAnswer3": "Barakamon"
+        },
+        {
+            "question": "In shojo, what does 'otome' often reference?",
+            "correctAnswer": "Maiden/romantic lead or genre of dating-sim games",
+            "altAnswer1": "Battle strategy",
+            "altAnswer2": "Ancient war",
+            "altAnswer3": "Stock trading"
+        },
+        {
+            "question": "Name a shoujo series where supernatural spirits and romance intersect.",
+            "correctAnswer": "Natsume's Book of Friends",
+            "altAnswer1": "Dragon Ball Z",
+            "altAnswer2": "One Punch Man",
+            "altAnswer3": "Fullmetal Alchemist"
+        },
+        {
+            "question": "What classic shojo author wrote 'The Rose of Versailles'?",
+            "correctAnswer": "Ryoko Ikeda",
+            "altAnswer1": "Clamp",
+            "altAnswer2": "Naoko Takeuchi",
+            "altAnswer3": "Ai Yazawa"
+        },
+        {
+            "question": "In Fruits Basket what animal spirit is Kyo Soma associated with?",
+            "correctAnswer": "Cat",
+            "altAnswer1": "Rat",
+            "altAnswer2": "Ox",
+            "altAnswer3": "Tiger"
+        },
+        {
+            "question": "In Ouran High School Host Club what is Haruhi Fujioka initially mistaken for?",
+            "correctAnswer": "A boy",
+            "altAnswer1": "A girl",
+            "altAnswer2": "A celebrity",
+            "altAnswer3": "A butler"
+        },
+        {
+            "question": "In Cardcaptor Sakura what are the magical items Sakura must capture?",
+            "correctAnswer": "Clow Cards",
+            "altAnswer1": "Star Cards",
+            "altAnswer2": "Moon Cards",
+            "altAnswer3": "Spirit Cards"
+        },
+        {
+            "question": "What is the nickname given to Sawako in Kimi ni Todoke that causes misunderstanding?",
+            "correctAnswer": "Sadako",
+            "altAnswer1": "Scare-face",
+            "altAnswer2": "Silent Girl",
+            "altAnswer3": "Wind Belle"
+        },
+        {
+            "question": "In Lovely\u2605Complex what is the main couple\u2019s height dynamic?",
+            "correctAnswer": "Tall boy, short girl mismatch",
+            "altAnswer1": "Both tall",
+            "altAnswer2": "Both short",
+            "altAnswer3": "Short boy, tall girl"
+        },
+        {
+            "question": "What instrument does Nodame play in Nodame Cantabile?",
+            "correctAnswer": "Piano",
+            "altAnswer1": "Violin",
+            "altAnswer2": "Cello",
+            "altAnswer3": "Flute"
+        },
+        {
+            "question": "In Princess Jellyfish what is the name of the apartment building the otaku women live in?",
+            "correctAnswer": "Amamizukan",
+            "altAnswer1": "Otaku Mansion",
+            "altAnswer2": "Jellyfish House",
+            "altAnswer3": "Dream Villa"
+        },
+        {
+            "question": "In Skip-Beat! what career does Kyoko pursue to get back at Sho?",
+            "correctAnswer": "Acting/Entertainment",
+            "altAnswer1": "Cooking",
+            "altAnswer2": "Fashion design",
+            "altAnswer3": "Music"
+        },
+        {
+            "question": "In Yona of the Dawn who is Yona\u2019s childhood friend turned bodyguard?",
+            "correctAnswer": "Soo-Won/ or Hak (depending on plot)",
+            "altAnswer1": "Shin-Ae",
+            "altAnswer2": "Jae-Ha",
+            "altAnswer3": "Kija"
+        },
+        {
+            "question": "Who performs the opening of Sailor Moon (original) 'Moonlight Densetsu'?",
+            "correctAnswer": "DALI / Moon Lips (various versions)",
+            "altAnswer1": "LiSA",
+            "altAnswer2": "Aimer",
+            "altAnswer3": "ClariS"
+        },
+        {
+            "question": "Who performs 'Moonlight Densetsu' in the original Sailor Moon anime?",
+            "correctAnswer": "DALI / Moon Lips (original performers)",
+            "altAnswer1": "LiSA",
+            "altAnswer2": "Aimer",
+            "altAnswer3": "ClariS"
+        },
+        {
+            "question": "In Fushigi Y\u00fbgi what mystical book draws girls into its world?",
+            "correctAnswer": "The Universe of the Four Gods (manga)/Mysterious book",
+            "altAnswer1": "The Book of Dragons",
+            "altAnswer2": "The Scroll of Destiny",
+            "altAnswer3": "The Key of Spirits"
+        },
+        {
+            "question": "In Magic Knight Rayearth who are the three girls summoned to Cephiro?",
+            "correctAnswer": "Hikaru, Umi and Fuu",
+            "altAnswer1": "Sakura, Tomoyo and Meilin",
+            "altAnswer2": "Usagi, Ami and Rei",
+            "altAnswer3": "Miaka, Yui and Chichiri"
+        },
+        {
+            "question": "In Marmalade Boy what major family change affects Miki?",
+            "correctAnswer": "Her parents swap partners with another couple",
+            "altAnswer1": "She is adopted",
+            "altAnswer2": "Family moves abroad",
+            "altAnswer3": "Parents pass away"
+        },
+        {
+            "question": "In Revolutionary Girl Utena what item often symbolizes duels?",
+            "correctAnswer": "A rose",
+            "altAnswer1": "A sword",
+            "altAnswer2": "A crown",
+            "altAnswer3": "A book"
+        },
+        {
+            "question": "Who sings the opening 'Moon Pride' for Sailor Moon Crystal?",
+            "correctAnswer": "Momoiro Clover Z",
+            "altAnswer1": "LiSA",
+            "altAnswer2": "Aimer",
+            "altAnswer3": "ClariS"
+        },
+        {
+            "question": "In Kamisama Kiss what is Tomoe\u2019s true nature?",
+            "correctAnswer": "Fox familiar (yokai)",
+            "altAnswer1": "Human",
+            "altAnswer2": "Tengu",
+            "altAnswer3": "Wolf spirit"
+        },
+        {
+            "question": "Which anime features the song 'Yasashii Kibou' as an opening?",
+            "correctAnswer": "Akagami no Shirayuki-hime (Shirayuki opening by Saori Hayami)",
+            "altAnswer1": "Sailor Moon",
+            "altAnswer2": "Fruits Basket",
+            "altAnswer3": "Skip-Beat!"
+        },
+        {
+            "question": "In NANA what are the names of the two lead characters both named Nana?",
+            "correctAnswer": "Nana Osaki and Nana Komatsu",
+            "altAnswer1": "Nana Aoyama and Nana Sato",
+            "altAnswer2": "Nana Yamada and Nana Suzuki",
+            "altAnswer3": "Nana Kuroda and Nana Ito"
+        },
+        {
+            "question": "Who performs the opening theme 'Rose' for NANA?",
+            "correctAnswer": "Anna Tsuchiya",
+            "altAnswer1": "LiSA",
+            "altAnswer2": "Aimer",
+            "altAnswer3": "Utada Hikaru"
+        },
+        {
+            "question": "In Kamikaze Kaitou Jeanne what is the protagonist Jeanne\u2019s alter ego?",
+            "correctAnswer": "Phantom thief who fights demons",
+            "altAnswer1": "Idol singer",
+            "altAnswer2": "Detective",
+            "altAnswer3": "Time traveler"
+        },
+        {
+            "question": "In Heaven\u2019s Memo Pad what is the name of the hikikomori detective?",
+            "correctAnswer": "Alice",
+            "altAnswer1": "Natsuki",
+            "altAnswer2": "Kana",
+            "altAnswer3": "Mimi"
+        },
+        {
+            "question": "Who performs the opening 'Split Mirror' for Skip-Beat! (anime versions vary)?",
+            "correctAnswer": "Anna Tsuchiya (themes for related works)",
+            "altAnswer1": "The Gazette",
+            "altAnswer2": "BoA",
+            "altAnswer3": "Flow"
+        },
+        {
+            "question": "In La Corda d\u2019Oro what genre is the series centered on?",
+            "correctAnswer": "Classical music romance",
+            "altAnswer1": "Basketball",
+            "altAnswer2": "Martial arts",
+            "altAnswer3": "Cooking"
+        },
+        {
+            "question": "Who sings the opening 'Brand New Breeze' for La Corda d\u2019Oro?",
+            "correctAnswer": "KOKIA",
+            "altAnswer1": "Aimer",
+            "altAnswer2": "ClariS",
+            "altAnswer3": "LiSA"
+        },
+        {
+            "question": "In Honey and Clover what art school activity unites the cast?",
+            "correctAnswer": "College art students\u2019 lives and romance",
+            "altAnswer1": "Pop idol training",
+            "altAnswer2": "Detective agency work",
+            "altAnswer3": "Space exploration"
+        },
+        {
+            "question": "Who sings the opening 'Waltz' for Honey and Clover?",
+            "correctAnswer": "Suneohair",
+            "altAnswer1": "Asian Kung-Fu Generation",
+            "altAnswer2": "ClariS",
+            "altAnswer3": "Angela"
+        },
+        {
+            "question": "In Full Moon wo Sagashite what career does Mitsuki pursue?",
+            "correctAnswer": "Aspirant singer",
+            "altAnswer1": "Painter",
+            "altAnswer2": "Scientist",
+            "altAnswer3": "Teacher"
+        },
+        {
+            "question": "Who performs the opening 'I \u2665 U' for Full Moon wo Sagashite?",
+            "correctAnswer": "The Scanty / or Sowelu (multiple versions)",
+            "altAnswer1": "LiSA",
+            "altAnswer2": "Aimer",
+            "altAnswer3": "Mika Nakashima"
+        },
+        {
+            "question": "In Kamikaze Girls (anime/manga adaptations), what subcultures are contrasted?",
+            "correctAnswer": "Lolita fashion and yankee culture",
+            "altAnswer1": "Idol culture and samurai",
+            "altAnswer2": "Otaku and cosplayers",
+            "altAnswer3": "Idol and sports"
+        },
+        {
+            "question": "In Sailor Moon what is the name of the leader of the Sailor Guardians?",
+            "correctAnswer": "Sailor Moon (Usagi Tsukino)",
+            "altAnswer1": "Sailor Mercury",
+            "altAnswer2": "Sailor Mars",
+            "altAnswer3": "Sailor Jupiter"
+        },
+        {
+            "question": "In Aria the Animation what is the profession of the main characters?",
+            "correctAnswer": "Undines (gondoliers/tour guides)",
+            "altAnswer1": "Chefs",
+            "altAnswer2": "Detectives",
+            "altAnswer3": "Pilots"
+        },
+        {
+            "question": "Who performs the opening 'Undine' for Aria the Animation?",
+            "correctAnswer": "Yui Makino",
+            "altAnswer1": "Maaya Sakamoto",
+            "altAnswer2": "Aimer",
+            "altAnswer3": "LiSA"
+        },
+        {
+            "question": "In Chihayafuru what card tournament are the characters focused on winning?",
+            "correctAnswer": "The Karuta national championship",
+            "altAnswer1": "World Karuta Cup",
+            "altAnswer2": "International Shogi Cup",
+            "altAnswer3": "Go Championship"
+        },
+        {
+            "question": "Who performs the opening 'Youthful' for Chihayafuru (various seasons have different themes)",
+            "correctAnswer": "96Neko / or other artists per season",
+            "altAnswer1": "Supercell",
+            "altAnswer2": "Bump of Chicken",
+            "altAnswer3": "LiSA"
+        },
+        {
+            "question": "In Yumeiro Patissiere what is the main character's aspiration?",
+            "correctAnswer": "To become a pastry chef",
+            "altAnswer1": "To be an astronaut",
+            "altAnswer2": "To be a detective",
+            "altAnswer3": "To be a singer"
+        },
+        {
+            "question": "Who performs the opening for Yumeiro Patissiere?",
+            "correctAnswer": "Various J-pop artists depending on season",
+            "altAnswer1": "LiSA",
+            "altAnswer2": "Aimer",
+            "altAnswer3": "ClariS"
+        },
+        {
+            "question": "In Kamichama Karin what object grants transformation powers?",
+            "correctAnswer": "A ring",
+            "altAnswer1": "A wand",
+            "altAnswer2": "A book",
+            "altAnswer3": "A crown"
+        },
+        {
+            "question": "Who performs the opening 'Anata o Shinjiteiru' associated with Kamichama Karin?",
+            "correctAnswer": "Megumi Ogata (depending on version)",
+            "altAnswer1": "Maaya Sakamoto",
+            "altAnswer2": "LiSA",
+            "altAnswer3": "Aimer"
+        },
+        {
+            "question": "In Pretear who is the protagonist teamed with to fight the King of Darkness?",
+            "correctAnswer": "The Leafe Knights",
+            "altAnswer1": "Straw Hat Pirates",
+            "altAnswer2": "Magic Knights",
+            "altAnswer3": "Sengoku Warriors"
+        },
+        {
+            "question": "Who performs the opening 'White Destiny' for Pretear?",
+            "correctAnswer": "Yoko Ishida",
+            "altAnswer1": "LiSA",
+            "altAnswer2": "Aimer",
+            "altAnswer3": "May'n"
+        },
+        {
+            "question": "In Ultra Maniac what is Nina's role?",
+            "correctAnswer": "A trainee witch",
+            "altAnswer1": "A princess",
+            "altAnswer2": "A detective",
+            "altAnswer3": "A soldier"
+        },
+        {
+            "question": "Who performed the ending theme for Ultra Maniac 'Hitomi no Naka no Galaxy'?",
+            "correctAnswer": "Canaria (various compilations)",
+            "altAnswer1": "Miwa",
+            "altAnswer2": "LiSA",
+            "altAnswer3": "Aimer"
+        },
+        {
+            "question": "In Vampire Knight what is the name of the school that accommodates both human and vampire students?",
+            "correctAnswer": "Cross Academy",
+            "altAnswer1": "Night Academy",
+            "altAnswer2": "Moonlight School",
+            "altAnswer3": "Crimson Hall"
+        },
+        {
+            "question": "Who performs the opening 'Futatsu no Kodou to Akai Tsumi' for Vampire Knight?",
+            "correctAnswer": "ON/OFF",
+            "altAnswer1": "LiSA",
+            "altAnswer2": "Aimer",
+            "altAnswer3": "Flow"
+        },
+        {
+            "question": "In Paradise Kiss what industry does George work in?",
+            "correctAnswer": "Fashion",
+            "altAnswer1": "Music",
+            "altAnswer2": "Film",
+            "altAnswer3": "Technology"
+        },
+        {
+            "question": "Who performs the opening 'Lonely in Gorgeous' for Paradise Kiss?",
+            "correctAnswer": "Tommy february6",
+            "altAnswer1": "Aimer",
+            "altAnswer2": "Anna Tsuchiya",
+            "altAnswer3": "ClariS"
+        },
+        {
+            "question": "In Natsume's Book of Friends who helps Takashi Natsume manage spirits?",
+            "correctAnswer": "Nyanko-sensei (Madara)",
+            "altAnswer1": "Touko",
+            "altAnswer2": "Mayu",
+            "altAnswer3": "Reiko"
+        },
+        {
+            "question": "Who performs the ending 'Natsu Yuuzora' for Natsume's Book of Friends?",
+            "correctAnswer": "Kazuya Yoshioka (artist varies)",
+            "altAnswer1": "Angela",
+            "altAnswer2": "LiSA",
+            "altAnswer3": "Sowelu"
+        },
+        {
+            "question": "In Akagami no Shirayuki-hime what distinguishes Shirayuki?",
+            "correctAnswer": "Her red hair",
+            "altAnswer1": "Her blue eyes",
+            "altAnswer2": "Her tall height",
+            "altAnswer3": "Her wings"
+        },
+        {
+            "question": "Who sings the opening 'Yasashii Kibou' for Akagami no Shirayuki-hime?",
+            "correctAnswer": "Saori Hayami",
+            "altAnswer1": "ClariS",
+            "altAnswer2": "Aimer",
+            "altAnswer3": "Eir Aoi"
+        },
+        {
+            "question": "In Kamisama Kiss what job does Nanami take on at the shrine?",
+            "correctAnswer": "Shinto deity's land steward (local god)",
+            "altAnswer1": "Teacher",
+            "altAnswer2": "Idol manager",
+            "altAnswer3": "Restaurant owner"
+        },
+        {
+            "question": "Who performs the ending theme for Kamisama Kiss 'Kamisama Onegai'?",
+            "correctAnswer": "Hanae (or the credited performer)",
+            "altAnswer1": "Angela",
+            "altAnswer2": "LiSA",
+            "altAnswer3": "Sowelu"
+        },
+        {
+            "question": "In Banana Fish where is the setting mainly located?",
+            "correctAnswer": "New York",
+            "altAnswer1": "Tokyo",
+            "altAnswer2": "London",
+            "altAnswer3": "Paris"
+        },
+        {
+            "question": "Who performs the opening 'found & lost' for Banana Fish?",
+            "correctAnswer": "Survive Said the Prophet",
+            "altAnswer1": "Aimer",
+            "altAnswer2": "SCANDAL",
+            "altAnswer3": "LiSA"
+        },
+        {
+            "question": "In The Ancient Magus\u2019 Bride what is Chise's role?",
+            "correctAnswer": "Apprentice/Brideship to Elias",
+            "altAnswer1": "Royal heir",
+            "altAnswer2": "Vampire queen",
+            "altAnswer3": "Shogun"
+        },
+        {
+            "question": "Who performs the ending 'Tsuki no Mou Hanbun' for The Ancient Magus' Bride?",
+            "correctAnswer": "AIKI & AKINO from bless4",
+            "altAnswer1": "Angela",
+            "altAnswer2": "Aimer",
+            "altAnswer3": "Sowelu"
+        },
+        {
+            "question": "In March Comes in Like a Lion what board game does Rei play professionally?",
+            "correctAnswer": "Shogi",
+            "altAnswer1": "Go",
+            "altAnswer2": "Karuta",
+            "altAnswer3": "Mahjong"
+        },
+        {
+            "question": "Who performs the opening 'Answer' for March Comes in Like a Lion?",
+            "correctAnswer": "BUMP OF CHICKEN",
+            "altAnswer1": "LiSA",
+            "altAnswer2": "Aimer",
+            "altAnswer3": "FLOW"
+        },
+        {
+            "question": "In Yuri Kuma Arashi what creatures symbolize the outside world threat?",
+            "correctAnswer": "Bears",
+            "altAnswer1": "Wolves",
+            "altAnswer2": "Foxes",
+            "altAnswer3": "Cats"
+        },
+        {
+            "question": "Who performs the opening for Yuri Kuma Arashi 'Ano Mori de Matteru'?",
+            "correctAnswer": "Bonjour Suzie",
+            "altAnswer1": "Angela",
+            "altAnswer2": "SCANDAL",
+            "altAnswer3": "LiSA"
+        },
+        {
+            "question": "In Bloom Into You what is the main emotional theme between Yuu and Touko?",
+            "correctAnswer": "Exploration of romantic identity and consent",
+            "altAnswer1": "Time travel",
+            "altAnswer2": "Sports rivalry",
+            "altAnswer3": "War"
+        },
+        {
+            "question": "Who performs the ending 'hectopascal' for Bloom Into You?",
+            "correctAnswer": "Megumi Han & Minako Kotobuki",
+            "altAnswer1": "ClariS",
+            "altAnswer2": "Eir Aoi",
+            "altAnswer3": "Aimer"
+        },
+        {
+            "question": "In Kamikaze Kaitou Jeanne what is Jeanne\u2019s mission?",
+            "correctAnswer": "To steal back holy artifacts from demons",
+            "altAnswer1": "To rescue princes",
+            "altAnswer2": "To run a caf\u00e9",
+            "altAnswer3": "To become an idol"
+        },
+        {
+            "question": "Who sings the opening for Kamikaze Kaitou Jeanne 'Ashita e'?",
+            "correctAnswer": "Tommy february6 / or series performer (varies)",
+            "altAnswer1": "LiSA",
+            "altAnswer2": "Aimer",
+            "altAnswer3": "ClariS"
+        },
+        {
+            "question": "In Otome Yokai Zakuro what are the characters primarily?",
+            "correctAnswer": "Human-yokai hybrids working as guardians",
+            "altAnswer1": "School students",
+            "altAnswer2": "Pirates",
+            "altAnswer3": "Detectives"
+        },
+        {
+            "question": "Who performs the ending 'Sora no Tobira' for Otome Yokai Zakuro?",
+            "correctAnswer": "FictionJunction YUUKA",
+            "altAnswer1": "Angela",
+            "altAnswer2": "LiSA",
+            "altAnswer3": "Aimer"
+        },
+        {
+            "question": "In Candy Candy (classic shoujo) who is the main male love interest raised alongside Candy?",
+            "correctAnswer": "Anthony Brown",
+            "altAnswer1": "Albert",
+            "altAnswer2": "Terrence",
+            "altAnswer3": "Neil"
+        },
+        {
+            "question": "Which anime features the classic shojo trope of a 'love triangle' among childhood friends?",
+            "correctAnswer": "Many shojo series (e.g., Marmalade Boy, NANA, Toradora)",
+            "altAnswer1": "Only Yuri!!! on Ice",
+            "altAnswer2": "Only Shonen series",
+            "altAnswer3": "Only sports anime"
+        },
+        {
+            "question": "In the classic shoujo 'Boys Over Flowers' what is the leader of the F4 named?",
+            "correctAnswer": "Tsukasa Domyoji",
+            "altAnswer1": "Rui Hanazawa",
+            "altAnswer2": "Sojiro",
+            "altAnswer3": "Akira"
+        },
+        {
+            "question": "Who performs the iconic ending themes vary by series; this question checks knowledge of theme 'Dango Daikazoku' which comes from which series?",
+            "correctAnswer": "Clannad",
+            "altAnswer1": "Sailor Moon",
+            "altAnswer2": "Fruits Basket",
+            "altAnswer3": "Ouran High School Host Club"
+        },
+        {
+            "question": "In the shoujo anime 'Kare Kano' (His and Her Circumstances) what do the two leads hide from others?",
+            "correctAnswer": "Their true personalities",
+            "altAnswer1": "Their test scores",
+            "altAnswer2": "Their family ties",
+            "altAnswer3": "Their cooking skills"
+        },
+        {
+            "question": "Who performs the opening 'Change the World' for the anime InuYasha?",
+            "correctAnswer": "V6",
+            "altAnswer1": "Bump of Chicken",
+            "altAnswer2": "LiSA",
+            "altAnswer3": "Aimer"
+        },
+        {
+            "question": "In Shoujo-ai/BL adjacent series 'Given' what is the central activity of the main cast?",
+            "correctAnswer": "Band/music",
+            "altAnswer1": "Cooking",
+            "altAnswer2": "Martial arts",
+            "altAnswer3": "Modeling"
+        },
+        {
+            "question": "Who performs the opening 'Kizuato' for Given?",
+            "correctAnswer": "Minami",
+            "altAnswer1": "Aimer",
+            "altAnswer2": "LiSA",
+            "altAnswer3": "SCANDAL"
+        },
+        {
+            "question": "In the shoujo 'Anne of Green Gables' anime adaptation, what is Anne's last name?",
+            "correctAnswer": "Shirley",
+            "altAnswer1": "White",
+            "altAnswer2": "Green",
+            "altAnswer3": "Brown"
+        },
+        {
+            "question": "Which shojo anime centers on competitive cooking and sweets in a cafe school?",
+            "correctAnswer": "Yumeiro Patissiere",
+            "altAnswer1": "Shokugeki no Soma (shonen)",
+            "altAnswer2": "Koufuku Graffiti",
+            "altAnswer3": "Isekai Cafe"
+        },
+        {
+            "question": "Who performs the ending 'Kokoro no Mama ni' for Yumeiro Patissiere?",
+            "correctAnswer": "Kaya",
+            "altAnswer1": "ClariS",
+            "altAnswer2": "LiSA",
+            "altAnswer3": "Aimer"
+        },
+        {
+            "createdAt": "14/11/2025 21:55:13",
+            "author": "Goodnews Nwosu",
+            "question": "In the donghua 'Lord of the Mysteries', how many Beyonder Pathways are there in the Path of the Divine (神之途径)? ",
+            "correctAnswer": "22",
+            "altAnswer1": "45",
+            "altAnswer2": " 67",
+            "altAnswer3": " 1"
+        },
+        {
+            "createdAt": "14/11/2025 21:55:13",
+            "author": "Goodnews Nwosu",
+            "question": "In the Boruto series, Momoshiki (an alien from outerspace) tells Boruto that one of his body parts/organs will take everything away from him. What is this body part/organ",
+            "correctAnswer": "Eyes",
+            "altAnswer1": " Skin",
+            "altAnswer2": " Heart",
+            "altAnswer3": " Finger"
+        },
+        {
+            "createdAt": "14/11/2025 21:55:13",
+            "author": "Goodnews Nwosu",
+            "question": "Which of these manga series is currently not on a hiatus as of 14/11/2025?",
+            "correctAnswer": "Boruto",
+            "altAnswer1": " Frieren",
+            "altAnswer2": " Vagabond",
+            "altAnswer3": " Ranking of Kings"
+        },
+        {
+            "createdAt": "14/11/2025 21:55:13",
+            "author": "Goodnews Nwosu",
+            "question": "Which one of these centuries did the Heian era not reside in?",
+            "correctAnswer": "13th",
+            "altAnswer1": " 12th",
+            "altAnswer2": " 11th",
+            "altAnswer3": " 10th"
+        },
+        {
+            "createdAt": "14/11/2025 21:55:13",
+            "author": "Goodnews Nwosu",
+            "question": "In One Piece, how many (CONFIRMED BY ODA) people/objects have a mythical zoan devil fruit. this is up to and including the latest anime episode",
+            "correctAnswer": "9",
+            "altAnswer1": "16",
+            "altAnswer2": "12",
+            "altAnswer3": "11"
+        },
+        {
+            "createdAt": "14/11/2025 21:55:13",
+            "author": "Goodnews Nwosu",
+            "question": "How many Hashira are there at the start of Demon Slayer",
+            "correctAnswer": "9",
+            "altAnswer1": "8",
+            "altAnswer2": "7",
+            "altAnswer3": "10"
+        },
+        {
+            "createdAt": "14/11/2025 22:10:36",
+            "author": "Emerald Garrett",
+            "question": "In Hell’s Paradise, the monsters on the island exhibit characteristics of which major religions?",
+            "correctAnswer": "Correct Answer: Taoism and Buddhism",
+            "altAnswer1": " Shintoism and Hinduism",
+            "altAnswer2": " Christianity and Islam",
+            "altAnswer3": " or Zoroastrianism and Jainism"
+        },
+        {
+            "createdAt": "14/11/2025 22:10:36",
+            "author": "Emerald Garrett",
+            "question": "In the post-civilization world of Dr. Stone, what grain did Senku use to make ramen noodles for the villagers?",
+            "correctAnswer": "Correct Answer: Foxtail millet flour",
+            "altAnswer1": " Barley flour",
+            "altAnswer2": " Rice flour",
+            "altAnswer3": " or Buckwheat flour"
+        },
+        {
+            "createdAt": "14/11/2025 22:10:36",
+            "author": "Emerald Garrett",
+            "question": "Hiromu Arakawa, creator of Fullmetal Alchemist, is from which island in Japan that heavily inspired the manga’s landscape?",
+            "correctAnswer": "Correct Answer: Hokkaido",
+            "altAnswer1": " Kyushu",
+            "altAnswer2": " Shikoku",
+            "altAnswer3": " or Okinawa"
+        },
+        {
+            "createdAt": "14/11/2025 22:10:36",
+            "author": "Emerald Garrett",
+            "question": "Hello Kitty, the beloved Sanrio character, is identified by her creator as what nationality and animal?",
+            "correctAnswer": "Correct Answer: A British human girl",
+            "altAnswer1": " A Japanese bobtail cat",
+            "altAnswer2": " An American schoolgirl",
+            "altAnswer3": " or A British magical kitten"
+        },
+        {
+            "createdAt": "14/11/2025 22:10:36",
+            "author": "Emerald Garrett",
+            "question": "In Fullmetal Alchemist: Brotherhood, who is the first and most powerful Homunculus?",
+            "correctAnswer": "Correct Answer: Dwarf in the Flask Homunculus (“Father”)",
+            "altAnswer1": " Pride",
+            "altAnswer2": " Sloth",
+            "altAnswer3": " or Wrath "
+        },
+        {
+            "createdAt": "14/11/2025 22:10:36",
+            "author": "Emerald Garrett",
+            "question": "In the single greatest anime of all time, Fullmetal Alchemist: Brotherhood, what was the purpose of the Ishvalan War?",
+            "correctAnswer": "Correct Answer: To create a philosopher’s stone",
+            "altAnswer1": " To annex Ishval for its natural resources",
+            "altAnswer2": " To test new state alchemy weapons",
+            "altAnswer3": " or To suppress a rebellion threatening Amestris"
+        },
+        {
+            "createdAt": "14/11/2025 22:39:08",
+            "author": "Goodnews",
+            "question": "Which of these anime is not a horror anime?",
+            "correctAnswer": "Assassination Classroom",
+            "altAnswer1": "The Summer Hikaru Died",
+            "altAnswer2": " Higurashi when they cry",
+            "altAnswer3": " Pupa"
+        },
+        {
+            "createdAt": "14/11/2025 22:39:08",
+            "author": "Goodnews",
+            "question": "Which of these artists have not sang an op or ed for My hero academia?",
+            "correctAnswer": "Yama",
+            "altAnswer1": " LiSa",
+            "altAnswer2": " Bump of Chicken",
+            "altAnswer3": " Kenshi Yonezu"
+        },
+        {
+            "createdAt": "14/11/2025 22:39:08",
+            "author": "Goodnews",
+            "question": "Which of these is not a way to refer to your father in Japanese (romaji)",
+            "correctAnswer": "haha",
+            "altAnswer1": " otousan",
+            "altAnswer2": " chichi",
+            "altAnswer3": " oyaji"
+        },
+        {
+            "createdAt": "14/11/2025 22:39:08",
+            "author": "Goodnews",
+            "question": "In Fire Force, how many Special Fire Force Companies are there?",
+            "correctAnswer": "8",
+            "altAnswer1": "9",
+            "altAnswer2": "7",
+            "altAnswer3": "10"
+        },
+        {
+            "createdAt": "14/11/2025 22:39:08",
+            "author": "Goodnews",
+            "question": "Which of these series doesn't have a sequel",
+            "correctAnswer": "Undead x Unluck",
+            "altAnswer1": " Jujutsu Kaisen",
+            "altAnswer2": " Naruto",
+            "altAnswer3": " Solo levelling"
+        },
+        {
+            "createdAt": "14/11/2025 22:39:08",
+            "author": "Goodnews",
+            "question": "Which of these characters are in Solo levelling?",
+            "correctAnswer": "Choi Jong-In",
+            "altAnswer1": " Minguk Gyeon",
+            "altAnswer2": "Yesol Na",
+            "altAnswer3": " Jaeil Kim"
+        },
+        {
+            "createdAt": "15/11/2025 00:51:13",
+            "author": "Yuze",
+            "question": "On which day was Sword Art Online Cleared",
+            "correctAnswer": "11/7/2024",
+            "altAnswer1": " 23/11/2025",
+            "altAnswer2": " 14/9/2022",
+            "altAnswer3": " 22/12/2024"
+        },
+        {
+            "createdAt": "15/11/2025 00:51:13",
+            "author": "Yuze",
+            "question": "Which of these is NOT adapted from a visual novel?",
+            "correctAnswer": "Oregairu ",
+            "altAnswer1": " Danganronpa: The Animation",
+            "altAnswer2": " Fate/Stay Night: Heaven's Feel",
+            "altAnswer3": " Steins;Gate 0 "
+        },
+        {
+            "createdAt": "15/11/2025 00:51:13",
+            "author": "Yuze",
+            "question": "Which cigarettes does Misato Smoke",
+            "correctAnswer": "Marlboro Menthol Lights",
+            "altAnswer1": " Seven Stars",
+            "altAnswer2": " Black Stone",
+            "altAnswer3": " Seven Star Milds"
+        },
+        {
+            "createdAt": "15/11/2025 00:51:13",
+            "author": "Yuze",
+            "question": "In which episode of Horimiya do the main duo kiss?",
+            "correctAnswer": "Episode 6",
+            "altAnswer1": " Episode 1",
+            "altAnswer2": " Episode 7",
+            "altAnswer3": " Episode 8"
+        },
+        {
+            "createdAt": "15/11/2025 00:51:13",
+            "author": "Yuze",
+            "question": "What is the strictly canon chronological order of the Steins;Gate series",
+            "correctAnswer": "Steins;Gate ep1-22 > Steins;Gate: Missing Link > Steins;Gate 0> Steins;Gate ep 22-25",
+            "altAnswer1": " Steins;Gate 0 > Steins;Gate ep1-22 > Steins;Gate: Missing Link > Steins;Gate ep 22-25",
+            "altAnswer2": "  Steins;Gate ep1-22 > Steins;Gate: Missing Link > Steins;Gate ep 22-25 > Steins;Gate 0",
+            "altAnswer3": "Steins;Gate ep1-22 > Steins;Gate: Missing Link > Steins;Gate 0> Steins;Gate ep 22-25 > Load Region of Deja Vu  "
+        },
+        {
+            "createdAt": "15/11/2025 00:51:13",
+            "author": "Yuze",
+            "question": "Who uses the Nobel Phantasm Gae Bolg",
+            "correctAnswer": "Cu Chulainn",
+            "altAnswer1": " Kayneth El-Melloi Archibald",
+            "altAnswer2": " Diarmuid Ua Duibhne",
+            "altAnswer3": " Simon"
+        },
+        {
+            "createdAt": "15/11/2025 01:24:27",
+            "author": "Yuze",
+            "question": "Which of the following animes have won a Crunchyroll anime of the year award?",
+            "correctAnswer": "Made in Abyss",
+            "altAnswer1": " Mob Psycho 100 II",
+            "altAnswer2": " Attack on Titan Final Season Part 2",
+            "altAnswer3": " Vinland Saga"
+        },
+        {
+            "createdAt": "15/11/2025 01:24:27",
+            "author": "Yuze",
+            "question": "Which of the following character canNOT read minds?",
+            "correctAnswer": "Lelouch Lamperouge",
+            "altAnswer1": " Saiki Kusuo",
+            "altAnswer2": " Shigeo Kageyama",
+            "altAnswer3": " Mewtwo"
+        },
+        {
+            "createdAt": "15/11/2025 01:24:27",
+            "author": "Yuze",
+            "question": "How many years did Redline take to animate?",
+            "correctAnswer": "7",
+            "altAnswer1": " 6",
+            "altAnswer2": " 14",
+            "altAnswer3": " 11"
+        },
+        {
+            "createdAt": "15/11/2025 01:24:27",
+            "author": "Yuze",
+            "question": "Iskander is the name of Rider within Fate Zero. What is it also the name of?",
+            "correctAnswer": "Thinly sliced lamb kebab",
+            "altAnswer1": " Flat bread from Turkey",
+            "altAnswer2": " Sweet Dessert with Nuts and Raisins",
+            "altAnswer3": " General of the Modern Greek army"
+        },
+        {
+            "createdAt": "15/11/2025 01:24:27",
+            "author": "Yuze",
+            "question": "What is Yato (Noragami) the God of?",
+            "correctAnswer": "Calamity",
+            "altAnswer1": " Warfare",
+            "altAnswer2": " Debt",
+            "altAnswer3": " Defiance"
+        },
+        {
+            "createdAt": "15/11/2025 01:24:27",
+            "author": "Yuze",
+            "question": "Which is the opening sequence for the anime movie \"Your Name\"?",
+            "correctAnswer": "Dream Lantern",
+            "altAnswer1": " Zenzenzense",
+            "altAnswer2": " Nandemonaiya",
+            "altAnswer3": " Your Name"
         }
     ],
-    "version": 1
+    "version": 2
 }
