@@ -93,11 +93,22 @@ export class ChaseComponent implements OnInit {
 	questions: ChaseQuestion[] = shuffleArray(questionsJSON.questions);
 	selectedQuestion = new SelectedQuestion(this.questions.at(-1)!);
 	chasers: string[] = [
-		"images/the_chaser_1.png",
-		"images/the_chaser_2.png",
-		"images/the_chaser_3.png",
+		"images/AlishaChaser.png",
+		"images/CatChaser.png",
+		"images/JamesChaser.png",
+		"images/UzairChaser.png",
+		"images/YuliaChaser.png",
+		"images/YuzeChaser.png",
 	]
 	chaserSelected: string = this.chasers[randInt(this.chasers.length)];
+	contestants: string[] = [
+		"images/CatContestant.png",
+		"images/EmmaContestant.png",
+		"images/JamesContestant.png",
+		"images/UzairContestant.png",
+		"images/YuliaContestant.png",
+	]
+	contestantSelected: string = this.contestants[randInt(this.contestants.length)];
 
 	turn: ChaseTurn = ChaseTurn.Player;
 	enabledTab: EnabledTab = EnabledTab.TheChase;
@@ -125,7 +136,7 @@ export class ChaseComponent implements OnInit {
 			case BoardTile.Red: return "images/red.png";
 			case BoardTile.Chaser: return this.chaserSelected;
 			case BoardTile.LBlue: return "images/light_blue.png";
-			case BoardTile.Player: return "images/contestant.png";
+			case BoardTile.Player: return this.contestantSelected;
 			case BoardTile.DBlue: return "images/dark_blue.png";
 			default: return "Invalid enum.";
 		}
@@ -172,6 +183,7 @@ export class ChaseComponent implements OnInit {
 	// Reset player/chaserPosition to default and redraw board.
 	resetBoard(): void {
 		this.chaserSelected = this.chasers[randInt(this.chasers.length)];
+		this.contestantSelected = this.contestants[randInt(this.contestants.length)];
 		this.chaserPosition = 0;
 		this.playerPosition = 3;
 		this.nextQuestion();
