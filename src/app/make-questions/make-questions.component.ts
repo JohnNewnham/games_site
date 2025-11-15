@@ -2,19 +2,21 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { InfoDropdownComponent } from '../info-dropdown/info-dropdown.component';
+import questionsJSON from "../../../public/questions.json";
+import { ChaseQuestion } from "../chase/chase.component";
 
-interface Question {
-	question: string;
-	answer1: string;
-	answer2?: string;
-	answer3?: string;
-	answer4?: string;
-	enabled?: boolean;
-	answered?: boolean;
-}
+// interface Question {
+// 	question: string;
+// 	answer1: string;
+// 	answer2?: string;
+// 	answer3?: string;
+// 	answer4?: string;
+// 	enabled?: boolean;
+// 	answered?: boolean;
+// }
 
 interface DeletedQuestion {
-	question: Question;
+	question: ChaseQuestion;
 	index: number;
 }
 
@@ -28,26 +30,7 @@ interface DeletedQuestion {
 })
 export class MakeQuestionsComponent {
 	deletedQuestions: DeletedQuestion[] = [];
-	questions: Question[] = [
-		{
-			question: "Question 1",
-			answer1: "Answer 1",
-			answer2: "Answer 2",
-			answer3: "Answer 3",
-			answer4: "Answer 4",
-			enabled: true,
-			answered: false
-		},
-		{
-			question: "Question 2",
-			answer1: "Answer 1",
-			answer2: "Answer 2",
-			answer3: "Answer 3",
-			answer4: "Answer 4",
-			enabled: false,
-			answered: false
-		}
-	];
+	questions: ChaseQuestion[] = questionsJSON.questions;
 
 	removeQuestion(index: number): void {
 		this.deletedQuestions.push({
@@ -64,7 +47,7 @@ export class MakeQuestionsComponent {
 	}
 
 	toggleQuestion(index: number): void {
-		this.questions[index].enabled = !this.questions[index].enabled;
+		// this.questions[index].enabled = !this.questions[index].enabled;
 	}
 
 	test(): void {

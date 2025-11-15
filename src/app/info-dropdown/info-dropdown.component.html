@@ -1,7 +1,7 @@
 <div class="all">
     <div class="header" (click)="rotate()">
         {{ title }}
-        <img width="15px" src="images/caret-down.svg" class="dropdown-caret" [@rotatedState]="state" />
+        <img width="15px" height="20px" src="images/caret-down.svg" class="dropdown-caret" [@rotatedState]="state" />
     </div>
     <div [@dropdownState]="state">
         <div class="dropdown">

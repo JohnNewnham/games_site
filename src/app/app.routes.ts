@@ -14,7 +14,7 @@ export const routes: Routes = [
         component: MakeQuestionsComponent
     },
     {
-        path: "chase",
+        path: "pursuit",
         component: ChaseComponent
     },
     {

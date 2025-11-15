@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import questionsJSON from "../../../public/questions.json";
 import { Observable, Subscription, takeWhile, timer } from "rxjs";
 
-interface ChaseQuestion {
+export interface ChaseQuestion {
 	question: string;
 	correctAnswer: string;
 	altAnswer1: string;
@@ -221,7 +221,7 @@ export class ChaseComponent implements OnInit {
 
 	runWinDetection(): void {
 		if (this.chaserPosition >= this.playerPosition) {
-			this.instruction = "You have been caught and, for you, the chase is over!";
+			this.instruction = "You have been caught and, for you, the pursuit is over!";
 			this.turn = ChaseTurn.GameOver;
 		} else if (this.playerPosition >= 8) {
 			this.instruction = "You have successfully beaten the chaser!";
@@ -229,7 +229,7 @@ export class ChaseComponent implements OnInit {
 		}
 	}
 
-	// From here on is for the final chase.
+	// From here on is for the final pursuit.
 
 	contestantHeadstart: number = 1;
 	contestantTimer: number = 120;

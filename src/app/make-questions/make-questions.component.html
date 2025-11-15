@@ -2,26 +2,27 @@ This page is a work in progress, please check back later.<br><br>
 <div class="top-btns">
     <div class="text-toggle button"><span (click)="readdQuestion()">Undo Last Deletion</span></div>
 </div>
+Total number of questions: {{ questions.length }}
 @for (question of questions; track question; let idx = $index) {
 <div class="question-div">
     <div class="delete-btn" (click)="removeQuestion(idx)"></div>
     <label class="container unselectable">
-        <input type="checkbox" [ngModel]="question.enabled" (change)="toggleQuestion(idx)">
+        <input type="checkbox" [ngModel]="true" (change)="toggleQuestion(idx)">
         <span class="checkmark"></span>
     </label>
     <app-info-dropdown [title]="question.question" class="flexgrow">
         <ul>
             <li>
-                {{ question.answer1 }}
+                {{ question.correctAnswer }}
             </li>
-            <li *ngIf="question.answer2">
-                {{ question.answer2 }}
+            <li *ngIf="question.altAnswer1">
+                {{ question.altAnswer1 }}
             </li>
-            <li *ngIf="question.answer3">
-                {{ question.answer3 }}
+            <li *ngIf="question.altAnswer2">
+                {{ question.altAnswer2 }}
             </li>
-            <li *ngIf="question.answer4">
-                {{ question.answer4 }}
+            <li *ngIf="question.altAnswer3">
+                {{ question.altAnswer3 }}
             </li>
         </ul>
     </app-info-dropdown>

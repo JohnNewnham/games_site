@@ -1,9 +1,9 @@
 <div class="toggle-bar">
 	<div class="toggle-item" [class.enabled]="enabledTab === ET.TheChase" (click)="setTab(ET.TheChase)">
-		The Chase
+		The Pursuit
 	</div>
 	<div class="toggle-item" [class.enabled]="enabledTab === ET.FinalChase" (click)="setTab(ET.FinalChase)">
-		Final Chase
+		Final Pursuit
 	</div>
 </div>
 
@@ -93,7 +93,7 @@
 			</div>
 		</div>
 		<div class="centre-horizontally">
-			<br />Chaser time:<br />
+			<br />Pursuer time:<br />
 			<div class="text-toggle">
 				<span (click)="setChaserTimer(60)" [class.selected]="chaserTimer == 60">
 					1:00
@@ -119,7 +119,7 @@
 	<div class="final-chase-setup" *ngIf="fcTurn !== FCT.Setup">
 		<div class="medium-font">
 			<span class="underline">
-				{{ (fcTurn === FCT.Player) ? "Contestant turn" : (fcTurn === FCT.Chaser) ? "Chaser turn" : "" }}
+				{{ (fcTurn === FCT.Player) ? "Contestant turn" : (fcTurn === FCT.Chaser) ? "Pursuer turn" : "" }}
 			</span><br />
 		</div>
 
@@ -144,7 +144,7 @@
 				</ng-template>
 			</div>
 			<div>
-				Chaser score:<br />
+				Pursuer score:<br />
 				<span class="number">
 					{{ chaserScore }}
 				</span>
@@ -177,7 +177,7 @@
 			}
 			@else {
 			<div class="button medium-font chaser" (click)="fcPushback()">
-				Push back chaser and continue
+				Push back pursuer and continue
 			</div>
 			<div class="button medium-font chaser" (click)="fcContinue()">
 				Continue
@@ -190,7 +190,7 @@
 		}
 
 		<div class="center-horizontally bold" *ngIf="fcTurn === FCT.Intermediate">
-			<br />The chaser turn will start <span class="underline">immediately</span> after selecting the button
+			<br />The pursuer turn will start <span class="underline">immediately</span> after selecting the button
 			below.<br />
 			<div class="text-toggle button"><span (click)="fcChaserTurn()">Start</span></div>
 		</div>
@@ -204,14 +204,14 @@
 
 </div>
 
-<!-- The Chase debug buttons:
+<!-- The Pursuit debug buttons:
 <button (click)="test()">test</button>
 <button (click)="advancePlayer()">Advance player</button>
 <button (click)="advanceChaser()">Advance chaser</button>
 <button (click)="resetBoard()">Reset</button>
 
 <br />
-Final Chase debug buttons:
+Final Pursuit debug buttons:
 <button (click)="test()">test</button>
 <button (click)="pauseTimers()">pause</button>
 <button (click)="startContestantTimer()">play player</button>
